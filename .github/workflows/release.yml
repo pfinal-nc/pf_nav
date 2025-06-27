@@ -25,6 +25,9 @@ jobs:
         with:
           version: 8
 
+      - name: Use npm official registry
+        run: npm config set registry https://registry.npmjs.org/
+
       - name: Install dependencies
         run: pnpm install
 
