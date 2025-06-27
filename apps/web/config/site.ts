@@ -1,6 +1,6 @@
 export const siteConfig = {
-  name: 'M-Nav',
-  url: 'https://github.com/busyhe/m-nav',
+  name: 'PFinalClub nav',
+  url: 'https://github.com/busyhe/PFinalClub-nav',
   ogImage: 'https://ui.shadcn.com/og.jpg',
   description: 'A navigation site powered by Notion databases',
   links: {
