@@ -1,4 +1,4 @@
-name: Deploy to GitHub Pages
+name: Deploy PFinalClub Nav Pages
 
 on:
   push:
