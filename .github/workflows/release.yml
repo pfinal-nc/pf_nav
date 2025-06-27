@@ -28,6 +28,9 @@ jobs:
       - name: Install dependencies
         run: pnpm install
 
+      - name: Install @geist/font
+        run: pnpm install @geist/font
+
       - name: Generate .env.local
         run: |
           cd apps/web
