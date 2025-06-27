@@ -13,7 +13,7 @@
   },
   "dependencies": {
     "@m-nav/ui": "workspace:*",
-    "@next/third-parties": "catalog:",
+    "@next/third-parties": "15.0.0",
     "keyv": "4.5.4",
     "lucide-react": "^0.475.0",
     "next": "catalog:",
