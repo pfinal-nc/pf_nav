@@ -108,7 +108,7 @@ export const getPageData = async (): Promise<PageData> => {
     // Fetch the page data with additional options
     const recordMap = await notion.getPage(pageId, {
       fetchCollections: true,
-      fetchMissingBlocks: true,
+      // fetchMissingBlocks: true,
     });
 
     // Get collection data
