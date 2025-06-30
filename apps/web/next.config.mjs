@@ -1,3 +1,11 @@
+/*
+ * @Author: pfinal liuxuzhu@smm.cn
+ * @Date: 2025-06-27 16:29:46
+ * @LastEditors: pfinal liuxuzhu@smm.cn
+ * @LastEditTime: 2025-06-30 09:12:36
+ * @FilePath: /m-nav/apps/web/next.config.mjs
+ * @Description: 这是默认设置,请设置`customMade`, 打开koroFileHeader查看配置 进行设置: https://github.com/OBKoro1/koro1FileHeader/wiki/%E9%85%8D%E7%BD%AE
+ */
 /** @type {import('next').NextConfig} */
 const nextConfig = {
   transpilePackages: ["@m-nav/ui"],
@@ -18,6 +26,7 @@ const nextConfig = {
     NOTION_PAGE_ID: process.env.NOTION_PAGE_ID,
     NEXT_PUBLIC_GA_ID: process.env.NEXT_PUBLIC_GA_ID
   },
+  output: 'export',
 }
 
 export default nextConfig
