@@ -23,7 +23,8 @@
     "node": ">=20"
   },
   "dependencies": {
-    "husky": "^9.1.7"
+    "husky": "^9.1.7",
+    "notion-client": "^7.4.2"
   },
   "pnpm": {
     "onlyBuiltDependencies": [
