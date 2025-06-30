@@ -1,7 +1,39 @@
 import { NextRequest } from 'next/server';
 import { getFavicons, proxyFavicon } from '@/lib/server';
+import { getPageData } from '@/lib/notion';
 
 export const runtime = 'edge';
+
+export const dynamic = 'force-static';
+
+export async function generateStaticParams() {
+  try {
+    // 从 Notion 数据库中获取所有网站域名
+    const siteData = await getPageData();
+    
+    const domains = new Set<string>();
+    
+    // 收集所有站点的域名
+    Object.values(siteData.items || {}).forEach(sites => {
+      sites.forEach(site => {
+        try {
+          const domain = new URL(site.link).hostname;
+          domains.add(domain);
+        } catch(e) {
+          console.error(`Invalid URL: ${site.link}`);
+        }
+      });
+    });
+
+    // 返回所有可能的域名参数
+    return Array.from(domains).map(domain => ({
+      domain: domain
+    }));
+  } catch (error) {
+    console.error('Error generating static params:', error);
+    return []; // 如果出错则返回空数组
+  }
+}
 
 export async function GET(
   request: NextRequest,
