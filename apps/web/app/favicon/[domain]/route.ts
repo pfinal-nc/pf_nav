@@ -2,7 +2,7 @@ import { NextRequest } from 'next/server';
 import { getFavicons, proxyFavicon } from '@/lib/server';
 import { getPageData } from '@/lib/notion';
 
-export const runtime = 'edge';
+// export const runtime = 'edge';
 
 export const dynamic = 'force-static';
 

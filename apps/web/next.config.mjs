@@ -2,30 +2,28 @@
  * @Author: pfinal liuxuzhu@smm.cn
  * @Date: 2025-06-27 16:29:46
  * @LastEditors: pfinal liuxuzhu@smm.cn
- * @LastEditTime: 2025-07-03 13:38:01
+ * @LastEditTime: 2025-07-03 13:49:25
  * @FilePath: /m-nav/apps/web/next.config.mjs
  * @Description: 这是默认设置,请设置`customMade`, 打开koroFileHeader查看配置 进行设置: https://github.com/OBKoro1/koro1FileHeader/wiki/%E9%85%8D%E7%BD%AE
  */
 /** @type {import('next').NextConfig} */
 const nextConfig = {
-  output: 'export',  // 添加这一行
-  transpilePackages: ["@m-nav/ui"],
-  staticPageGenerationTimeout: 300,
+  output: 'export',
+  // 添加下面的配置
   images: {
+    unoptimized: true, // 为了静态导出
     domains: [
       'www.notion.so',
       'notion.so',
       'images.unsplash.com',
       's3.us-west-2.amazonaws.com'
-    ],
-    formats: ['image/avif', 'image/webp'],
-    dangerouslyAllowSVG: true,
-    contentDispositionType: 'attachment',
-    contentSecurityPolicy: "default-src 'self'; script-src 'none'; sandbox;"
+    ]
   },
-  env: {
-    NOTION_PAGE_ID: process.env.NOTION_PAGE_ID,
-    NEXT_PUBLIC_GA_ID: process.env.NEXT_PUBLIC_GA_ID
+  // 关闭严格模式用于静态导出
+  reactStrictMode: false,
+  // 添加这个配置来处理动态路由
+  experimental: {
+    staticPageGenerationTimeout: 300
   }
 }
 

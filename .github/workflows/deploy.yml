@@ -3,11 +3,15 @@ name: Deploy to GitHub Pages
 on:
   push:
     branches:
-      - master  # 或 main，看你的主分支名
+      - master
 
 jobs:
   build-and-deploy:
     runs-on: ubuntu-latest
+    
+    env:
+      NOTION_PAGE_ID: ${{ secrets.NOTION_PAGE_ID }}
+      NOTION_TOKEN: ${{ secrets.NOTION_TOKEN }}
 
     steps:
       - name: Checkout code
@@ -28,11 +32,6 @@ jobs:
 
       - name: Build
         run: pnpm run build
-        working-directory: ./apps/web
-
-      # 如果需要静态导出，添加这个步骤
-      - name: Static Export
-        run: pnpm next export
         working-directory: ./apps/web
 
       - name: Deploy to GitHub Pages
