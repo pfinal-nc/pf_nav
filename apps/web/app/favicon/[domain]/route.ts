@@ -1,39 +1,10 @@
 import { NextRequest } from 'next/server';
-import { getFavicons, proxyFavicon } from '@/lib/server'; // 更正导入
-import { getPageData } from '@/lib/notion';
+import { getFavicons, proxyFavicon } from '@/lib/server';
 
-// 添加静态参数生成函数
+// 简化的静态参数生成函数
 export async function generateStaticParams() {
-  // 检查环境变量
-  if (!process.env.NOTION_PAGE_ID || !process.env.NOTION_TOKEN) {
-    console.warn('Missing required environment variables for static generation');
-    return []; // 返回空数组，避免构建失败
-  }
-
-  try {
-    const data = await getPageData();
-    const domains = new Set<string>();
-    
-    // 从所有项目中提取域名
-    Object.values(data.items || {}).forEach(items => {
-      items.forEach(item => {
-        try {
-          const url = new URL(item.link);
-          domains.add(url.hostname);
-        } catch (error) {
-          // 忽略无效的 URL
-          console.warn('Invalid URL:', item.link);
-        }
-      });
-    });
-
-    return Array.from(domains).map(domain => ({
-      domain: domain
-    }));
-  } catch (error) {
-    console.error('Error generating static params:', error);
-    return []; // 返回空数组作为后备
-  }
+  // 返回一个空数组，避免构建时的环境变量问题
+  return [];
 }
 
 export async function GET(
