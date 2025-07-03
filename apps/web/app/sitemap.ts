@@ -1,3 +1,5 @@
+export const revalidate = 0;
+
 import { MetadataRoute } from 'next'
 import { getPageData } from '@/lib/notion'
 import { siteConfig } from '@/config/site'
