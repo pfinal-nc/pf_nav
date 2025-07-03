@@ -60,6 +60,9 @@ jobs:
       - name: Install dependencies
         run: pnpm install --no-frozen-lockfile
 
+      - name: Check critters install
+        run: pnpm ls critters
+
       - name: Clean all build cache
         run: |
           rm -rf apps/web/.next apps/web/out node_modules/.cache ~/.pnpm-store
