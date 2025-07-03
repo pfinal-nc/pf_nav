@@ -4,6 +4,15 @@ on:
   push:
     branches:
       - master
+  workflow_dispatch:
+    inputs:
+      update_message:
+        description: '更新说明'
+        required: false
+        default: '手动更新数据'
+  # 添加定时触发 - 每小时检查一次
+  schedule:
+    - cron: '0 * * * *'
 
 permissions:
   contents: write
