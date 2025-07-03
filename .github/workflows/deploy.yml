@@ -46,16 +46,19 @@ jobs:
         run: |
           echo "STORE_PATH=$(pnpm store path --silent)" >> $GITHUB_ENV
 
-      - name: Setup pnpm cache
-        uses: actions/cache@v3
-        with:
-          path: ${{ env.STORE_PATH }}
-          key: ${{ runner.os }}-pnpm-store-${{ hashFiles('**/pnpm-lock.yaml') }}
-          restore-keys: |
-            ${{ runner.os }}-pnpm-store-
+      # - name: Setup pnpm cache
+      #   uses: actions/cache@v3
+      #   with:
+      #     path: ${{ env.STORE_PATH }}
+      #     key: ${{ runner.os }}-pnpm-store-${{ hashFiles('**/pnpm-lock.yaml') }}
+      #     restore-keys: |
+      #       ${{ runner.os }}-pnpm-store-
 
       - name: Install dependencies
         run: pnpm install --no-frozen-lockfile
+
+      - name: Clean build cache
+        run: rm -rf apps/web/.next apps/web/out node_modules/.cache
 
       - name: Build
         run: pnpm run build
