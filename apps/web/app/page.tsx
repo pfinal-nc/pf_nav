@@ -1,31 +1,68 @@
-/*
- * @Author: pfinal liuxuzhu@smm.cn
- * @Date: 2025-06-27 16:29:46
- * @LastEditors: pfinal liuxuzhu@smm.cn
- * @LastEditTime: 2025-07-03 13:49:37
- * @FilePath: /m-nav/apps/web/app/page.tsx
- * @Description: 这是默认设置,请设置`customMade`, 打开koroFileHeader查看配置 进行设置: https://github.com/OBKoro1/koro1FileHeader/wiki/%E9%85%8D%E7%BD%AE
- */
+import { Metadata } from 'next'
 import { SiteHeader } from '@/components/site-header';
 import { SiteFooter } from '@/components/site-footer';
 import { SiteContent } from '@/components/site-content';
+import { SearchWithResults } from '@/components/search-with-results';
+import { StructuredData } from '@/components/structured-data';
 import { Suspense } from 'react';
 import { GridSkeleton } from '@/components/GridSkeleton';
+import { siteConfig } from '@/config/site';
+import { getPageData } from '@/lib/notion';
+
+export const metadata: Metadata = {
+  title: siteConfig.seo.defaultTitle,
+  description: siteConfig.description,
+  keywords: siteConfig.keywords,
+  openGraph: {
+    title: siteConfig.name,
+    description: siteConfig.description,
+    url: siteConfig.url,
+    siteName: siteConfig.name,
+    images: [
+      {
+        url: siteConfig.ogImage,
+        width: 1200,
+        height: 630,
+        alt: siteConfig.name,
+      }
+    ],
+    locale: siteConfig.language,
+    type: 'website',
+  },
+  twitter: {
+    card: 'summary_large_image',
+    title: siteConfig.name,
+    description: siteConfig.description,
+    images: [siteConfig.ogImage],
+  },
+  alternates: {
+    canonical: siteConfig.url,
+  },
+}
 
 // 添加静态生成配置
 export const dynamic = 'force-static'
-export const revalidate = 3600 // 可选：重新验证时间（秒）
+export const revalidate = 3600 // 每小时重新验证
 
 export default async function Page() {
+  const pageData = await getPageData()
+  const allItems = Object.values(pageData.items || {}).flat()
+
   return (
-    <div data-wrapper='' className='border-grid flex flex-1 flex-col min-h-svh'>
-      <SiteHeader />
-      <main className='flex flex-1 flex-col container-wrapper p-4'>
-        <Suspense fallback={<GridSkeleton />}>
-          <SiteContent />
-        </Suspense>
-      </main>
-      <SiteFooter />
-    </div>
+    <>
+      <StructuredData />
+      <div data-wrapper='' className='border-grid flex flex-1 flex-col min-h-svh'>
+        <SiteHeader />
+        <main className='flex flex-1 flex-col container-wrapper p-4'>
+          <div className="mb-8">
+            <SearchWithResults allItems={allItems} />
+          </div>
+          <Suspense fallback={<GridSkeleton />}>
+            <SiteContent />
+          </Suspense>
+        </main>
+        <SiteFooter />
+      </div>
+    </>
   );
 }

@@ -7,22 +7,28 @@ import { META_THEME_COLORS, siteConfig } from '@/config/site'
 
 export const metadata: Metadata = {
   title: {
-    default: siteConfig.name,
-    template: `%s - ${siteConfig.name}`
+    default: siteConfig.seo.defaultTitle,
+    template: siteConfig.seo.titleTemplate
   },
   metadataBase: new URL(siteConfig.url),
   description: siteConfig.description,
-  keywords: ['Next.js', 'React', 'PFinalClub', 'PFinal', 'PFinalNC','Nav','Ai','Notion'],
+  keywords: siteConfig.keywords,
   authors: [
     {
-      name: 'pfinal-nc',
-      url: 'https://github.com/pfinal-nc'
+      name: siteConfig.author,
+      url: siteConfig.links.homepage
     }
   ],
-  creator: 'pfinal-nc',
+  creator: siteConfig.author,
+  publisher: siteConfig.author,
+  formatDetection: {
+    email: false,
+    address: false,
+    telephone: false,
+  },
   openGraph: {
     type: 'website',
-    locale: 'en_US',
+    locale: siteConfig.language,
     url: siteConfig.url,
     title: siteConfig.name,
     description: siteConfig.description,
@@ -32,25 +38,67 @@ export const metadata: Metadata = {
         url: siteConfig.ogImage,
         width: 1200,
         height: 630,
-        alt: siteConfig.name
+        alt: siteConfig.name,
+        type: 'image/jpeg',
       }
-    ]
+    ],
   },
   twitter: {
     card: 'summary_large_image',
     title: siteConfig.name,
     description: siteConfig.description,
     images: [siteConfig.ogImage],
-    creator: '@pfinal-nc'
+    creator: '@pfinal_nc',
+    site: '@pfinal_nc',
   },
   icons: {
-    icon: '/favicon.ico',
-    shortcut: '/logo.png'
-  }
+    icon: [
+      { url: '/favicon.ico', sizes: 'any' },
+      { url: '/favicon-16x16.png', sizes: '16x16', type: 'image/png' },
+      { url: '/favicon-32x32.png', sizes: '32x32', type: 'image/png' },
+    ],
+    apple: [
+      { url: '/apple-touch-icon.png', sizes: '180x180', type: 'image/png' },
+    ],
+    other: [
+      { rel: 'mask-icon', url: '/safari-pinned-tab.svg', color: '#000000' },
+    ],
+  },
+  manifest: '/site.webmanifest',
+  robots: {
+    index: true,
+    follow: true,
+    googleBot: {
+      index: true,
+      follow: true,
+      'max-video-preview': -1,
+      'max-image-preview': 'large',
+      'max-snippet': -1,
+    },
+  },
+  verification: {
+    google: process.env.GOOGLE_SITE_VERIFICATION,
+    yandex: process.env.YANDEX_SITE_VERIFICATION,
+    yahoo: process.env.YAHOO_SITE_VERIFICATION,
+  },
+  alternates: {
+    canonical: siteConfig.url,
+    languages: {
+      'zh-CN': siteConfig.url,
+      'en-US': `${siteConfig.url}/en`,
+    },
+  },
 }
 
 export const viewport: Viewport = {
-  themeColor: META_THEME_COLORS.light
+  themeColor: [
+    { media: '(prefers-color-scheme: light)', color: META_THEME_COLORS.light },
+    { media: '(prefers-color-scheme: dark)', color: META_THEME_COLORS.dark },
+  ],
+  width: 'device-width',
+  initialScale: 1,
+  maximumScale: 1,
+  userScalable: false,
 }
 
 export default function RootLayout({
@@ -59,10 +107,24 @@ export default function RootLayout({
   children: React.ReactNode
 }>) {
   return (
-    <html lang="en" suppressHydrationWarning>
-      <body className={`${fontSans.variable} ${fontMono.variable} font-sans antialiased `}>
+    <html lang={siteConfig.language} suppressHydrationWarning>
+      <head>
+        <link rel="preconnect" href="https://fonts.googleapis.com" />
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossOrigin="anonymous" />
+        <link rel="dns-prefetch" href="//www.google-analytics.com" />
+        <link rel="dns-prefetch" href="//www.googletagmanager.com" />
+      </head>
+      <body className={`${fontSans.variable} ${fontMono.variable} font-sans antialiased`}>
         <Providers>{children}</Providers>
         <Analytics />
+        <noscript>
+          <iframe 
+            src="https://www.googletagmanager.com/ns.html?id=GTM-XXXXXXX"
+            height="0" 
+            width="0" 
+            style={{display:'none',visibility:'hidden'}}
+          />
+        </noscript>
       </body>
     </html>
   )

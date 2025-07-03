@@ -1,0 +1,13 @@
+User-agent: *
+Allow: /
+
+# Sitemap
+Sitemap: https://nav.friday-go.icu/sitemap.xml
+
+# Crawl-delay
+Crawl-delay: 1
+
+# Disallow
+Disallow: /api/
+Disallow: /_next/
+Disallow: /404 
