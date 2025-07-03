@@ -40,10 +40,6 @@ export const metadata: Metadata = {
   },
 }
 
-// 添加静态生成配置
-export const dynamic = 'force-static'
-export const revalidate = 3600 // 每小时重新验证
-
 export default async function Page() {
   const pageData = await getPageData()
   const allItems = Object.values(pageData.items || {}).flat()
