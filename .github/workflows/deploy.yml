@@ -5,12 +5,17 @@ on:
     branches:
       - master
 
+permissions:
+  contents: write
+  pages: write
+  id-token: write
+
 jobs:
   build-and-deploy:
     runs-on: ubuntu-latest
     
     env:
-      NOTION_PAGE_ID: "21f3a28c791580eaafb5effd67a01eee"
+      NOTION_PAGE_ID: ${{ secrets.NOTION_PAGE_ID }}
       NOTION_TOKEN: ${{ secrets.NOTION_TOKEN }}
 
     steps:
@@ -51,3 +56,4 @@ jobs:
         with:
           github_token: ${{ secrets.GITHUB_TOKEN }}
           publish_dir: ./apps/web/out
+          force_orphan: true
