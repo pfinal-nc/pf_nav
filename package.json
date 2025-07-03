@@ -8,7 +8,8 @@
     "lint": "turbo lint",
     "format": "prettier --write \"**/*.{ts,tsx,md}\"",
     "prepare": "husky",
-    "release": "HUSKY=0 bumpp package.json apps/*/package.json --all"
+    "release": "HUSKY=0 bumpp package.json apps/*/package.json --all",
+    "export": "next export"
   },
   "devDependencies": {
     "@m-nav/eslint-config": "workspace:*",
