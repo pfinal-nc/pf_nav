@@ -1,39 +1,33 @@
 import { NextRequest } from 'next/server';
-import { getFavicons, proxyFavicon } from '@/lib/server';
+import { getFavicons, proxyFavicon } from '@/lib/server'; // 更正导入
 import { getPageData } from '@/lib/notion';
 
-// export const runtime = 'edge';
-
-export const dynamic = 'force-static';
-
-// export async function generateStaticParams() {
-//   try {
-//     // 从 Notion 数据库中获取所有网站域名
-//     const siteData = await getPageData();
+// 添加静态参数生成函数
+export async function generateStaticParams() {
+  try {
+    const data = await getPageData();
+    const domains = new Set<string>();
     
-//     const domains = new Set<string>();
-    
-//     // 收集所有站点的域名
-//     Object.values(siteData.items || {}).forEach(sites => {
-//       sites.forEach(site => {
-//         try {
-//           const domain = new URL(site.link).hostname;
-//           domains.add(domain);
-//         } catch(e) {
-//           console.error(`Invalid URL: ${site.link}`);
-//         }
-//       });
-//     });
+    // 从所有项目中提取域名
+    Object.values(data.items).forEach(items => {
+      items.forEach(item => {
+        try {
+          const url = new URL(item.link);
+          domains.add(url.hostname);
+        } catch (e) {
+          // 忽略无效的 URL
+        }
+      });
+    });
 
-//     // 返回所有可能的域名参数
-//     return Array.from(domains).map(domain => ({
-//       domain: domain
-//     }));
-//   } catch (error) {
-//     console.error('Error generating static params:', error);
-//     return []; // 如果出错则返回空数组
-//   }
-// }
+    return Array.from(domains).map(domain => ({
+      domain: domain
+    }));
+  } catch (error) {
+    console.error('Error generating static params:', error);
+    return []; // 返回空数组作为后备
+  }
+}
 
 export async function GET(
   request: NextRequest,
@@ -42,14 +36,15 @@ export async function GET(
   const { domain } = await params;
   const startTime = Date.now();
   const asciiDomain = new URL(`http://${domain}`).hostname;
+  
   const svg404 = () => {
     const firstLetter = domain.charAt(0).toUpperCase();
     const svgContent = `
-        <svg width="100" height="100" xmlns="http://www.w3.org/2000/svg">
-          <rect width="100%" height="100%" fill="#cccccc"/>
-          <text x="50%" y="50%" font-size="48" text-anchor="middle" dominant-baseline="middle" fill="#000000">${firstLetter}</text>
-        </svg>
-      `;
+      <svg width="100" height="100" xmlns="http://www.w3.org/2000/svg">
+        <rect width="100%" height="100%" fill="#cccccc"/>
+        <text x="50%" y="50%" font-size="48" text-anchor="middle" dominant-baseline="middle" fill="#000000">${firstLetter}</text>
+      </svg>
+    `;
     return new Response(svgContent, {
       status: 404,
       headers: {
@@ -132,18 +127,17 @@ export async function GET(
     if (!iconResponse.ok) return svg404();
     const iconBuffer = await iconResponse.arrayBuffer();
 
-    // Return the image response with execution time
     return new Response(iconBuffer, {
       status: 200,
       headers: {
         'Cache-Control': 'public, max-age=86400',
-        'Content-Type': iconResponse.headers.get('Content-Type') || 'image/png',
-        'Content-Length': iconBuffer.byteLength.toString(),
-        'X-Execution-Time': `${executionTime}ms`,
+        'Content-Type': iconResponse.headers.get('Content-Type') || 'image/x-icon',
+        'Content-Length': iconResponse.headers.get('Content-Length') || '',
+        'X-Execution-Time': `${executionTime} ms`,
       },
     });
   } catch (error) {
-    console.error(`Error fetching the selected icon: ${error}`);
-    return new Response('Failed to fetch the icon', { status: 500 });
+    console.error('Error fetching favicon:', error);
+    return svg404();
   }
 }
