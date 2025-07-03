@@ -1,30 +1,32 @@
-import { getPageData } from '@/lib/notion'
-import { siteConfig } from '@/config/site'
+export const revalidate = 0;
 
-export async function GET() {
-  const pageData = await getPageData()
-  const allItems = Object.values(pageData.items || {}).flat()
-
+export function GET() {
   const rss = `<?xml version="1.0" encoding="UTF-8" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
 <channel>
-  <title>${siteConfig.name}</title>
-  <description>${siteConfig.description}</description>
-  <link>${siteConfig.url}</link>
-  <atom:link href="${siteConfig.url}/rss.xml" rel="self" type="application/rss+xml" />
-  <language>${siteConfig.language}</language>
-  <lastBuildDate>${new Date().toUTCString()}</lastBuildDate>
-  <pubDate>${new Date().toUTCString()}</pubDate>
-  ${allItems.map((item: any) => `
+  <title>PFinalClub导航</title>
+  <description>优质导航站点，精选技术、设计、工具等内容</description>
+  <link>https://nav.pfinal.club</link>
+  <atom:link href="https://nav.pfinal.club/rss.xml" rel="self" type="application/rss+xml" />
+  <language>zh-CN</language>
+  <lastBuildDate>2024-01-01T00:00:00Z</lastBuildDate>
+  <pubDate>2024-01-01T00:00:00Z</pubDate>
   <item>
-    <title><![CDATA[${item.title}]]></title>
-    <description><![CDATA[${item.description}]]></description>
-    <link>${item.link}</link>
-    <guid>${item.link}</guid>
-    <category>${item.type}</category>
-    <pubDate>${new Date().toUTCString()}</pubDate>
+    <title><![CDATA[前端导航]]></title>
+    <description><![CDATA[收录优质前端开发资源]]></description>
+    <link>https://nav.pfinal.club/site/frontend</link>
+    <guid>https://nav.pfinal.club/site/frontend</guid>
+    <category>技术</category>
+    <pubDate>2024-01-01T00:00:00Z</pubDate>
   </item>
-  `).join('')}
+  <item>
+    <title><![CDATA[设计工具导航]]></title>
+    <description><![CDATA[精选设计类工具与资源]]></description>
+    <link>https://nav.pfinal.club/site/design</link>
+    <guid>https://nav.pfinal.club/site/design</guid>
+    <category>设计</category>
+    <pubDate>2024-01-01T00:00:00Z</pubDate>
+  </item>
 </channel>
 </rss>`
 
