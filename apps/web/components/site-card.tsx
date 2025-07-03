@@ -26,13 +26,9 @@ export function SiteCard({
       <CardHeader>
         <CardTitle className='flex items-center flex-row justify-between'>
           <div className='flex items-center flex-row gap-2'>
-            <Image
-              src={`/favicon/${new URL(href || '').hostname}`}
-              alt={title}
-              width={20}
-              height={20}
-              className=' object-cover overflow-hidden'
-            />
+            <div className='w-5 h-5 bg-gray-300 rounded flex items-center justify-center text-xs font-bold text-gray-700'>
+              {title.charAt(0).toUpperCase()}
+            </div>
             <span>{title}</span>
           </div>
 
