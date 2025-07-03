@@ -32,6 +32,7 @@
   },
   "globalEnv": [
     "NOTION_PAGE_ID",
+    "NOTION_TOKEN",
     "NEXT_PUBLIC_GA_ID"
   ]
 }

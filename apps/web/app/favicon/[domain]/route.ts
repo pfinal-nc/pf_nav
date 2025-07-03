@@ -4,18 +4,25 @@ import { getPageData } from '@/lib/notion';
 
 // 添加静态参数生成函数
 export async function generateStaticParams() {
+  // 检查环境变量
+  if (!process.env.NOTION_PAGE_ID || !process.env.NOTION_TOKEN) {
+    console.warn('Missing required environment variables for static generation');
+    return []; // 返回空数组，避免构建失败
+  }
+
   try {
     const data = await getPageData();
     const domains = new Set<string>();
     
     // 从所有项目中提取域名
-    Object.values(data.items).forEach(items => {
+    Object.values(data.items || {}).forEach(items => {
       items.forEach(item => {
         try {
           const url = new URL(item.link);
           domains.add(url.hostname);
-        } catch (e) {
+        } catch (error) {
           // 忽略无效的 URL
+          console.warn('Invalid URL:', item.link);
         }
       });
     });
