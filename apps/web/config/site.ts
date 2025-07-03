@@ -1,12 +1,12 @@
 export const siteConfig = {
-  name: 'PFinalClub nav',
-  url: 'https://github.com/busyhe/PFinalClub-nav',
+  name: 'PFinalClub Nav',
+  url: 'https://github.com/pfinal-nc/pf_nav',
   ogImage: 'https://ui.shadcn.com/og.jpg',
   description: 'A navigation site powered by Notion databases',
   links: {
-    homepage: 'https://busyhe.com',
-    twitter: 'https://twitter.com/busyhe_',
-    github: 'https://github.com/busyhe'
+    homepage: 'https://friday-go.icu/',
+    twitter: 'https://twitter.com/pfinal_nc',
+    github: 'https://github.com/pfinal-nc'
   }
 }
 

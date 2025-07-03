@@ -12,14 +12,14 @@ export const metadata: Metadata = {
   },
   metadataBase: new URL(siteConfig.url),
   description: siteConfig.description,
-  keywords: ['Next.js', 'React'],
+  keywords: ['Next.js', 'React', 'PFinalClub', 'PFinal', 'PFinalNC','Nav','Ai','Notion'],
   authors: [
     {
-      name: 'busyhe',
-      url: 'https://github.com/busyhe'
+      name: 'pfinal-nc',
+      url: 'https://github.com/pfinal-nc'
     }
   ],
-  creator: 'busyhe',
+  creator: 'pfinal-nc',
   openGraph: {
     type: 'website',
     locale: 'en_US',
@@ -41,7 +41,7 @@ export const metadata: Metadata = {
     title: siteConfig.name,
     description: siteConfig.description,
     images: [siteConfig.ogImage],
-    creator: '@busyhe'
+    creator: '@pfinal-nc'
   },
   icons: {
     icon: '/favicon.ico',
