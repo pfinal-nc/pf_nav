@@ -1,5 +1,7 @@
-export function GET() {
-  const rss = `<?xml version="1.0" encoding="UTF-8" ?>
+const fs = require('fs');
+const path = require('path');
+
+const rss = `<?xml version="1.0" encoding="UTF-8" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
 <channel>
   <title>PFinalClub导航</title>
@@ -26,12 +28,9 @@ export function GET() {
     <pubDate>2024-01-01T00:00:00Z</pubDate>
   </item>
 </channel>
-</rss>`
+</rss>`;
 
-  return new Response(rss, {
-    headers: {
-      'Content-Type': 'application/xml',
-      'Cache-Control': 'public, max-age=3600, s-maxage=3600',
-    },
-  })
-}
+const outputPath = path.join(__dirname, '../apps/web/public/rss.xml');
+fs.mkdirSync(path.dirname(outputPath), { recursive: true });
+fs.writeFileSync(outputPath, rss, 'utf8');
+console.log('RSS 生成成功:', outputPath); 
