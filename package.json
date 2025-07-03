@@ -25,7 +25,8 @@
   },
   "dependencies": {
     "husky": "^9.1.7",
-    "notion-client": "^7.4.2"
+    "notion-client": "^7.4.2",
+    "critters": "^0.1.6"
   },
   "pnpm": {
     "onlyBuiltDependencies": [
