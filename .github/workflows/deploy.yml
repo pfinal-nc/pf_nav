@@ -31,6 +31,9 @@ jobs:
       - name: Checkout code
         uses: actions/checkout@v4
 
+      - name: Show current commit
+        run: git log -1
+
       - name: Setup Node.js
         uses: actions/setup-node@v4
         with:
@@ -57,8 +60,9 @@ jobs:
       - name: Install dependencies
         run: pnpm install --no-frozen-lockfile
 
-      - name: Clean build cache
-        run: rm -rf apps/web/.next apps/web/out node_modules/.cache
+      - name: Clean all build cache
+        run: |
+          rm -rf apps/web/.next apps/web/out node_modules/.cache ~/.pnpm-store
 
       - name: Build
         run: pnpm run build
