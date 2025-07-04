@@ -2,7 +2,7 @@
  * @Author: pfinal liuxuzhu@smm.cn
  * @Date: 2025-06-27 16:29:46
  * @LastEditors: pfinal liuxuzhu@smm.cn
- * @LastEditTime: 2025-07-04 09:37:28
+ * @LastEditTime: 2025-07-04 17:20:23
  * @FilePath: /m-nav/apps/web/components/site-header.tsx
  * @Description: 这是默认设置,请设置`customMade`, 打开koroFileHeader查看配置 进行设置: https://github.com/OBKoro1/koro1FileHeader/wiki/%E9%85%8D%E7%BD%AE
  */
@@ -41,6 +41,13 @@ export function SiteHeader({ title }: { title?: string }) {
           </div>
         </div>
       </header>
+      
+      <Script
+        async
+        src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-2154665617309406"
+        data-cfasync="false"
+        crossOrigin="anonymous"
+      />
       <Script
         id="ad-script"
         strategy="afterInteractive"
