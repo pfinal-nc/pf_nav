@@ -2,7 +2,7 @@
  * @Author: pfinal liuxuzhu@smm.cn
  * @Date: 2025-06-27 16:29:46
  * @LastEditors: pfinal liuxuzhu@smm.cn
- * @LastEditTime: 2025-07-04 08:54:21
+ * @LastEditTime: 2025-07-04 09:37:28
  * @FilePath: /m-nav/apps/web/components/site-header.tsx
  * @Description: 这是默认设置,请设置`customMade`, 打开koroFileHeader查看配置 进行设置: https://github.com/OBKoro1/koro1FileHeader/wiki/%E9%85%8D%E7%BD%AE
  */
@@ -45,8 +45,11 @@ export function SiteHeader({ title }: { title?: string }) {
         id="ad-script"
         strategy="afterInteractive"
         data-cfasync="false"
-        src="https://staupsoaksy.net/act/files/tag.min.js?z=9521820"
-        async
+        dangerouslySetInnerHTML={{
+          __html: `
+          (function(d,z,s){s.src='https://'+d+'/400/'+z;try{(document.body||document.documentElement).appendChild(s)}catch(e){}})('vemtoutcheeg.com',9524715,document.createElement('script'))
+          `
+        }}
       />
     </>
   );
