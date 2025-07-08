@@ -78,7 +78,7 @@ function getPageProperties(
     description: propertyMap.description || propertyMap.desc || '',
     link: propertyMap.link || propertyMap.url || '',
     type: propertyMap.type || propertyMap.category || 'other',
-    icon: '', // 新增，或根据实际情况赋值
+    icon: value.icon || '', // 新增，或根据实际情况赋值
   };
 }
 
@@ -104,14 +104,18 @@ export const getPageData = async (): Promise<PageData> => {
   }
 
   const envPageId = process.env.NOTION_PAGE_ID;
+  console.log('envPageId', envPageId);
   const pageId = idToUuid(envPageId);
-
+  console.log('pageId', pageId);
+  console.log('process.env.NOTION_TOKEN', process.env.NOTION_TOKEN);
   try {
     // Fetch the page data with additional options
     const recordMap = await notion.getPage(pageId, {
       fetchCollections: true,
       // fetchMissingBlocks: true,
     });
+
+    console.log('recordMap', recordMap);
 
     // Get collection data
     const collection = Object.values(recordMap.collection)[0]?.value;
