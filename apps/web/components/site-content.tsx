@@ -15,6 +15,7 @@ export const SiteContent = async () => {
             description={item.description || ''}
             href={item.link}
             category={type}
+            icon={item.icon || ''}
           />
         ))}
       </div>
