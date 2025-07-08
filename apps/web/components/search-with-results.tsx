@@ -26,7 +26,8 @@ export function SearchWithResults({
     return allItems.filter(item => 
       item.title.toLowerCase().includes(searchTerm) ||
       item.description.toLowerCase().includes(searchTerm) ||
-      item.type.toLowerCase().includes(searchTerm)
+      item.type.toLowerCase().includes(searchTerm) ||
+      item.icon?.toLowerCase().includes(searchTerm)
     )
   }, [query, allItems])
 
@@ -88,6 +89,7 @@ export function SearchWithResults({
                   description={item.description}
                   href={item.link}
                   category={item.type}
+                  icon={item.icon || ''}
                 />
               ))}
             </div>

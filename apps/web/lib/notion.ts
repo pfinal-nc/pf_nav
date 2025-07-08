@@ -87,6 +87,7 @@ export interface DatabaseItem {
   description: string;
   link: string;
   type: string;
+  icon: string;
 }
 
 export interface PageData {
