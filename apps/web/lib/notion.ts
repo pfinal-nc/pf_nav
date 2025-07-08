@@ -144,7 +144,7 @@ export const getPageData = async (): Promise<PageData> => {
       .filter((group: { items: string[] }) => group.items?.length > 0)
       .forEach((group: { items: string[] }) => {
         if (!group.items) return;
-
+        console.log('group', group);
         group.items.forEach((id: string) => {
           const blockItem = block[id];
           if (!blockItem) return;
