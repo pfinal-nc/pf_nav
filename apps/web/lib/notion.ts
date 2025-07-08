@@ -78,6 +78,7 @@ function getPageProperties(
     description: propertyMap.description || propertyMap.desc || '',
     link: propertyMap.link || propertyMap.url || '',
     type: propertyMap.type || propertyMap.category || 'other',
+    icon: '', // 新增，或根据实际情况赋值
   };
 }
 

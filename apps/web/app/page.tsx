@@ -41,7 +41,9 @@ export const metadata: Metadata = {
 }
 
 export default async function Page() {
-  const pageData = await getPageData()
+  console.log('before getPageData');
+  const pageData = await getPageData();
+  console.log('after getPageData', pageData);
   const allItems = Object.values(pageData.items || {}).flat()
 
   return (
