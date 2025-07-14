@@ -1,4 +1,12 @@
-﻿link,title,desc,type
+link,title,desc,type
+https://deepwiki.com/,deepwiki,"DeepWiki provides up-to-date documentation you can talk to, for every repo in the world. Think Deep Research for GitHub",常用工具
+https://www.boce.com/,boce,免费提供网站速度测试、网络速度检测、域名污染检测、域名拦截查询、多地区在线ping测试、dns查询、路由跟踪查询、ipv6网站测试等站长工具,常用工具
+https://repobeats.axiom.co/,Repobeats,Give your README.md some insightful eye-candy,常用工具
+https://sms-activate.org/,SMS-activate,一款好用的验证码接收工具,常用工具
+https://www.json.cn,Json 中文网,JSON 在线解析及格式化验证,常用工具
+https://tool.lu,在线工具,开发人员的工具箱,常用工具
+https://tinypng.com,TinyPNG,在线图片压缩工具,常用工具
+https://caniuse.com,Can I use,前端 API 兼容性查询,常用工具
 https://lucide.dev/,Lucide,Beautiful & consistent icons Made by the community,Icon
 https://fontawesome.com/,Fontawesome,简化您网站图标中的麻烦,Icon
 https://iconify.design/,iconify,"All popular icon sets, one framework.",Icon
@@ -19,14 +27,6 @@ https://reactrouter.com,React Router,React 的声明式路由,React
 https://zh-hans.reactjs.org,React,用于构建用户界面的 JavaScript 库,React
 https://originui.com/,originui,Beautiful UI components built with Tailwind CSS and React.,React
 https://github.com/magicuidesign/magicui,magicui,"150+ free and open-source animated components and effects built with React, Typescript, Tailwind CSS, and Motion.Perfect companion for shadcn/ui.",React
-https://deepwiki.com/,deepwiki,"DeepWiki provides up-to-date documentation you can talk to, for every repo in the world. Think Deep Research for GitHub",常用工具
-https://www.boce.com/,boce,免费提供网站速度测试、网络速度检测、域名污染检测、域名拦截查询、多地区在线ping测试、dns查询、路由跟踪查询、ipv6网站测试等站长工具,常用工具
-https://repobeats.axiom.co/,Repobeats,Give your README.md some insightful eye-candy,常用工具
-https://sms-activate.org/,SMS-activate,一款好用的验证码接收工具,常用工具
-https://www.json.cn,Json 中文网,JSON 在线解析及格式化验证,常用工具
-https://tool.lu,在线工具,开发人员的工具箱,常用工具
-https://tinypng.com,TinyPNG,在线图片压缩工具,常用工具
-https://caniuse.com,Can I use,前端 API 兼容性查询,常用工具
 https://chat.deepseek.com/,DeepSeek（深度求索）大模型,低成本高效的 中国大模型,AI
 https://claude.ai,claude,,AI
 https://chatgpt.com,chatgpt,AI 技术前沿，引领行业发展，资源丰富。,AI
