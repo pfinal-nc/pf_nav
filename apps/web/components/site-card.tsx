@@ -1,3 +1,5 @@
+"use client";
+import React, { useState, useEffect } from 'react';
 import Image from 'next/image';
 import Link from 'next/link';
 import {
@@ -23,16 +25,45 @@ export function SiteCard({
   category: string;
   icon: string;
 }) {
+  const [faviconUrl, setFaviconUrl] = useState<string | null>(icon || null);
+  const [faviconError, setFaviconError] = useState(false);
+
+  useEffect(() => {
+    if (!icon && href) {
+      try {
+        const url = new URL(href);
+        setFaviconUrl(url.origin + '/favicon.ico');
+        setFaviconError(false);
+      } catch {
+        setFaviconUrl(null);
+        setFaviconError(true);
+      }
+    } else {
+      setFaviconUrl(icon || null);
+      setFaviconError(false);
+    }
+  }, [icon, href]);
+
   return (
     <Card className='group hover:shadow-md transition-shadow rounded-sm shadow-none'>
       <CardHeader>
         <CardTitle className='flex items-center flex-row justify-between'>
           <div className='flex items-center flex-row gap-2'>
             <div className='w-5 h-5 bg-gray-300 rounded flex items-center justify-center text-xs font-bold text-gray-700'>
-              {/* 如果 有图标 则显示图标 没有图标 则显示首字母 */}    
-              {/* {title.charAt(0).toUpperCase()} */}
-              {icon && <Image src={icon} alt={title} width={20} height={20} />}
-              {!icon && <span className='text-xs font-bold text-gray-700'>{title.charAt(0).toUpperCase()}</span>}
+              {/* 图标优先，失败则首字母 */}
+              {faviconUrl && !faviconError ? (
+                <Image
+                  src={faviconUrl}
+                  alt={title}
+                  width={20}
+                  height={20}
+                  onError={() => setFaviconError(true)}
+                />
+              ) : (
+                <span className='text-xs font-bold text-gray-700'>
+                  {title.charAt(0).toUpperCase()}
+                </span>
+              )}
             </div>
             <span>{title}</span>
           </div>

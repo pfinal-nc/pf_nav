@@ -2,6 +2,8 @@
 
 import { NotionAPI } from 'notion-client';
 import { idToUuid, getPageTitle } from 'notion-utils';
+import fs from 'fs/promises';
+import path from 'path';
 
 // Initialize the Notion client
 const notion = new NotionAPI({
@@ -98,92 +100,59 @@ export interface PageData {
 }
 
 export const getPageData = async (): Promise<PageData> => {
-  console.debug('[DEBUG__lib/notion.ts-getPageData]')
-  if (!process.env.NOTION_PAGE_ID) {
-    throw new Error('NOTION_PAGE_ID is not defined in environment variables');
-  }
-
-  const envPageId = process.env.NOTION_PAGE_ID;
-  console.log('envPageId', envPageId);
-  const pageId = idToUuid(envPageId);
-  console.log('pageId', pageId);
-  console.log('process.env.NOTION_TOKEN', process.env.NOTION_TOKEN);
+  // 读取 CSV 文件路径
+  const csvPath = path.join(process.cwd(), 'assets/PFinalClub Nav.csv');
+  let csvContent: string;
   try {
-    // Fetch the page data with additional options
-    const recordMap = await notion.getPage(pageId, {
-      fetchCollections: true,
-      // fetchMissingBlocks: true,
-    });
-
-    console.log('recordMap', recordMap);
-
-    // Get collection data
-    const collection = Object.values(recordMap.collection)[0]?.value;
-    const collectionQuery = recordMap.collection_query;
-    const block = recordMap.block;
-    const schema = collection?.schema;
-    const rawMetadata = block[pageId]?.value as any;
-    const collectionView = recordMap.collection_view;
-    const collectionId = Object.keys(recordMap.collection)[0];
-    const viewIds = rawMetadata?.view_ids as string[] | undefined;
-
-    // Get page title and icon
-    const title =
-      getPageTitle(recordMap) ||
-      rawMetadata?.properties?.title?.[0]?.[0] ||
-      'Navigation';
-    const description = rawMetadata?.properties?.description?.[0]?.[0] || '';
-
-    // Get all page IDs from the collection
-    const pageGroups = getAllPageIds(
-      collectionQuery,
-      collectionId || '',
-      collectionView,
-      viewIds || []
-    );
-
-    // Process items by type
-    const itemsByType: Record<string, DatabaseItem[]> = {};
-
-    // Process each group of pages
-    pageGroups
-      .filter((group: { items: string[] }) => group.items?.length > 0)
-      .forEach((group: { items: string[] }) => {
-        if (!group.items) return;
-        console.log('group', group);
-        group.items.forEach((id: string) => {
-          const blockItem = block[id];
-          if (!blockItem) return;
-
-          const value = blockItem.value;
-          if (!value) return;
-
-          const props = getPageProperties(
-            id,
-            value,
-            schema,
-            '',
-            collection?.format?.collection_page_properties
-          );
-          if (!props) return;
-
-          const type = props.type || 'other';
-
-          if (!itemsByType[type]) {
-            itemsByType[type] = [];
-          }
-
-          itemsByType[type].push(props);
-        });
-      });
-
-    return {
-      title,
-      description,
-      items: itemsByType,
-    };
+    csvContent = await fs.readFile(csvPath, 'utf-8');
   } catch (error) {
-    console.error('Error fetching Notion data:', error);
+    console.error('读取 CSV 文件失败:', error);
     throw error;
   }
+
+  // 解析 CSV 内容
+  const lines = csvContent.split(/\r?\n/).filter(Boolean);
+  if (lines.length < 2) {
+    return {
+      title: 'PFinalClub 导航',
+      description: '精选前端、设计、AI、工具等高质量资源导航',
+      items: {},
+    };
+  }
+  const header = lines[0].split(',');
+  const itemsByType: Record<string, DatabaseItem[]> = {};
+
+  for (let i = 1; i < lines.length; i++) {
+    const line = lines[i];
+    if (!line || !line.trim()) continue;
+    const match = line.match(/\s*("[^"]*"|[^,]*)\s*,\s*("[^"]*"|[^,]*)\s*,\s*("[^"]*"|[^,]*)\s*,\s*("[^"]*"|[^,]*)\s*/);
+    if (!match || match.length < 5) continue;
+    let link = match[1] ?? '';
+    let title = match[2] ?? '';
+    let desc = match[3] ?? '';
+    let type = match[4] ?? '';
+    link = link.replace(/^"|"$/g, '');
+    title = title.replace(/^"|"$/g, '');
+    desc = desc.replace(/^"|"$/g, '');
+    type = type.replace(/^"|"$/g, '');
+    if (!link && !title && !desc && !type) continue;
+    const item: DatabaseItem = {
+      id: link || title || String(i),
+      title: title || '',
+      description: desc || '',
+      link: link || '',
+      type: type || 'other',
+      icon: '',
+    };
+    if (!itemsByType[item.type]) {
+      itemsByType[item.type] = [];
+    }
+    itemsByType[item.type]!.push(item);
+  }
+
+  return {
+    title: 'PFinalClub 导航',
+    description: '精选前端、设计、AI、工具等高质量资源导航',
+    items: itemsByType,
+  };
 };
