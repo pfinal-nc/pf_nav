@@ -119,7 +119,7 @@ export const getPageData = async (): Promise<PageData> => {
       items: {},
     };
   }
-  const header = lines[0].split(',');
+  const header = lines[0]!.split(',');
   const itemsByType: Record<string, DatabaseItem[]> = {};
 
   for (let i = 1; i < lines.length; i++) {
