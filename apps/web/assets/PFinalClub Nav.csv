@@ -1,62 +1,138 @@
 link,title,desc,type
-https://deepwiki.com/,deepwiki,"DeepWiki provides up-to-date documentation you can talk to, for every repo in the world. Think Deep Research for GitHub",常用工具
-https://www.boce.com/,boce,免费提供网站速度测试、网络速度检测、域名污染检测、域名拦截查询、多地区在线ping测试、dns查询、路由跟踪查询、ipv6网站测试等站长工具,常用工具
-https://repobeats.axiom.co/,Repobeats,Give your README.md some insightful eye-candy,常用工具
-https://sms-activate.org/,SMS-activate,一款好用的验证码接收工具,常用工具
-https://www.json.cn,Json 中文网,JSON 在线解析及格式化验证,常用工具
+https://deepwiki.com/,deepwiki,AI 驱动的代码与文档问答平台,常用工具
+https://www.boce.com/,boce,网站速度与网络检测工具,常用工具
+https://repobeats.axiom.co/,Repobeats,为你的 README 添加数据可视化,常用工具
+https://sms-activate.org/,SMS-activate,验证码接收平台,常用工具
+https://www.json.cn,Json 中文网,JSON 在线解析与格式化,常用工具
 https://tool.lu,在线工具,开发人员的工具箱,常用工具
-https://tinypng.com,TinyPNG,在线图片压缩工具,常用工具
+https://tinypng.com,TinyPNG,图片压缩工具,常用工具
 https://caniuse.com,Can I use,前端 API 兼容性查询,常用工具
-https://lucide.dev/,Lucide,Beautiful & consistent icons Made by the community,Icon
-https://fontawesome.com/,Fontawesome,简化您网站图标中的麻烦,Icon
-https://iconify.design/,iconify,"All popular icon sets, one framework.",Icon
-https://www.mingcute.com/,Mingcute Icon,一套简单精致的开源图标库。无论是设计师还是开发者，它都非常适合用于网页和移动端。,Icon
-https://iconbuddy.com/,iconbuddy,开源图标：搜索快速。编辑自由。立即下载,Icon
-https://www.iconfont.cn/,iconfont,国内功能很强大且图标内容很丰富的矢量图标库，提供矢量图标下载、在线存储、格式转换等功能,Icon
-https://www.thiings.co/things,things,拟物图标,Icon
-https://shadcnstudio.com/,shadcn/studio,Shadcn Theme Editor,React
-https://ui.shadcn.com/,shadcn,一组设计精美、易于访问且可自定义的组件，可帮助您构建组件库,React
-https://ui.aceternity.com/,Aceternity UI,复制粘贴最热门的组件，无需担心样式和动画，即可在您的网站上使用。,React
-https://recoiljs.org/zh-hans/,Recoil,Recoil is an experimental state management framework for React,React
-https://ahooks.js.org/zh-CN,ahooks,一套高质量可靠的 React Hooks 库,React
-https://www.reactbits.dev/,reactbits,精选动画组件集合，专为创意开发者打造,React
-https://docs.pmnd.rs/zustand/getting-started/introduction,Zustand,一个小型、快速、可扩展的 React 状态管理解决方案,React
-https://nextjs.org,Next.js,一个用于 Web 的 React 框架,React
-https://ant.design,Ant Design,一套企业级 UI 设计语言和 React 组件库,React
-https://reactrouter.com,React Router,React 的声明式路由,React
-https://zh-hans.reactjs.org,React,用于构建用户界面的 JavaScript 库,React
-https://originui.com/,originui,Beautiful UI components built with Tailwind CSS and React.,React
-https://github.com/magicuidesign/magicui,magicui,"150+ free and open-source animated components and effects built with React, Typescript, Tailwind CSS, and Motion.Perfect companion for shadcn/ui.",React
-https://chat.deepseek.com/,DeepSeek（深度求索）大模型,低成本高效的 中国大模型,AI
-https://claude.ai,claude,,AI
-https://chatgpt.com,chatgpt,AI 技术前沿，引领行业发展，资源丰富。,AI
-https://www.perplexity.ai/,perplexity,,AI
-https://www.doubao.com/chat/,豆包,字节跳动推出的免费AI智能助手,AI
-https://x.ai/,Grok AI,Grok AI 是由伊隆·马斯克创立的人工智能公司 xAI 开发的一款人工智能助手。,AI
+https://lucide.dev/,Lucide,社区驱动的图标库,Icon
+https://fontawesome.com/,Fontawesome,知名图标库,Icon
+https://iconify.design/,iconify,整合多套流行图标的框架,Icon
+https://www.mingcute.com/,Mingcute Icon,精致开源图标库,Icon
+https://iconbuddy.com/,iconbuddy,开源图标搜索与编辑工具,Icon
+https://www.iconfont.cn/,iconfont,阿里巴巴矢量图标库,Icon
+https://www.thiings.co/things,things,拟物风格图标,Icon
+https://shadcnstudio.com/,shadcn/studio,Shadcn 主题编辑器,React
+https://ui.shadcn.com/,shadcn,高质量 React 组件库,React
+https://ui.aceternity.com/,Aceternity UI,热门 React 组件集合,React
+https://recoiljs.org/zh-hans/,Recoil,React 状态管理库,React
+https://ahooks.js.org/zh-CN,ahooks,高质量 React Hooks 库,React
+https://www.reactbits.dev/,reactbits,创意动画组件集合,React
+https://docs.pmnd.rs/zustand/getting-started/introduction,Zustand,小巧高效的 React 状态管理库,React
+https://nextjs.org,Next.js,流行的 React Web 框架,React
+https://ant.design,Ant Design,企业级 React 组件库,React
+https://reactrouter.com,React Router,React 路由解决方案,React
+https://zh-hans.reactjs.org,React,构建用户界面的 JavaScript 库,React
+https://originui.com/,originui,基于 Tailwind CSS 的 React 组件,React
+https://github.com/magicuidesign/magicui,magicui,丰富的 React 动画组件,React
+https://chat.deepseek.com/,DeepSeek（深度求索）大模型,低成本高效的中国大模型,AI
+https://claude.ai,Claude,Anthropic 推出的先进对话式 AI 助手,AI
+https://chatgpt.com,chatgpt,OpenAI 的对话式 AI,AI
+https://www.perplexity.ai/,Perplexity,AI 驱动的搜索与问答平台,AI
+https://www.doubao.com/chat/,豆包,字节跳动推出的免费中文 AI 聊天助手,AI
+https://x.ai/,Grok AI,马斯克 xAI 团队开发的 AI 助手,AI
 https://friday-go.icu/,PFinalClub,个人网站,Projects
 https://status.busyhe.com/,Status Server Page,服务状态监控站点,Projects
 http://game.friday-go.icu/,PFinalClub Games,游戏摸鱼,Projects
-,,,
-https://mcp.so/server/grafana-mcp-analyzer/SailingCoder?tab=content,Grafana Mcp Analyzer,让AI助手直接分析你的Grafana监控数据 - A Model Context Protocol server for Grafana data analysis,MCP
-https://cn.vitest.dev/,Vitest,一个 Vite 原生单元测试框架。它很快！,Vue
-https://sass-lang.com,Sass,一个成熟，稳定，功能强大的专业级 CSS 扩展语言,CSS
-https://element-plus.org,Element Plus,基于 Vue 3，面向设计师和开发者的组件库,Vue
-https://dribbble.com/,Dribbble,探索世界顶级设计师,UI
-https://router.vuejs.org/zh,Vue Router,Vue.js 的官方路由,Vue
-http://npmjs.com/,NpmJS,Build amazing things,JavaScript
-https://nodejs.org/,NodeJS,"一个免费、开源、跨平台的 JavaScript 运行时环境, 它让开发人员能够创建服务器 Web 应用、命令行工具和脚本",Backend
-https://mobbin.com/,Mobbin,发现真实世界的创意灵感,UI
-https://nuxt.com,Nuxt.js,一个基于 Vue.js 的通用应用框架,Vue
-https://developer.mozilla.org/zh-CN/,MDN,HTML、CSS 以及网站和渐进式网页应用 API。,JavaScript
-https://nestjs.com/,NestJS,一个渐进的Node.js框架，用于构建高效、可靠和可扩展的服务器端应用程序,Backend
-https://tailwindcss.com/,TailwindCSS,一个功能类优先的 CSS 框架,CSS
-https://inspira-ui.com/,InspiraUI,Build  websites using Vue & Nuxt,Vue
-https://gsap.com/,gsap,为专业人士构建的极其强大的JavaScript动画库,UI
-https://zh.javascript.info/,现代 JavaScript 教程,以最新的 JavaScript 标准为基准。通过简单但足够详细的内容，为你讲解从基础到高阶的 JavaScript 相关知识。,JavaScript
-https://tympanus.net/codrops/,Codrops,网页设计和开发技术的灵感来源,UI
+https://figma.com,Figma,协作式界面设计工具,设计工具
+https://canva.com,Canva,在线平面设计平台,设计工具
+https://notion.so,Notion,集笔记、知识库、项目管理于一体的效率工具,效率工具
+https://vercel.com,Vercel,前端部署与托管平台,开发工具
+https://github.com,GitHub,全球最大开源代码托管平台,开发工具
 https://vant-ui.github.io/vant,Vant,轻量、可定制的移动端 Vue 组件库,Vue
-https://motion.dev/,Motion,现代JavaScript、vue和React动画库,UI
+https://motion.dev/,Motion,现代 JavaScript、Vue 和 React 动画库,UI
 https://vueuse.org,VueUse,Vue Composition API 的常用工具集,Vue
 https://pinia.vuejs.org/zh,Pinia,符合直觉的 Vue.js 状态管理库,Vue
 https://cn.vuejs.org,Vue 3,渐进式 JavaScript 框架,Vue
-https://animejs.com/,animejs,一个快速且通用的JavaScript动画库,UI
+https://animejs.com/,animejs,一个快速且通用的 JavaScript 动画库,UI
+
+https://code.visualstudio.com/,VS Code,最流行的免费代码编辑器,常用工具
+https://postman.com,Postman,API 接口调试与文档工具,常用工具
+https://insomnia.rest/,Insomnia,强大的 API 测试与调试工具,常用工具
+https://www.jetbrains.com/webstorm/,WebStorm,专业的前端开发 IDE,常用工具
+https://www.jetbrains.com/idea/,IntelliJ IDEA,强大的 Java/全栈开发 IDE,常用工具
+https://www.git-scm.com/,Git,分布式版本控制系统,常用工具
+https://github.com,GitHub,全球最大开源代码托管平台,常用工具
+https://gitlab.com,GitLab,企业级代码托管与 DevOps 平台,常用工具
+https://gitee.com,Gitee,国内知名代码托管平台,常用工具
+https://vercel.com,Vercel,前端部署与托管平台,常用工具
+https://netlify.com,Netlify,前端自动化部署平台,常用工具
+https://ngrok.com/,ngrok,本地服务内网穿透工具,常用工具
+https://www.mongodb.com/,MongoDB,流行的 NoSQL 数据库,常用工具
+https://www.mysql.com/,MySQL,最流行的开源关系型数据库,常用工具
+https://redis.io/,Redis,高性能键值数据库,常用工具
+https://www.postgresql.org/,PostgreSQL,强大的开源关系型数据库,常用工具
+https://www.sqlite.org/,SQLite,轻量级嵌入式数据库,常用工具
+https://swagger.io/,Swagger,API 文档与测试工具,常用工具
+https://apidocjs.com/,apidoc,自动生成 API 文档工具,常用工具
+https://www.npmjs.com/,NPM,Node.js 包管理平台,常用工具
+https://pnpm.io/,pnpm,高效的 Node.js 包管理器,常用工具
+https://yarnpkg.com/,Yarn,Node.js 包管理器,常用工具
+https://vitejs.dev/,Vite,极速前端构建工具,常用工具
+https://webpack.js.org/,Webpack,前端模块打包工具,常用工具
+https://eslint.org/,ESLint,JavaScript 代码质量与风格检查工具,常用工具
+https://prettier.io/,Prettier,代码自动格式化工具,常用工具
+https://jestjs.io/,Jest,流行的 JavaScript 测试框架,常用工具
+https://mochajs.org/,Mocha,灵活的 JavaScript 测试框架,常用工具
+https://www.cypress.io/,Cypress,前端自动化测试工具,常用工具
+https://playwright.dev/,Playwright,现代端到端自动化测试工具,常用工具
+https://www.docker.com/,Docker,容器化与微服务部署平台,常用工具
+https://kubernetes.io/,Kubernetes,容器编排与管理平台,常用工具
+https://www.aliyun.com/,阿里云,国内主流云服务平台,常用工具
+https://cloud.tencent.com/,腾讯云,国内主流云服务平台,常用工具
+https://console.cloud.google.com/,Google Cloud,全球云服务平台,常用工具
+https://aws.amazon.com/,AWS,亚马逊云服务平台,常用工具
+https://www.cloudflare.com/,Cloudflare,全球 CDN 与安全加速平台,常用工具
+https://www.linux.org/,Linux,主流开源操作系统,常用工具
+https://ubuntu.com/,Ubuntu,流行的 Linux 发行版,常用工具
+https://www.debian.org/,Debian,稳定的 Linux 发行版,常用工具
+https://www.zsh.org/,Zsh,强大的 shell 终端,常用工具
+https://ohmyz.sh/,Oh My Zsh,Zsh 插件与主题管理工具,常用工具
+https://tmux.github.io/,tmux,终端多路复用工具,常用工具
+https://www.vim.org/,Vim,经典文本编辑器,常用工具
+https://neovim.io/,Neovim,现代化 Vim 编辑器,常用工具
+https://www.typora.io/,Typora,所见即所得 Markdown 编辑器,常用工具
+https://www.markdownlint.com/,Markdownlint,Markdown 语法检查工具,常用工具
+https://www.processon.com/,ProcessOn,在线流程图与思维导图工具,常用工具
+https://www.draw.io/,draw.io,开源流程图与图表工具,常用工具
+https://www.lottiefiles.com/,LottieFiles,动画资源与预览工具,常用工具
+https://regex101.com/,Regex101,正则表达式测试与学习工具,常用工具
+https://carbon.now.sh/,Carbon,代码片段美化分享工具,常用工具
+https://www.jsonformatter.io/,JSON Formatter,JSON 格式化与校验工具,常用工具
+https://www.base64decode.org/,Base64 Decode,Base64 编码解码工具,常用工具
+https://convertio.co/,Convertio,文件格式转换工具,常用工具
+https://www.remove.bg/,Remove.bg,图片背景移除工具,常用工具
+https://tinypng.com/,TinyPNG,图片压缩工具,常用工具
+
+https://openai.com/chatgpt,ChatGPT,OpenAI 官方对话式 AI 助手,AI
+https://gemini.google.com/,Gemini,Google 推出的多模态 AI 助手,AI
+https://copilot.microsoft.com/,Copilot,微软 AI 助手，集成于 Edge/Office,AI
+https://poe.com/,Poe,多模型聚合 AI 聊天平台,AI
+https://www.midjourney.com/,Midjourney,AI 艺术与图片生成平台,AI
+https://www.bing.com/images/create,Bing Image Creator,微软 AI 图片生成工具,AI
+https://www.stablediffusionweb.com/,Stable Diffusion,开源 AI 图片生成平台,AI
+https://www.dreamstudio.ai/,DreamStudio,Stable Diffusion 官方图片生成工具,AI
+https://www.canva.com/ai,Canva AI,Canva 内置 AI 设计与文案工具,AI
+https://www.jasper.ai/,Jasper,AI 文案与内容生成平台,AI
+https://www.copy.ai/,Copy.ai,AI 文案与营销内容生成工具,AI
+https://www.deepl.com/translator,DeepL,AI 驱动的高质量翻译工具,AI
+https://www.suno.ai/,Suno,AI 音乐生成平台,AI
+https://www.runwayml.com/,Runway,AI 视频与多媒体创作平台,AI
+https://www.perplexity.ai/,Perplexity,AI 驱动的搜索与问答平台,AI
+https://claude.ai,Claude,Anthropic 推出的先进对话式 AI 助手,AI
+https://www.doubao.com/chat/,豆包,字节跳动推出的免费中文 AI 聊天助手,AI
+https://chat.deepseek.com/,DeepSeek,低成本高效的中国大模型,AI
+https://x.ai/,Grok AI,马斯克 xAI 团队开发的 AI 助手,AI
+https://www.writesonic.com/,Writesonic,AI 内容与文案生成平台,AI
+https://www.yuque.com/ai,Yuque AI,语雀文档 AI 助手,AI
+https://www.notion.so/product/ai,Notion AI,Notion 内置 AI 助手,AI
+https://www.githubnext.com/copilot,Github Copilot,AI 代码自动补全与生成,AI
+https://www.tabnine.com/,Tabnine,AI 代码自动补全工具,AI
+https://www.phind.com/,Phind,AI 编程搜索与问答,AI
+https://www.tiangong.cn/,天工,智谱 AI 推出的中文大模型,AI
+https://www.kimi.moonshot.cn/,Kimi,月之暗面推出的中文大模型,AI
+https://www.huggingface.co/,Hugging Face,AI 开源模型与社区平台,AI
+https://www.poe.com/,Poe,多模型 AI 聊天聚合平台,AI
+https://www.bilibili.com/ai,B站AI,哔哩哔哩 AI 创作工具,AI
