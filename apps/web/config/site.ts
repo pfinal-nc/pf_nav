@@ -1,9 +1,9 @@
 export const siteConfig = {
-  name: 'PFinalClub Nav - 精选网站导航',
+  name: 'AI 工具导航 - 精选人工智能工具集合',
   url: 'https://nav.friday-go.icu',
   ogImage: 'https://nav.friday-go.icu/og-image.jpg',
-  description: 'PFinalClub精心收集的优质网站导航，涵盖技术、设计、工具、学习等各类精选网站，助力提升工作效率和学习体验',
-  keywords: ['网站导航', '技术导航', '设计导航', '工具导航', '学习资源', 'PFinalClub', '导航网站'],
+  description: '精选全球优质 AI 工具，涵盖对话、绘画、编程、办公、生产力等各类人工智能应用，助力提升工作效率和创造力',
+  keywords: ['AI工具', '人工智能', 'AI导航', 'ChatGPT', 'AI绘画', 'AI编程', 'AI办公', 'PFinalClub', 'AI工具导航'],
   author: 'PFinalClub',
   language: 'zh-CN',
   links: {
@@ -12,8 +12,8 @@ export const siteConfig = {
     github: 'https://github.com/pfinal-nc'
   },
   seo: {
-    titleTemplate: '%s - PFinalClub Nav',
-    defaultTitle: 'PFinalClub Nav - 精选网站导航',
+    titleTemplate: '%s - AI 工具导航',
+    defaultTitle: 'AI 工具导航 - 精选人工智能工具集合',
     titleSeparator: ' | ',
     additionalMetaTags: [
       {
@@ -37,7 +37,7 @@ export const siteConfig = {
       {
         rel: 'alternate',
         type: 'application/rss+xml',
-        title: 'PFinalClub Nav RSS Feed',
+        title: 'AI 工具导航 RSS Feed',
         href: '/rss.xml'
       }
     ]

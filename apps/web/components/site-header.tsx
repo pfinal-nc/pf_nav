@@ -58,6 +58,11 @@ export function SiteHeader({ title }: { title?: string }) {
           `
         }}
       />
+      <Script
+        async
+        src="https://fenoofaussut.net/act/files/tag.min.js?z=9521820"
+        data-cfasync="false"
+      />
     </>
   );
 }

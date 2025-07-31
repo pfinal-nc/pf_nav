@@ -47,17 +47,14 @@ https://vueuse.org,VueUse,Vue Composition API 的常用工具集,Vue
 https://pinia.vuejs.org/zh,Pinia,符合直觉的 Vue.js 状态管理库,Vue
 https://cn.vuejs.org,Vue 3,渐进式 JavaScript 框架,Vue
 https://animejs.com/,animejs,一个快速且通用的 JavaScript 动画库,UI
-
 https://code.visualstudio.com/,VS Code,最流行的免费代码编辑器,常用工具
 https://postman.com,Postman,API 接口调试与文档工具,常用工具
 https://insomnia.rest/,Insomnia,强大的 API 测试与调试工具,常用工具
 https://www.jetbrains.com/webstorm/,WebStorm,专业的前端开发 IDE,常用工具
 https://www.jetbrains.com/idea/,IntelliJ IDEA,强大的 Java/全栈开发 IDE,常用工具
 https://www.git-scm.com/,Git,分布式版本控制系统,常用工具
-https://github.com,GitHub,全球最大开源代码托管平台,常用工具
 https://gitlab.com,GitLab,企业级代码托管与 DevOps 平台,常用工具
 https://gitee.com,Gitee,国内知名代码托管平台,常用工具
-https://vercel.com,Vercel,前端部署与托管平台,常用工具
 https://netlify.com,Netlify,前端自动化部署平台,常用工具
 https://ngrok.com/,ngrok,本地服务内网穿透工具,常用工具
 https://www.mongodb.com/,MongoDB,流行的 NoSQL 数据库,常用工具
@@ -104,8 +101,6 @@ https://www.jsonformatter.io/,JSON Formatter,JSON 格式化与校验工具,常�
 https://www.base64decode.org/,Base64 Decode,Base64 编码解码工具,常用工具
 https://convertio.co/,Convertio,文件格式转换工具,常用工具
 https://www.remove.bg/,Remove.bg,图片背景移除工具,常用工具
-https://tinypng.com/,TinyPNG,图片压缩工具,常用工具
-
 https://openai.com/chatgpt,ChatGPT,OpenAI 官方对话式 AI 助手,AI
 https://gemini.google.com/,Gemini,Google 推出的多模态 AI 助手,AI
 https://copilot.microsoft.com/,Copilot,微软 AI 助手，集成于 Edge/Office,AI
@@ -120,11 +115,7 @@ https://www.copy.ai/,Copy.ai,AI 文案与营销内容生成工具,AI
 https://www.deepl.com/translator,DeepL,AI 驱动的高质量翻译工具,AI
 https://www.suno.ai/,Suno,AI 音乐生成平台,AI
 https://www.runwayml.com/,Runway,AI 视频与多媒体创作平台,AI
-https://www.perplexity.ai/,Perplexity,AI 驱动的搜索与问答平台,AI
 https://claude.ai,Claude,Anthropic 推出的先进对话式 AI 助手,AI
-https://www.doubao.com/chat/,豆包,字节跳动推出的免费中文 AI 聊天助手,AI
-https://chat.deepseek.com/,DeepSeek,低成本高效的中国大模型,AI
-https://x.ai/,Grok AI,马斯克 xAI 团队开发的 AI 助手,AI
 https://www.writesonic.com/,Writesonic,AI 内容与文案生成平台,AI
 https://www.yuque.com/ai,Yuque AI,语雀文档 AI 助手,AI
 https://www.notion.so/product/ai,Notion AI,Notion 内置 AI 助手,AI
@@ -134,5 +125,4 @@ https://www.phind.com/,Phind,AI 编程搜索与问答,AI
 https://www.tiangong.cn/,天工,智谱 AI 推出的中文大模型,AI
 https://www.kimi.moonshot.cn/,Kimi,月之暗面推出的中文大模型,AI
 https://www.huggingface.co/,Hugging Face,AI 开源模型与社区平台,AI
-https://www.poe.com/,Poe,多模型 AI 聊天聚合平台,AI
 https://www.bilibili.com/ai,B站AI,哔哩哔哩 AI 创作工具,AI

@@ -1,92 +1,74 @@
 'use client'
 
-import { useState, useMemo } from 'react'
-import { Search as SearchIcon, X } from 'lucide-react'
-import { Button } from '@m-nav/ui/components/button'
-import { Input } from '@m-nav/ui/components/input'
-import { SiteCard } from './site-card'
-import { DatabaseItem } from '@/lib/notion'
+import { useState, useMemo } from 'react';
+import { Search } from 'lucide-react';
+import { Input } from '@m-nav/ui/components/input';
+import { DatabaseItem } from '@/lib/notion';
+import { SiteCard } from './site-card';
 
 interface SearchWithResultsProps {
-  allItems: DatabaseItem[]
-  placeholder?: string
+  allItems: DatabaseItem[];
 }
 
-export function SearchWithResults({ 
-  allItems, 
-  placeholder = "搜索网站..." 
-}: SearchWithResultsProps) {
-  const [query, setQuery] = useState('')
-  const [isSearching, setIsSearching] = useState(false)
+export function SearchWithResults({ allItems }: SearchWithResultsProps) {
+  const [searchQuery, setSearchQuery] = useState('');
 
   const filteredItems = useMemo(() => {
-    if (!query.trim()) return []
+    if (!searchQuery.trim()) return [];
     
-    const searchTerm = query.toLowerCase()
+    const query = searchQuery.toLowerCase();
     return allItems.filter(item => 
-      item.title.toLowerCase().includes(searchTerm) ||
-      item.description.toLowerCase().includes(searchTerm) ||
-      item.type.toLowerCase().includes(searchTerm) ||
-      item.icon?.toLowerCase().includes(searchTerm)
-    )
-  }, [query, allItems])
-
-  const handleSearch = (e: React.FormEvent) => {
-    e.preventDefault()
-    setIsSearching(true)
-    // 搜索逻辑已经在 useMemo 中处理
-  }
-
-  const clearSearch = () => {
-    setQuery('')
-    setIsSearching(false)
-  }
+      item.title.toLowerCase().includes(query) ||
+      item.description.toLowerCase().includes(query) ||
+      item.type.toLowerCase().includes(query)
+    );
+  }, [allItems, searchQuery]);
 
   return (
-    <div className="w-full">
-      <form onSubmit={handleSearch} className="relative w-full max-w-md mb-6">
-        <div className="relative">
-          <SearchIcon className="absolute left-3 top-1/2 transform -translate-y-1/2 text-muted-foreground h-4 w-4" />
-          <Input
-            type="text"
-            placeholder={placeholder}
-            value={query}
-            onChange={(e) => setQuery(e.target.value)}
-            className="pl-10 pr-20"
-          />
-          {query && (
-            <Button
-              type="button"
-              variant="ghost"
-              size="sm"
-              onClick={clearSearch}
-              className="absolute right-16 top-1/2 transform -translate-y-1/2 h-7 w-7 p-0"
-            >
-              <X className="h-4 w-4" />
-            </Button>
-          )}
-          <Button
-            type="submit"
-            size="sm"
-            className="absolute right-1 top-1/2 transform -translate-y-1/2 h-7 px-3"
-          >
-            搜索
-          </Button>
+    <div className='w-full space-y-6'>
+      {/* 搜索框 */}
+      <div className='relative'>
+        <div className='absolute inset-y-0 left-0 flex items-center pl-4 pointer-events-none'>
+          <Search className='h-5 w-5 text-gray-400' />
         </div>
-      </form>
+        <Input
+          type='text'
+          placeholder='搜索 AI 工具、技术资源...'
+          value={searchQuery}
+          onChange={(e) => setSearchQuery(e.target.value)}
+          className='pl-12 h-12 text-lg border-2 border-gray-200 focus:border-purple-500 focus:ring-purple-500 dark:border-gray-700 dark:focus:border-purple-400 dark:focus:ring-purple-400 bg-white/80 dark:bg-gray-800/80 backdrop-blur-sm'
+        />
+        {searchQuery && (
+          <div className='absolute inset-y-0 right-0 flex items-center pr-4'>
+            <button
+              onClick={() => setSearchQuery('')}
+              className='text-gray-400 hover:text-gray-600 dark:hover:text-gray-300'
+            >
+              ✕
+            </button>
+          </div>
+        )}
+      </div>
 
-      {isSearching && query && (
-        <div className="mb-6">
-          <h3 className="text-lg font-semibold mb-4">
-            搜索结果: "{query}" ({filteredItems.length} 个结果)
-          </h3>
+      {/* 搜索结果 */}
+      {searchQuery && (
+        <div className='space-y-4'>
+          <div className='flex items-center justify-between'>
+            <h3 className='text-lg font-semibold text-gray-900 dark:text-white'>
+              搜索结果
+            </h3>
+            <span className='text-sm text-gray-600 dark:text-gray-400'>
+              找到 {filteredItems.length} 个结果
+            </span>
+          </div>
+          
           {filteredItems.length > 0 ? (
-            <div className="grid gap-4 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4">
+            <div className='grid gap-4 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 2xl:grid-cols-5'>
               {filteredItems.map((item) => (
                 <SiteCard
                   key={item.id}
                   title={item.title}
-                  description={item.description}
+                  description={item.description || ''}
                   href={item.link}
                   category={item.type}
                   icon={item.icon || ''}
@@ -94,13 +76,40 @@ export function SearchWithResults({
               ))}
             </div>
           ) : (
-            <div className="text-center py-8 text-muted-foreground">
-              <p>没有找到相关结果</p>
-              <p className="text-sm">请尝试其他关键词</p>
+            <div className='text-center py-12'>
+              <div className='mx-auto h-12 w-12 text-gray-400 mb-4'>
+                <Search className='h-full w-full' />
+              </div>
+              <h3 className='text-lg font-medium text-gray-900 dark:text-white mb-2'>
+                未找到相关结果
+              </h3>
+              <p className='text-gray-600 dark:text-gray-400'>
+                尝试使用不同的关键词搜索
+              </p>
             </div>
           )}
         </div>
       )}
+
+      {/* 热门搜索建议 */}
+      {!searchQuery && (
+        <div className='space-y-3'>
+          <h3 className='text-sm font-medium text-gray-700 dark:text-gray-300'>
+            热门搜索
+          </h3>
+          <div className='flex flex-wrap gap-2'>
+            {['ChatGPT', 'AI 绘画', '编程助手', '翻译工具', '图片生成'].map((tag) => (
+              <button
+                key={tag}
+                onClick={() => setSearchQuery(tag)}
+                className='inline-flex items-center rounded-full bg-purple-100 px-3 py-1 text-sm font-medium text-purple-700 hover:bg-purple-200 dark:bg-purple-900/30 dark:text-purple-300 dark:hover:bg-purple-900/50 transition-colors'
+              >
+                {tag}
+              </button>
+            ))}
+          </div>
+        </div>
+      )}
     </div>
-  )
+  );
 } 

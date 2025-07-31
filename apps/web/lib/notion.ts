@@ -137,7 +137,7 @@ export const getPageData = async (): Promise<PageData> => {
     type = type.replace(/^"|"$/g, '');
     if (!link && !title && !desc && !type) continue;
     const item: DatabaseItem = {
-      id: link || title || String(i),
+      id: `${type}-${link || title || String(i)}-${i}`,
       title: title || '',
       description: desc || '',
       link: link || '',
@@ -151,8 +151,8 @@ export const getPageData = async (): Promise<PageData> => {
   }
 
   return {
-    title: 'PFinalClub 导航',
-    description: '精选前端、设计、AI、工具等高质量资源导航',
+    title: 'AI 工具导航',
+    description: '精选全球优质人工智能工具，涵盖对话、绘画、编程、办公等各类应用',
     items: itemsByType,
   };
 };

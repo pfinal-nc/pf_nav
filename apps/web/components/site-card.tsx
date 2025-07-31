@@ -5,12 +5,12 @@ import Link from 'next/link';
 import {
   Card,
   CardContent,
+  CardDescription,
   CardHeader,
   CardTitle,
-  CardDescription,
 } from '@m-nav/ui/components/card';
 import { Button } from '@m-nav/ui/components/button';
-import { ArrowUpRightIcon } from 'lucide-react';
+import { ExternalLink, Sparkles } from 'lucide-react';
 
 export function SiteCard({
   title,
@@ -44,47 +44,97 @@ export function SiteCard({
     }
   }, [icon, href]);
 
+  const isAI = category === 'AI';
+
   return (
-    <Card className='group hover:shadow-md transition-shadow rounded-sm shadow-none'>
-      <CardHeader>
-        <CardTitle className='flex items-center flex-row justify-between'>
-          <div className='flex items-center flex-row gap-2'>
-            <div className='w-5 h-5 bg-gray-300 rounded flex items-center justify-center text-xs font-bold text-gray-700'>
-              {/* 图标优先，失败则首字母 */}
+    <Card className='group relative overflow-hidden border-0 bg-white/50 shadow-sm transition-all duration-300 hover:shadow-lg hover:scale-[1.02] dark:bg-gray-800/50 dark:shadow-gray-900/20'>
+      {/* AI 标签 */}
+      {isAI && (
+        <div className='absolute -right-2 -top-2 z-10'>
+          <div className='flex items-center gap-1 rounded-full bg-gradient-to-r from-purple-500 to-pink-500 px-2 py-1 text-xs font-medium text-white shadow-lg'>
+            <Sparkles className='h-3 w-3' />
+            AI
+          </div>
+        </div>
+      )}
+      
+      <CardHeader className='pb-3'>
+        <CardTitle className='flex items-center justify-between'>
+          <div className='flex items-center gap-3'>
+            {/* 图标区域 */}
+            <div className='relative flex h-10 w-10 items-center justify-center rounded-lg bg-gradient-to-br from-gray-100 to-gray-200 shadow-sm dark:from-gray-700 dark:to-gray-800'>
               {faviconUrl && !faviconError ? (
                 <Image
                   src={faviconUrl}
                   alt={title}
-                  width={20}
-                  height={20}
+                  width={24}
+                  height={24}
+                  className='rounded'
                   onError={() => setFaviconError(true)}
                 />
               ) : (
-                <span className='text-xs font-bold text-gray-700'>
+                <span className='text-lg font-bold text-gray-600 dark:text-gray-300'>
                   {title.charAt(0).toUpperCase()}
                 </span>
               )}
             </div>
-            <span>{title}</span>
+            
+            {/* 标题 */}
+            <div className='flex-1 min-w-0'>
+              <h3 className='text-sm font-semibold text-gray-900 dark:text-white truncate'>
+                {title}
+              </h3>
+              {isAI && (
+                <div className='mt-1 flex items-center gap-1'>
+                  <div className='h-1.5 w-1.5 rounded-full bg-purple-500'></div>
+                  <span className='text-xs text-purple-600 dark:text-purple-400'>AI 工具</span>
+                </div>
+              )}
+            </div>
           </div>
-
-          <Link
-            href={href}
-            target='_blank'
-            rel='noopener noreferrer'
-            className='block'
+          
+          {/* 外部链接图标 */}
+          <Button
+            asChild
+            variant='ghost'
+            size='icon'
+            className='h-6 w-6 opacity-0 transition-opacity group-hover:opacity-100'
           >
-            <Button
-              variant='ghost'
-              size='icon'
-              className='opacity-0 group-hover:opacity-100 transition-opacity max-sm:opacity-100 max-sm:bg-accent'
-            >
-              <ArrowUpRightIcon className='w-4 h-4' />
-            </Button>
-          </Link>
+            <Link href={href} target='_blank' rel='noreferrer'>
+              <ExternalLink className='h-3 w-3' />
+              <span className='sr-only'>访问 {title}</span>
+            </Link>
+          </Button>
         </CardTitle>
-        <CardDescription>{description}</CardDescription>
       </CardHeader>
+      
+      <CardContent className='pt-0'>
+        <CardDescription className='text-xs text-gray-600 dark:text-gray-400 line-clamp-2'>
+          {description || '暂无描述'}
+        </CardDescription>
+        
+        {/* 分类标签 */}
+        <div className='mt-3 flex items-center justify-between'>
+          <span className='inline-flex items-center rounded-full bg-gray-100 px-2 py-1 text-xs font-medium text-gray-800 dark:bg-gray-700 dark:text-gray-200'>
+            {category}
+          </span>
+          
+          {/* 访问按钮 */}
+          <Button
+            asChild
+            size='sm'
+            variant='outline'
+            className='h-7 text-xs'
+          >
+            <Link href={href} target='_blank' rel='noreferrer'>
+              访问
+            </Link>
+          </Button>
+        </div>
+      </CardContent>
+      
+      {/* 悬停效果 */}
+      <div className='absolute inset-0 rounded-lg bg-gradient-to-r from-transparent via-white/5 to-transparent opacity-0 transition-opacity group-hover:opacity-100'></div>
     </Card>
   );
 }
