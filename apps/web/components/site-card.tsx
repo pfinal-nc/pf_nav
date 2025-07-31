@@ -52,14 +52,15 @@ export function SiteCard({
       target='_blank' 
       rel='noreferrer'
       className='block transition-transform hover:scale-[1.02]'
+      aria-label={`访问 ${title} - ${description}`}
     >
       <Card className='group relative overflow-hidden border-0 bg-white/50 shadow-sm transition-all duration-300 hover:shadow-lg dark:bg-gray-800/50 dark:shadow-gray-900/20'>
         {/* AI 标签 */}
         {isAI && (
           <div className='absolute -right-2 -top-2 z-10'>
             <div className='flex items-center gap-1 rounded-full bg-gradient-to-r from-purple-500 to-pink-500 px-2 py-1 text-xs font-medium text-white shadow-lg'>
-              <Sparkles className='h-3 w-3' />
-              AI
+              <Sparkles className='h-3 w-3' aria-hidden="true" />
+              <span>AI</span>
             </div>
           </div>
         )}
@@ -72,14 +73,14 @@ export function SiteCard({
                 {faviconUrl && !faviconError ? (
                   <Image
                     src={faviconUrl}
-                    alt={title}
+                    alt={`${title} 图标`}
                     width={24}
                     height={24}
                     className='rounded'
                     onError={() => setFaviconError(true)}
                   />
                 ) : (
-                  <span className='text-lg font-bold text-gray-600 dark:text-gray-300'>
+                  <span className='text-lg font-bold text-gray-600 dark:text-gray-300' aria-label={`${title} 首字母`}>
                     {title.charAt(0).toUpperCase()}
                   </span>
                 )}
@@ -92,7 +93,7 @@ export function SiteCard({
                 </h3>
                 {isAI && (
                   <div className='mt-1 flex items-center gap-1'>
-                    <div className='h-1.5 w-1.5 rounded-full bg-purple-500'></div>
+                    <div className='h-1.5 w-1.5 rounded-full bg-purple-500' aria-hidden="true"></div>
                     <span className='text-xs text-purple-600 dark:text-purple-400'>AI 工具</span>
                   </div>
                 )}
@@ -101,7 +102,7 @@ export function SiteCard({
             
             {/* 外部链接图标 */}
             <div className='h-6 w-6 opacity-0 transition-opacity group-hover:opacity-100'>
-              <ExternalLink className='h-3 w-3 text-gray-400' />
+              <ExternalLink className='h-3 w-3 text-gray-400' aria-hidden="true" />
             </div>
           </CardTitle>
         </CardHeader>
@@ -123,6 +124,7 @@ export function SiteCard({
               variant='outline'
               className='h-7 text-xs'
               onClick={(e) => e.stopPropagation()}
+              aria-label={`访问 ${title}`}
             >
               访问
             </Button>
@@ -130,7 +132,7 @@ export function SiteCard({
         </CardContent>
         
         {/* 悬停效果 */}
-        <div className='absolute inset-0 rounded-lg bg-gradient-to-r from-transparent via-white/5 to-transparent opacity-0 transition-opacity group-hover:opacity-100'></div>
+        <div className='absolute inset-0 rounded-lg bg-gradient-to-r from-transparent via-white/5 to-transparent opacity-0 transition-opacity group-hover:opacity-100' aria-hidden="true"></div>
       </Card>
     </a>
   );

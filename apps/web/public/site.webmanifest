@@ -1,13 +1,28 @@
 {
-  "name": "PFinalClub Nav",
-  "short_name": "PFNav",
-  "description": "精选网站导航",
+  "name": "AI 工具导航",
+  "short_name": "AI导航",
+  "description": "精选全球优质AI工具，涵盖ChatGPT、Claude、Midjourney等人工智能应用",
   "start_url": "/",
   "display": "standalone",
   "background_color": "#ffffff",
-  "theme_color": "#000000",
+  "theme_color": "#4f46e5",
   "orientation": "portrait-primary",
   "icons": [
+    {
+      "src": "/favicon-16x16.png",
+      "sizes": "16x16",
+      "type": "image/png"
+    },
+    {
+      "src": "/favicon-32x32.png",
+      "sizes": "32x32",
+      "type": "image/png"
+    },
+    {
+      "src": "/apple-touch-icon.png",
+      "sizes": "180x180",
+      "type": "image/png"
+    },
     {
       "src": "/android-chrome-192x192.png",
       "sizes": "192x192",
@@ -18,5 +33,8 @@
       "sizes": "512x512",
       "type": "image/png"
     }
-  ]
+  ],
+  "categories": ["productivity", "utilities", "education"],
+  "lang": "zh-CN",
+  "dir": "ltr"
 } 

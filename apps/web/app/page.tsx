@@ -14,6 +14,14 @@ export const metadata: Metadata = {
   title: siteConfig.seo.defaultTitle,
   description: siteConfig.description,
   keywords: siteConfig.keywords,
+  authors: [
+    {
+      name: siteConfig.author,
+      url: siteConfig.links.homepage
+    }
+  ],
+  creator: siteConfig.author,
+  publisher: siteConfig.author,
   openGraph: {
     title: siteConfig.name,
     description: siteConfig.description,
@@ -25,6 +33,7 @@ export const metadata: Metadata = {
         width: 1200,
         height: 630,
         alt: siteConfig.name,
+        type: 'image/jpeg',
       }
     ],
     locale: siteConfig.language,
@@ -35,10 +44,32 @@ export const metadata: Metadata = {
     title: siteConfig.name,
     description: siteConfig.description,
     images: [siteConfig.ogImage],
+    creator: '@pfinal_nc',
+    site: '@pfinal_nc',
   },
   alternates: {
     canonical: siteConfig.url,
   },
+  robots: {
+    index: true,
+    follow: true,
+    googleBot: {
+      index: true,
+      follow: true,
+      'max-video-preview': -1,
+      'max-image-preview': 'large',
+      'max-snippet': -1,
+    },
+  },
+  other: {
+    'application-name': 'AI 工具导航',
+    'apple-mobile-web-app-title': 'AI 工具导航',
+    'apple-mobile-web-app-capable': 'yes',
+    'apple-mobile-web-app-status-bar-style': 'default',
+    'mobile-web-app-capable': 'yes',
+    'msapplication-TileColor': '#4f46e5',
+    'theme-color': '#4f46e5',
+  }
 }
 
 export default async function Page() {
@@ -70,21 +101,21 @@ export default async function Page() {
                   </span>
                 </h1>
                 <p className='mb-8 text-lg text-gray-600 dark:text-gray-300 md:text-xl'>
-                  精选全球优质人工智能工具，涵盖对话、绘画、编程、办公等各类应用
+                  精选全球优质人工智能工具，涵盖ChatGPT、Claude、Midjourney、Stable Diffusion、GitHub Copilot等AI对话、AI绘画、AI编程、AI办公、AI翻译、AI写作等各类应用。2024年最新AI工具推荐，免费AI工具导航网站。
                 </p>
                 
                 {/* Feature Icons */}
-                <div className='mb-8 flex justify-center gap-8 text-gray-600 dark:text-gray-400'>
-                  <div className='flex items-center gap-2'>
-                    <Brain className='h-5 w-5' />
+                <div className='mb-8 flex justify-center gap-8 text-gray-600 dark:text-gray-400' role="list" aria-label="主要功能">
+                  <div className='flex items-center gap-2' role="listitem">
+                    <Brain className='h-5 w-5' aria-hidden="true" />
                     <span className='text-sm'>智能对话</span>
                   </div>
-                  <div className='flex items-center gap-2'>
-                    <Palette className='h-5 w-5' />
+                  <div className='flex items-center gap-2' role="listitem">
+                    <Palette className='h-5 w-5' aria-hidden="true" />
                     <span className='text-sm'>AI 绘画</span>
                   </div>
-                  <div className='flex items-center gap-2'>
-                    <Zap className='h-5 w-5' />
+                  <div className='flex items-center gap-2' role="listitem">
+                    <Zap className='h-5 w-5' aria-hidden="true" />
                     <span className='text-sm'>编程助手</span>
                   </div>
                 </div>
@@ -94,9 +125,10 @@ export default async function Page() {
                   <a
                     href='#ai-tools'
                     className='flex items-center gap-2 text-sm text-gray-600 dark:text-gray-400 hover:text-gray-900 dark:hover:text-white transition-colors animate-bounce'
+                    aria-label='滚动到AI工具列表'
                   >
                     <span>探索工具</span>
-                    <ArrowDown className='h-4 w-4' />
+                    <ArrowDown className='h-4 w-4' aria-hidden="true" />
                   </a>
                 </div>
               </div>
@@ -123,30 +155,30 @@ export default async function Page() {
           </section>
 
           {/* About Section */}
-          <section id='about' className='bg-gradient-to-r from-gray-50 to-blue-50 dark:from-gray-900 dark:to-blue-900/20 py-16'>
+          <section id='about' className='bg-gradient-to-r from-gray-50 to-blue-50 dark:from-gray-900 dark:to-blue-900/20 py-16' aria-labelledby="about-title">
             <div className='container-wrapper'>
               <div className='mx-auto max-w-4xl text-center'>
-                <h2 className='mb-6 text-3xl font-bold text-gray-900 dark:text-white'>
+                <h2 id="about-title" className='mb-6 text-3xl font-bold text-gray-900 dark:text-white'>
                   关于 AI 工具导航
                 </h2>
                 <p className='text-lg text-gray-600 dark:text-gray-300 leading-relaxed'>
                   我们致力于收集和整理全球最优质的人工智能工具，为开发者、设计师、创作者和所有对 AI 感兴趣的用户提供便捷的工具发现平台。
                   无论是对话 AI、图像生成、代码助手还是办公工具，我们都会持续更新，确保您能找到最适合的工具。
                 </p>
-                <div className='mt-8 flex justify-center gap-4'>
-                  <div className='text-center'>
+                <div className='mt-8 flex justify-center gap-4' role="list" aria-label="网站统计信息">
+                  <div className='text-center' role="listitem">
                     <div className='text-2xl font-bold text-purple-600 dark:text-purple-400'>
                       {allItems.length}+
                     </div>
                     <div className='text-sm text-gray-600 dark:text-gray-400'>精选工具</div>
                   </div>
-                  <div className='text-center'>
+                  <div className='text-center' role="listitem">
                     <div className='text-2xl font-bold text-pink-600 dark:text-pink-400'>
                       持续更新
                     </div>
                     <div className='text-sm text-gray-600 dark:text-gray-400'>定期维护</div>
                   </div>
-                  <div className='text-center'>
+                  <div className='text-center' role="listitem">
                     <div className='text-2xl font-bold text-blue-600 dark:text-blue-400'>
                       免费使用
                     </div>
