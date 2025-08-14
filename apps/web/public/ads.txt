@@ -1,0 +1,3 @@
+# 这是一个基础的 ads.txt 文件
+# 在生产环境中，此文件会被远程拉取的内容替换
+# 请访问 https://srv.adstxtmanager.com/19390/friday-go.icu 获取最新的 ads.txt 内容
