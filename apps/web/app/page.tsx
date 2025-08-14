@@ -123,7 +123,7 @@ export default async function Page() {
                 {/* 滚动提示 */}
                 <div className='flex justify-center'>
                   <a
-                    href='#ai-tools'
+                    href='#category-ai'
                     className='flex items-center gap-2 text-sm text-gray-600 dark:text-gray-400 hover:text-gray-900 dark:hover:text-white transition-colors animate-bounce'
                     aria-label='滚动到AI工具列表'
                   >
@@ -148,7 +148,7 @@ export default async function Page() {
           </section>
 
           {/* Content Section */}
-          <section id='ai-tools' className='container-wrapper pb-16'>
+          <section className='container-wrapper pb-16'>
             <Suspense fallback={<GridSkeleton />}>
               <SiteContent />
             </Suspense>

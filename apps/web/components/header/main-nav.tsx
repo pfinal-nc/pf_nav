@@ -32,37 +32,49 @@ export function MainNav({ title }: { title?: string }) {
           首页
         </Link>
         <Link
-          href='#ai'
+          href='#category-ai'
           className='flex items-center text-lg font-medium transition-colors hover:text-foreground/80 text-foreground/60'
         >
           AI 对话
         </Link>
         <Link
-          href='#ai绘画'
+          href='#category-ai绘画'
           className='flex items-center text-lg font-medium transition-colors hover:text-foreground/80 text-foreground/60'
         >
           AI 绘画
         </Link>
         <Link
-          href='#ai编程'
+          href='#category-ai编程'
           className='flex items-center text-lg font-medium transition-colors hover:text-foreground/80 text-foreground/60'
         >
           AI 编程
         </Link>
         <Link
-          href='#后端开发'
+          href='#category-react'
+          className='flex items-center text-lg font-medium transition-colors hover:text-foreground/80 text-foreground/60'
+        >
+          React
+        </Link>
+        <Link
+          href='#category-vue'
+          className='flex items-center text-lg font-medium transition-colors hover:text-foreground/80 text-foreground/60'
+        >
+          Vue
+        </Link>
+        <Link
+          href='#category-后端开发'
           className='flex items-center text-lg font-medium transition-colors hover:text-foreground/80 text-foreground/60'
         >
           后端开发
         </Link>
         <Link
-          href='#设计工具'
+          href='#category-设计工具'
           className='flex items-center text-lg font-medium transition-colors hover:text-foreground/80 text-foreground/60'
         >
           设计工具
         </Link>
         <Link
-          href='#工具'
+          href='#category-工具'
           className='flex items-center text-lg font-medium transition-colors hover:text-foreground/80 text-foreground/60'
         >
           开发工具

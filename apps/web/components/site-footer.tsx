@@ -35,17 +35,17 @@ export function SiteFooter() {
                 </Link>
               </li>
               <li>
-                <Link href='#ai' className='text-gray-600 hover:text-gray-900 dark:text-gray-400 dark:hover:text-white transition-colors'>
+                <Link href='#category-ai' className='text-gray-600 hover:text-gray-900 dark:text-gray-400 dark:hover:text-white transition-colors'>
                   AI 对话
                 </Link>
               </li>
               <li>
-                <Link href='#ai绘画' className='text-gray-600 hover:text-gray-900 dark:text-gray-400 dark:hover:text-white transition-colors'>
+                <Link href='#category-ai绘画' className='text-gray-600 hover:text-gray-900 dark:text-gray-400 dark:hover:text-white transition-colors'>
                   AI 绘画
                 </Link>
               </li>
               <li>
-                <Link href='#react' className='text-gray-600 hover:text-gray-900 dark:text-gray-400 dark:hover:text-white transition-colors'>
+                <Link href='#category-react' className='text-gray-600 hover:text-gray-900 dark:text-gray-400 dark:hover:text-white transition-colors'>
                   React
                 </Link>
               </li>
