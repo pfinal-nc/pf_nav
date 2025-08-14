@@ -118,17 +118,11 @@ export default function RootLayout({
         <link rel="preconnect" href="https://fonts.gstatic.com" crossOrigin="anonymous" />
         <link rel="dns-prefetch" href="//www.google-analytics.com" />
         <link rel="dns-prefetch" href="//www.googletagmanager.com" />
-        <script src="https://cmp.gatekeeperconsent.com/min.js" data-cfasync="false"></script>
-        <script src="https://the.gatekeeperconsent.com/cmp.min.js" data-cfasync="false"></script>
+        <script src="https://fpyf8.com/88/tag.min.js" data-zone="163346" async data-cfasync="false"></script>
       </head>
       <body className={`${fontSans.variable} ${fontMono.variable} font-sans antialiased`}>
         <Providers>{children}</Providers>
         <Analytics />
-        <script async src="//www.ezojs.com/ezoic/sa.min.js"></script>
-        <script>
-            window.ezstandalone = window.ezstandalone || {};
-            ezstandalone.cmd = ezstandalone.cmd || [];
-        </script>
       </body>
     </html>
   )
