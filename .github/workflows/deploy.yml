@@ -83,18 +83,18 @@ jobs:
       - name: Build
         run: pnpm run build
 
-      - name: Copy ads.txt to output directory
-        run: |
-          echo "正在复制 ads.txt 到输出目录..."
-          cp ads.txt apps/web/out/
-          if [ -f apps/web/out/ads.txt ]; then
-            echo "ads.txt 复制成功"
-            echo "输出目录中的文件大小："
-            ls -la apps/web/out/ads.txt
-          else
-            echo "错误：ads.txt 复制失败"
-            exit 1
-          fi
+      # - name: Copy ads.txt to output directory
+      #   run: |
+      #     echo "正在复制 ads.txt 到输出目录..."
+      #     cp ads.txt apps/web/out/
+      #     if [ -f apps/web/out/ads.txt ]; then
+      #       echo "ads.txt 复制成功"
+      #       echo "输出目录中的文件大小："
+      #       ls -la apps/web/out/ads.txt
+      #     else
+      #       echo "错误：ads.txt 复制失败"
+      #       exit 1
+      #     fi
 
       - name: Deploy to GitHub Pages
         uses: peaceiris/actions-gh-pages@v4
