@@ -29,7 +29,7 @@ https://originui.com/,originui,基于 Tailwind CSS 的 React 组件,React
 https://github.com/magicuidesign/magicui,magicui,丰富的 React 动画组件,React
 https://chat.deepseek.com/,DeepSeek（深度求索）大模型,低成本高效的中国大模型,AI
 https://claude.ai,Claude,Anthropic 推出的先进对话式 AI 助手,AI
-https://chatgpt.com,chatgpt,OpenAI 的对话式 AI,AI
+https://openai.com/chatgpt,ChatGPT,OpenAI 官方对话式 AI 助手,AI
 https://www.perplexity.ai/,Perplexity,AI 驱动的搜索与问答平台,AI
 https://www.doubao.com/chat/,豆包,字节跳动推出的免费中文 AI 聊天助手,AI
 https://x.ai/,Grok AI,马斯克 xAI 团队开发的 AI 助手,AI
@@ -126,3 +126,42 @@ https://www.tiangong.cn/,天工,智谱 AI 推出的中文大模型,AI
 https://www.kimi.moonshot.cn/,Kimi,月之暗面推出的中文大模型,AI
 https://www.huggingface.co/,Hugging Face,AI 开源模型与社区平台,AI
 https://www.bilibili.com/ai,B站AI,哔哩哔哩 AI 创作工具,AI
+https://squoosh.app/,Squoosh,Google 开源的图片压缩工具,常用工具
+https://excalidraw.com/,Excalidraw,手绘风格的在线绘图工具,设计工具
+https://www.framer.com/motion/,Framer Motion,React 动画库,React
+https://tailwindcss.com/,Tailwind CSS,实用优先的 CSS 框架,常用工具
+https://daisyui.com/,daisyUI,基于 Tailwind 的组件库,常用工具
+https://unocss.dev/,UnoCSS,即时原子化 CSS 引擎,常用工具
+https://www.prisma.io/,Prisma,现代数据库 ORM 工具,常用工具
+https://trpc.io/,tRPC,端到端类型安全的 API 框架,常用工具
+https://swr.vercel.app/,SWR,用于数据请求的 React Hooks 库,React
+https://tanstack.com/query/,TanStack Query,强大的异步状态管理库,React
+https://raycast.com/,Raycast,效率启动器工具,效率工具
+https://warp.dev/,Warp,现代化终端工具,常用工具
+https://arc.net/,Arc Browser,创新的浏览器,常用工具
+https://cursor.sh/,Cursor,AI 驱动的代码编辑器,AI
+https://spring.io/,Spring,Java 企业级应用开发框架,后端开发
+https://www.djangoproject.com/,Django,Python Web 开发框架,后端开发
+https://laravel.com/,Laravel,优雅的 PHP Web 框架,后端开发
+https://nestjs.com/,NestJS,Node.js 渐进式开发框架,后端开发
+https://gin-gonic.com/,Gin,Go 语言 Web 框架,后端开发
+https://graphql.org/,GraphQL,API 查询语言,后端开发
+https://grpc.io/,gRPC,高性能 RPC 框架,后端开发
+https://hibernate.org/,Hibernate,Java ORM 框架,后端开发
+https://mybatis.org/,MyBatis,Java 持久层框架,后端开发
+https://www.elastic.co/,Elasticsearch,分布式搜索引擎,后端开发
+https://kafka.apache.org/,Kafka,分布式流处理平台,后端开发
+https://rabbitmq.com/,RabbitMQ,开源消息队列,后端开发
+https://nacos.io/,Nacos,动态服务发现和配置管理,后端开发
+https://www.consul.io/,Consul,服务网格解决方案,后端开发
+https://etcd.io/,etcd,分布式键值存储,后端开发
+https://prometheus.io/,Prometheus,开源监控系统,后端开发
+https://grafana.com/,Grafana,数据可视化平台,后端开发
+https://www.jenkins.io/,Jenkins,开源自动化服务器,后端开发
+https://www.ansible.com/,Ansible,自动化运维工具,后端开发
+https://maven.apache.org/,Maven,Java 项目管理工具,后端开发
+https://gradle.org/,Gradle,强大的构建工具,后端开发
+https://swoole.com/,Swoole,PHP 异步框架,后端开发
+https://fastapi.tiangolo.com/,FastAPI,现代高性能 Python Web 框架,后端开发
+https://expressjs.com/,Express,Node.js Web 框架,后端开发
+https://www.nginx.com/,Nginx,高性能 Web 服务器,后端开发

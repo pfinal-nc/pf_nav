@@ -1,11 +1,3 @@
-/*
- * @Author: pfinal liuxuzhu@smm.cn
- * @Date: 2025-07-03 16:54:38
- * @LastEditors: pfinal liuxuzhu@smm.cn
- * @LastEditTime: 2025-07-03 16:54:40
- * @FilePath: /m-nav/apps/web/components/structured-data.tsx
- * @Description: 这是默认设置,请设置`customMade`, 打开koroFileHeader查看配置 进行设置: https://github.com/OBKoro1/koro1FileHeader/wiki/%E9%85%8D%E7%BD%AE
- */
 import { getPageData } from '@/lib/notion'
 import { siteConfig } from '@/config/site'
 
@@ -48,7 +40,9 @@ export async function StructuredData() {
     "sameAs": [
       siteConfig.links.github,
       siteConfig.links.twitter
-    ]
+    ],
+    "inLanguage": "zh-CN",
+    "keywords": siteConfig.keywords.slice(0, 10).join(", ")
   }
 
   const organizationData = {
@@ -200,6 +194,25 @@ export async function StructuredData() {
     }))
   }
 
+  // 添加软件应用类型的结构化数据，针对AI工具
+  const softwareApplications = allItems
+    .filter((item: any) => item.type === 'AI')
+    .slice(0, 10) // 限制数量以避免数据过大
+    .map((item: any, index: number) => ({
+      "@context": "https://schema.org",
+      "@type": "SoftwareApplication",
+      "name": item.title,
+      "description": item.description,
+      "url": item.link,
+      "applicationCategory": "DeveloperApplication",
+      "operatingSystem": "Web",
+      "offers": {
+        "@type": "Offer",
+        "price": "0",
+        "priceCurrency": "USD"
+      }
+    }));
+
   return (
     <>
       <script
@@ -232,6 +245,15 @@ export async function StructuredData() {
           __html: JSON.stringify(itemListStructuredData)
         }}
       />
+      {softwareApplications.map((app: any, index: number) => (
+        <script
+          key={index}
+          type="application/ld+json"
+          dangerouslySetInnerHTML={{
+            __html: JSON.stringify(app)
+          }}
+        />
+      ))}
     </>
   )
-} 
+}

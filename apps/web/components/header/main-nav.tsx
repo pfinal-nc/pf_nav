@@ -38,6 +38,30 @@ export function MainNav({ title }: { title?: string }) {
           AI 工具
         </Link>
         <Link
+          href='#common-tools'
+          className='flex items-center text-lg font-medium transition-colors hover:text-foreground/80 text-foreground/60'
+        >
+          常用工具
+        </Link>
+        <Link
+          href='#react'
+          className='flex items-center text-lg font-medium transition-colors hover:text-foreground/80 text-foreground/60'
+        >
+          React
+        </Link>
+        <Link
+          href='#vue'
+          className='flex items-center text-lg font-medium transition-colors hover:text-foreground/80 text-foreground/60'
+        >
+          Vue
+        </Link>
+        <Link
+          href='#backend'
+          className='flex items-center text-lg font-medium transition-colors hover:text-foreground/80 text-foreground/60'
+        >
+          后端开发
+        </Link>
+        <Link
           href='#about'
           className='flex items-center text-lg font-medium transition-colors hover:text-foreground/80 text-foreground/60'
         >
