@@ -120,15 +120,15 @@ export default function RootLayout({
         <link rel="dns-prefetch" href="//www.googletagmanager.com" />
         <script src="https://cmp.gatekeeperconsent.com/min.js" data-cfasync="false"></script>
         <script src="https://the.gatekeeperconsent.com/cmp.min.js" data-cfasync="false"></script>
+      </head>
+      <body className={`${fontSans.variable} ${fontMono.variable} font-sans antialiased`}>
+        <Providers>{children}</Providers>
+        <Analytics />
         <script async src="//www.ezojs.com/ezoic/sa.min.js"></script>
         <script>
             window.ezstandalone = window.ezstandalone || {};
             ezstandalone.cmd = ezstandalone.cmd || [];
         </script>
-      </head>
-      <body className={`${fontSans.variable} ${fontMono.variable} font-sans antialiased`}>
-        <Providers>{children}</Providers>
-        <Analytics />
       </body>
     </html>
   )
