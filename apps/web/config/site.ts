@@ -7,7 +7,7 @@ export const siteConfig = {
     'AI工具', '人工智能', 'AI导航', 'ChatGPT', 'Claude', 'Midjourney', 'Stable Diffusion', 
     'AI绘画', 'AI编程', 'AI办公', 'PFinalClub', 'AI工具导航', '免费AI工具', 'AI助手',
     '机器学习', '深度学习', '自然语言处理', '计算机视觉', 'AI聊天机器人', '代码生成',
-    '图像生成', '文本生成', '语音识别', 'AI翻译', '智能写作', '数据分析','PFinalClub Nav'
+    '图像生成', '文本生成', '语音识别', 'AI翻译', '智能写作', '数据分析','PFinalClub Nav',
     // 精选核心长尾关键词
     'ChatGPT替代品', '免费ChatGPT', '国内AI工具', 'AI工具推荐', '最好用的AI工具',
     'AI绘画软件', 'AI编程助手', 'GitHub Copilot替代', 'AI代码生成器',
