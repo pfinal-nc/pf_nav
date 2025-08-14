@@ -35,13 +35,18 @@ export function SiteFooter() {
                 </Link>
               </li>
               <li>
-                <Link href='#ai-tools' className='text-gray-600 hover:text-gray-900 dark:text-gray-400 dark:hover:text-white transition-colors'>
-                  AI 工具
+                <Link href='#ai' className='text-gray-600 hover:text-gray-900 dark:text-gray-400 dark:hover:text-white transition-colors'>
+                  AI 对话
                 </Link>
               </li>
               <li>
-                <Link href='#about' className='text-gray-600 hover:text-gray-900 dark:text-gray-400 dark:hover:text-white transition-colors'>
-                  关于我们
+                <Link href='#ai绘画' className='text-gray-600 hover:text-gray-900 dark:text-gray-400 dark:hover:text-white transition-colors'>
+                  AI 绘画
+                </Link>
+              </li>
+              <li>
+                <Link href='#react' className='text-gray-600 hover:text-gray-900 dark:text-gray-400 dark:hover:text-white transition-colors'>
+                  React
                 </Link>
               </li>
               <li>
@@ -63,10 +68,19 @@ export function SiteFooter() {
                 <span className='text-gray-600 dark:text-gray-400'>🎨 AI 绘画</span>
               </li>
               <li>
-                <span className='text-gray-600 dark:text-gray-400'>💻 编程助手</span>
+                <span className='text-gray-600 dark:text-gray-400'>💻 AI 编程</span>
+              </li>
+              <li>
+                <span className='text-gray-600 dark:text-gray-400'>⚛️ React 生态</span>
+              </li>
+              <li>
+                <span className='text-gray-600 dark:text-gray-400'>🟢 Vue 生态</span>
               </li>
               <li>
                 <span className='text-gray-600 dark:text-gray-400'>🛠️ 开发工具</span>
+              </li>
+              <li>
+                <span className='text-gray-600 dark:text-gray-400'>🎨 设计工具</span>
               </li>
             </ul>
           </div>

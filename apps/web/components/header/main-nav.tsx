@@ -32,34 +32,40 @@ export function MainNav({ title }: { title?: string }) {
           首页
         </Link>
         <Link
-          href='#ai-tools'
+          href='#ai'
           className='flex items-center text-lg font-medium transition-colors hover:text-foreground/80 text-foreground/60'
         >
-          AI 工具
+          AI 对话
         </Link>
         <Link
-          href='#common-tools'
+          href='#ai绘画'
           className='flex items-center text-lg font-medium transition-colors hover:text-foreground/80 text-foreground/60'
         >
-          常用工具
+          AI 绘画
         </Link>
         <Link
-          href='#react'
+          href='#ai编程'
           className='flex items-center text-lg font-medium transition-colors hover:text-foreground/80 text-foreground/60'
         >
-          React
+          AI 编程
         </Link>
         <Link
-          href='#vue'
-          className='flex items-center text-lg font-medium transition-colors hover:text-foreground/80 text-foreground/60'
-        >
-          Vue
-        </Link>
-        <Link
-          href='#backend'
+          href='#后端开发'
           className='flex items-center text-lg font-medium transition-colors hover:text-foreground/80 text-foreground/60'
         >
           后端开发
+        </Link>
+        <Link
+          href='#设计工具'
+          className='flex items-center text-lg font-medium transition-colors hover:text-foreground/80 text-foreground/60'
+        >
+          设计工具
+        </Link>
+        <Link
+          href='#工具'
+          className='flex items-center text-lg font-medium transition-colors hover:text-foreground/80 text-foreground/60'
+        >
+          开发工具
         </Link>
         <Link
           href='#about'
