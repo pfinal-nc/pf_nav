@@ -67,18 +67,18 @@ jobs:
         run: |
           rm -rf apps/web/.next apps/web/out node_modules/.cache ~/.pnpm-store
 
-      - name: Fetch ads.txt
-        run: |
-          echo "正在拉取 ads.txt 文件..."
-          curl -L -f https://srv.adstxtmanager.com/19390/friday-go.icu > ads.txt
-          if [ $? -eq 0 ]; then
-            echo "ads.txt 拉取成功"
-            echo "文件内容预览："
-            head -5 ads.txt
-          else
-            echo "ads.txt 拉取失败，使用默认内容"
-            echo "# ads.txt 拉取失败，使用默认内容" > ads.txt
-          fi
+      # - name: Fetch ads.txt
+      #   run: |
+      #     echo "正在拉取 ads.txt 文件..."
+      #     curl -L -f https://srv.adstxtmanager.com/19390/friday-go.icu > ads.txt
+      #     if [ $? -eq 0 ]; then
+      #       echo "ads.txt 拉取成功"
+      #       echo "文件内容预览："
+      #       head -5 ads.txt
+      #     else
+      #       echo "ads.txt 拉取失败，使用默认内容"
+      #       echo "# ads.txt 拉取失败，使用默认内容" > ads.txt
+      #     fi
 
       - name: Build
         run: pnpm run build
