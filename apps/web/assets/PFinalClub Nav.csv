@@ -10,17 +10,23 @@ https://copilot.microsoft.com/,Copilot,微软 AI 助手，集成于 Edge/Office,
 https://poe.com/,Poe,多模型聚合 AI 聊天平台,AI
 https://www.tiangong.cn/,天工,智谱 AI 推出的中文大模型,AI
 https://www.kimi.moonshot.cn/,Kimi,月之暗面推出的中文大模型,AI
+https://www.coze.com/,Coze,字节跳动推出的 AI 聊天和应用构建平台,AI
+https://yiyan.baidu.com/,文心一言,百度推出的中文大模型,AI
+https://tongyi.aliyun.com/,通义千问,阿里云推出的中文大模型,AI
 https://www.midjourney.com/,Midjourney,AI 艺术与图片生成平台,AI绘画
 https://www.bing.com/images/create,Bing Image Creator,微软 AI 图片生成工具,AI绘画
 https://www.stablediffusionweb.com/,Stable Diffusion,开源 AI 图片生成平台,AI绘画
 https://www.dreamstudio.ai/,DreamStudio,Stable Diffusion 官方图片生成工具,AI绘画
 https://www.canva.com/ai,Canva AI,Canva 内置 AI 设计与文案工具,AI绘画
+https://leonardo.ai/,Leonardo.Ai,AI 图像生成平台,AI绘画
 https://www.jasper.ai/,Jasper,AI 文案与内容生成平台,AI写作
 https://www.copy.ai/,Copy.ai,AI 文案与营销内容生成工具,AI写作
 https://www.writesonic.com/,Writesonic,AI 内容与文案生成平台,AI写作
 https://www.deepl.com/translator,DeepL,AI 驱动的高质量翻译工具,AI翻译
 https://www.suno.ai/,Suno,AI 音乐生成平台,AI音乐
+https://www.loudly.com/ai-music-generator,Loudly AI Music,AI 音乐生成器,AI音乐
 https://www.runwayml.com/,Runway,AI 视频与多媒体创作平台,AI视频
+https://www.heygen.com/,HeyGen,AI 视频生成平台,AI视频
 https://www.githubnext.com/copilot,Github Copilot,AI 代码自动补全与生成,AI编程
 https://www.tabnine.com/,Tabnine,AI 代码自动补全工具,AI编程
 https://www.phind.com/,Phind,AI 编程搜索与问答,AI编程
@@ -29,6 +35,7 @@ https://www.huggingface.co/,Hugging Face,AI 开源模型与社区平台,AI平台
 https://www.bilibili.com/ai,B站AI,哔哩哔哩 AI 创作工具,AI平台
 https://www.notion.so/product/ai,Notion AI,Notion 内置 AI 助手,AI办公
 https://www.yuque.com/ai,Yuque AI,语雀文档 AI 助手,AI办公
+https://www.feishu.cn/product/ai,飞书 AI,飞书内置 AI 助手,AI办公
 https://nextjs.org,Next.js,流行的 React Web 框架,React
 https://zh-hans.reactjs.org,React,构建用户界面的 JavaScript 库,React
 https://ui.shadcn.com/,shadcn,高质量 React 组件库,React
@@ -49,6 +56,7 @@ https://cn.vuejs.org,Vue 3,渐进式 JavaScript 框架,Vue
 https://vant-ui.github.io/vant,Vant,轻量、可定制的移动端 Vue 组件库,Vue
 https://pinia.vuejs.org/zh,Pinia,符合直觉的 Vue.js 状态管理库,Vue
 https://vueuse.org,VueUse,Vue Composition API 的常用工具集,Vue
+https://nuxt.com/,Nuxt.js,Vue.js 通用应用框架,Vue
 https://spring.io/,Spring,Java 企业级应用开发框架,后端开发
 https://www.djangoproject.com/,Django,Python Web 开发框架,后端开发
 https://laravel.com/,Laravel,优雅的 PHP Web 框架,后端开发
