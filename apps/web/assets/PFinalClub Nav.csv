@@ -1,10 +1,7 @@
 link,title,desc,type
 https://chat.deepseek.com/,DeepSeek（深度求索）大模型,低成本高效的中国大模型,AI
 https://claude.ai,Claude,Anthropic 推出的先进对话式 AI 助手,AI
-https://openai.com/chatgpt,ChatGPT,OpenAI 官方对话式 AI 助手,AI
-https://www.perplexity.ai/,Perplexity,AI 驱动的搜索与问答平台,AI
 https://www.doubao.com/chat/,豆包,字节跳动推出的免费中文 AI 聊天助手,AI
-https://x.ai/,Grok AI,马斯克 xAI 团队开发的 AI 助手,AI
 https://gemini.google.com/,Gemini,Google 推出的多模态 AI 助手,AI
 https://copilot.microsoft.com/,Copilot,微软 AI 助手，集成于 Edge/Office,AI
 https://poe.com/,Poe,多模型聚合 AI 聊天平台,AI
@@ -15,8 +12,6 @@ https://yiyan.baidu.com/,文心一言,百度推出的中文大模型,AI
 https://tongyi.aliyun.com/,通义千问,阿里云推出的中文大模型,AI
 https://www.midjourney.com/,Midjourney,AI 艺术与图片生成平台,AI绘画
 https://www.bing.com/images/create,Bing Image Creator,微软 AI 图片生成工具,AI绘画
-https://www.stablediffusionweb.com/,Stable Diffusion,开源 AI 图片生成平台,AI绘画
-https://www.dreamstudio.ai/,DreamStudio,Stable Diffusion 官方图片生成工具,AI绘画
 https://www.canva.com/ai,Canva AI,Canva 内置 AI 设计与文案工具,AI绘画
 https://leonardo.ai/,Leonardo.Ai,AI 图像生成平台,AI绘画
 https://www.jasper.ai/,Jasper,AI 文案与内容生成平台,AI写作
@@ -27,7 +22,6 @@ https://www.suno.ai/,Suno,AI 音乐生成平台,AI音乐
 https://www.loudly.com/ai-music-generator,Loudly AI Music,AI 音乐生成器,AI音乐
 https://www.runwayml.com/,Runway,AI 视频与多媒体创作平台,AI视频
 https://www.heygen.com/,HeyGen,AI 视频生成平台,AI视频
-https://www.githubnext.com/copilot,Github Copilot,AI 代码自动补全与生成,AI编程
 https://www.tabnine.com/,Tabnine,AI 代码自动补全工具,AI编程
 https://www.phind.com/,Phind,AI 编程搜索与问答,AI编程
 https://cursor.sh/,Cursor,AI 驱动的代码编辑器,AI编程
@@ -36,26 +30,20 @@ https://www.bilibili.com/ai,B站AI,哔哩哔哩 AI 创作工具,AI平台
 https://www.notion.so/product/ai,Notion AI,Notion 内置 AI 助手,AI办公
 https://www.yuque.com/ai,Yuque AI,语雀文档 AI 助手,AI办公
 https://www.feishu.cn/product/ai,飞书 AI,飞书内置 AI 助手,AI办公
-https://flux-image.com/,FLUX IMAGE AI,图像生成工具,AI绘画
 https://photogrid.org/,PHOTOGRID,图像编辑工具,AI绘画
 https://heyimg.com/,HEYIMG,图像编辑工具,AI绘画
-https://matchphotos.ai/,MATCHPHOTOS,图像生成工具,AI绘画
 https://aisonggenerator.com/,AISONGGENERATOR,音乐创作工具,AI音乐
 https://quillbot.com/,QUILLBOT,AI 写作与研究助理,AI写作
-https://jarvis.ai/,JARVIS AI,多合一 AI 平台,AI
 https://runway-aleph.com/,RUNWAY ALEPH,视频编辑工具,AI视频
 https://story.com/,STORY,视频生成工具,AI视频
 https://powerdrill.com/,POWERDRILL,数据分析工具,AI数据分析
 https://supadash.com/,SUPADASH,数据可视化工具,AI数据分析
 https://codeium.com/,CODEIUM,代码补全工具,AI编程
-https://qwen3-coder.com/,QWEN3 CODER,阿里云代码模型,AI编程
 https://openinterpreter.com/,OPEN INTERPRETER,本地代码执行工具,AI编程
 https://you.com/,YOU.COM,企业级 AI 平台,AI平台
 https://rev.ai/,REV AI,语音转文本 API,AI
-https://rebolt.com/,REBOLT,无代码 AI 应用构建平台,AI平台
 https://neoprompt.com/,NEOPROMPT,AI 应用构建平台,AI平台
 https://relume.io/,RELUME,AI 网站设计工具,设计工具
-https://dg1.com/,DG1,网站建设平台,设计工具
 https://basedash.com/,BASEDASH,商业智能平台,AI数据分析
 https://nextjs.org,Next.js,流行的 React Web 框架,React
 https://zh-hans.reactjs.org,React,构建用户界面的 JavaScript 库,React
@@ -133,7 +121,6 @@ https://unocss.dev/,UnoCSS,即时原子化 CSS 引擎,CSS框架
 https://code.visualstudio.com/,VS Code,最流行的免费代码编辑器,开发工具
 https://www.jetbrains.com/webstorm/,WebStorm,专业的前端开发 IDE,开发工具
 https://www.jetbrains.com/idea/,IntelliJ IDEA,强大的 Java/全栈开发 IDE,开发工具
-https://cursor.sh/,Cursor,AI 驱动的代码编辑器,开发工具
 https://raycast.com/,Raycast,效率启动器工具,效率工具
 https://warp.dev/,Warp,现代化终端工具,开发工具
 https://arc.net/,Arc Browser,创新的浏览器,效率工具
