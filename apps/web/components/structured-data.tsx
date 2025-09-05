@@ -41,7 +41,7 @@ export async function StructuredData() {
       siteConfig.links.github,
       siteConfig.links.twitter
     ],
-    "inLanguage": "zh-CN",
+    "inLanguage": "en-US",
     "keywords": siteConfig.keywords.slice(0, 10).join(", ")
   }
 
@@ -56,7 +56,7 @@ export async function StructuredData() {
       "width": 512,
       "height": 512
     },
-    "description": "专注于AI工具导航和分享的技术社区",
+    "description": "Technology community focused on AI tools directory and sharing",
     "sameAs": [
       siteConfig.links.github,
       siteConfig.links.twitter
@@ -75,13 +75,13 @@ export async function StructuredData() {
       {
         "@type": "ListItem",
         "position": 1,
-        "name": "首页",
+        "name": "Home",
         "item": siteConfig.url
       },
       {
         "@type": "ListItem",
         "position": 2,
-        "name": "AI 工具导航",
+        "name": "AI Tools Directory",
         "item": `${siteConfig.url}#ai-tools`
       }
     ]
@@ -93,82 +93,82 @@ export async function StructuredData() {
     "mainEntity": [
       {
         "@type": "Question",
-        "name": "什么是AI工具导航？",
+        "name": "What is AI Tools Directory?",
         "acceptedAnswer": {
           "@type": "Answer",
-          "text": "AI工具导航是一个精选全球优质人工智能工具的导航网站，涵盖ChatGPT、Claude、Midjourney、Stable Diffusion、GitHub Copilot等各类AI应用，帮助用户快速找到合适的AI工具。"
+          "text": "AI Tools Directory is a curated navigation website for premium artificial intelligence tools worldwide, covering ChatGPT, Claude, Midjourney, Stable Diffusion, GitHub Copilot and other AI applications, helping users quickly find suitable AI tools."
         }
       },
       {
         "@type": "Question",
-        "name": "这个网站是免费的吗？",
+        "name": "Is this website free?",
         "acceptedAnswer": {
           "@type": "Answer",
-          "text": "是的，AI工具导航完全免费使用，我们致力于为用户提供优质的AI工具发现体验。"
+          "text": "Yes, AI Tools Directory is completely free to use. We are committed to providing users with a high-quality AI tool discovery experience."
         }
       },
       {
         "@type": "Question",
-        "name": "网站包含哪些类型的AI工具？",
+        "name": "What types of AI tools does the website include?",
         "acceptedAnswer": {
           "@type": "Answer",
-          "text": "我们收录了对话AI、AI绘画、AI编程、AI办公、文本生成、图像生成、语音识别、AI翻译等多种类型的工具。"
+          "text": "We include various types of tools such as conversational AI, AI painting, AI programming, AI office, text generation, image generation, speech recognition, AI translation and more."
         }
       },
       {
         "@type": "Question",
-        "name": "如何搜索特定的AI工具？",
+        "name": "How to search for specific AI tools?",
         "acceptedAnswer": {
           "@type": "Answer",
-          "text": "您可以使用页面顶部的搜索框，输入工具名称、功能或关键词来快速找到相关的AI工具。"
+          "text": "You can use the search box at the top of the page, enter tool names, functions or keywords to quickly find relevant AI tools."
         }
       },
       {
         "@type": "Question",
-        "name": "有哪些免费的AI工具推荐？",
+        "name": "What free AI tools are recommended?",
         "acceptedAnswer": {
           "@type": "Answer",
-          "text": "我们收录了大量免费AI工具，包括免费AI绘画软件、免费AI翻译工具、免费AI写作助手等，用户可以根据需求选择合适的免费工具。"
+          "text": "We include a large number of free AI tools, including free AI painting software, free AI translation tools, free AI writing assistants, etc. Users can choose suitable free tools according to their needs."
         }
       },
       {
         "@type": "Question",
-        "name": "ChatGPT有哪些替代品？",
+        "name": "What are the alternatives to ChatGPT?",
         "acceptedAnswer": {
           "@type": "Answer",
-          "text": "除了ChatGPT，还有Claude、Bard、文心一言、通义千问等优秀的AI对话工具，每个都有其特色和优势。"
+          "text": "In addition to ChatGPT, there are excellent AI conversation tools such as Claude, Bard, Wenxin Yiyan, Tongyi Qianwen, etc., each with its own characteristics and advantages."
         }
       },
       {
         "@type": "Question",
-        "name": "如何选择合适的AI绘画工具？",
+        "name": "How to choose the right AI painting tool?",
         "acceptedAnswer": {
           "@type": "Answer",
-          "text": "可以根据需求选择：Midjourney适合艺术创作，Stable Diffusion适合技术用户，DALL-E适合简单易用，Canva AI适合设计新手。"
+          "text": "You can choose according to your needs: Midjourney is suitable for artistic creation, Stable Diffusion is suitable for technical users, DALL-E is suitable for simplicity and ease of use, Canva AI is suitable for design beginners."
         }
       },
       {
         "@type": "Question",
-        "name": "AI编程助手有哪些推荐？",
+        "name": "What AI programming assistants are recommended?",
         "acceptedAnswer": {
           "@type": "Answer",
-          "text": "GitHub Copilot是最知名的AI编程助手，还有Cursor、Tabnine、CodeWhisperer等优秀选择，支持多种编程语言。"
+          "text": "GitHub Copilot is the most well-known AI programming assistant, and there are also excellent choices such as Cursor, Tabnine, CodeWhisperer, etc., supporting multiple programming languages."
         }
       },
       {
         "@type": "Question",
-        "name": "网站多久更新一次？",
+        "name": "How often is the website updated?",
         "acceptedAnswer": {
           "@type": "Answer",
-          "text": "我们定期更新AI工具库，添加最新的AI工具和功能，确保用户能够发现和使用最新的AI技术。"
+          "text": "We regularly update the AI tools library, adding the latest AI tools and features to ensure users can discover and use the latest AI technology."
         }
       },
       {
         "@type": "Question",
-        "name": "如何提交新的AI工具？",
+        "name": "How to submit new AI tools?",
         "acceptedAnswer": {
           "@type": "Answer",
-          "text": "如果您发现优秀的AI工具，可以通过我们的联系方式提交建议，我们会认真评估并考虑添加到工具库中。"
+          "text": "If you discover excellent AI tools, you can submit suggestions through our contact information. We will carefully evaluate and consider adding them to the tools library."
         }
       }
     ]
@@ -177,8 +177,8 @@ export async function StructuredData() {
   const itemListStructuredData = {
     "@context": "https://schema.org",
     "@type": "ItemList",
-    "name": `${siteConfig.name} - 网站列表`,
-    "description": "精选AI工具导航列表",
+    "name": `${siteConfig.name} - Website List`,
+    "description": "Curated AI tools directory list",
     "numberOfItems": allItems.length,
     "itemListElement": allItems.map((item: any, index: number) => ({
       "@type": "ListItem",
@@ -189,7 +189,7 @@ export async function StructuredData() {
         "description": item.description,
         "url": item.link,
         "category": item.type,
-        "inLanguage": "zh-CN"
+        "inLanguage": "en-US"
       }
     }))
   }

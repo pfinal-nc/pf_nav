@@ -29,61 +29,31 @@ export function MainNav({ title }: { title?: string }) {
           href='/'
           className='flex items-center text-lg font-medium transition-colors hover:text-foreground/80 text-foreground/60'
         >
-          首页
+          Home
         </Link>
         <Link
           href='#category-ai'
           className='flex items-center text-lg font-medium transition-colors hover:text-foreground/80 text-foreground/60'
         >
-          AI 对话
-        </Link>
-        <Link
-          href='#category-ai绘画'
-          className='flex items-center text-lg font-medium transition-colors hover:text-foreground/80 text-foreground/60'
-        >
-          AI 绘画
-        </Link>
-        <Link
-          href='#category-ai编程'
-          className='flex items-center text-lg font-medium transition-colors hover:text-foreground/80 text-foreground/60'
-        >
-          AI 编程
+          AI Tools
         </Link>
         <Link
           href='#category-react'
           className='flex items-center text-lg font-medium transition-colors hover:text-foreground/80 text-foreground/60'
         >
-          React
+          Development
         </Link>
         <Link
-          href='#category-vue'
+          href='#category-design-tools'
           className='flex items-center text-lg font-medium transition-colors hover:text-foreground/80 text-foreground/60'
         >
-          Vue
-        </Link>
-        <Link
-          href='#category-后端开发'
-          className='flex items-center text-lg font-medium transition-colors hover:text-foreground/80 text-foreground/60'
-        >
-          后端开发
-        </Link>
-        <Link
-          href='#category-设计工具'
-          className='flex items-center text-lg font-medium transition-colors hover:text-foreground/80 text-foreground/60'
-        >
-          设计工具
-        </Link>
-        <Link
-          href='#category-工具'
-          className='flex items-center text-lg font-medium transition-colors hover:text-foreground/80 text-foreground/60'
-        >
-          开发工具
+          Design
         </Link>
         <Link
           href='#about'
           className='flex items-center text-lg font-medium transition-colors hover:text-foreground/80 text-foreground/60'
         >
-          关于
+          About
         </Link>
       </nav>
     </div>

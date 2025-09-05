@@ -33,7 +33,7 @@ export function SearchWithResults({ allItems }: SearchWithResultsProps) {
         </div>
         <Input
           type='text'
-          placeholder='搜索 AI 工具、技术资源...'
+          placeholder='Search AI tools, tech resources...'
           value={searchQuery}
           onChange={(e) => setSearchQuery(e.target.value)}
           className='pl-12 h-12 text-lg border-2 border-gray-200 focus:border-purple-500 focus:ring-purple-500 dark:border-gray-700 dark:focus:border-purple-400 dark:focus:ring-purple-400 bg-white/80 dark:bg-gray-800/80 backdrop-blur-sm'
@@ -55,10 +55,10 @@ export function SearchWithResults({ allItems }: SearchWithResultsProps) {
         <div className='space-y-4'>
           <div className='flex items-center justify-between'>
             <h3 className='text-lg font-semibold text-gray-900 dark:text-white'>
-              搜索结果
+              Search Results
             </h3>
             <span className='text-sm text-gray-600 dark:text-gray-400'>
-              找到 {filteredItems.length} 个结果
+              Found {filteredItems.length} results
             </span>
           </div>
           
@@ -81,10 +81,10 @@ export function SearchWithResults({ allItems }: SearchWithResultsProps) {
                 <Search className='h-full w-full' />
               </div>
               <h3 className='text-lg font-medium text-gray-900 dark:text-white mb-2'>
-                未找到相关结果
+                No results found
               </h3>
               <p className='text-gray-600 dark:text-gray-400'>
-                尝试使用不同的关键词搜索
+                Try searching with different keywords
               </p>
             </div>
           )}
@@ -95,10 +95,10 @@ export function SearchWithResults({ allItems }: SearchWithResultsProps) {
       {!searchQuery && (
         <div className='space-y-3'>
           <h3 className='text-sm font-medium text-gray-700 dark:text-gray-300'>
-            热门搜索
+            Popular Searches
           </h3>
           <div className='flex flex-wrap gap-2'>
-            {['ChatGPT', 'AI 绘画', '编程助手', '翻译工具', '图片生成'].map((tag) => (
+            {['ChatGPT', 'AI Painting', 'Code Assistant', 'Translation', 'Image Generation'].map((tag) => (
               <button
                 key={tag}
                 onClick={() => setSearchQuery(tag)}

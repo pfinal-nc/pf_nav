@@ -52,7 +52,7 @@ export function SiteCard({
       target='_blank' 
       rel='noreferrer'
       className='block transition-transform hover:scale-[1.02]'
-      aria-label={`访问 ${title} - ${description}`}
+      aria-label={`Visit ${title} - ${description}`}
     >
       <Card className='group relative overflow-hidden border-0 bg-white/50 shadow-sm transition-all duration-300 hover:shadow-lg dark:bg-gray-800/50 dark:shadow-gray-900/20'>
         {/* AI 标签 */}
@@ -73,14 +73,14 @@ export function SiteCard({
                 {faviconUrl && !faviconError ? (
                   <Image
                     src={faviconUrl}
-                    alt={`${title} 图标`}
+                    alt={`${title} icon`}
                     width={24}
                     height={24}
                     className='rounded'
                     onError={() => setFaviconError(true)}
                   />
                 ) : (
-                  <span className='text-lg font-bold text-gray-600 dark:text-gray-300' aria-label={`${title} 首字母`}>
+                  <span className='text-lg font-bold text-gray-600 dark:text-gray-300' aria-label={`${title} first letter`}>
                     {title.charAt(0).toUpperCase()}
                   </span>
                 )}
@@ -94,7 +94,7 @@ export function SiteCard({
                 {isAI && (
                   <div className='mt-1 flex items-center gap-1'>
                     <div className='h-1.5 w-1.5 rounded-full bg-purple-500' aria-hidden="true"></div>
-                    <span className='text-xs text-purple-600 dark:text-purple-400'>AI 工具</span>
+                    <span className='text-xs text-purple-600 dark:text-purple-400'>AI Tool</span>
                   </div>
                 )}
               </div>
@@ -109,7 +109,7 @@ export function SiteCard({
         
         <CardContent className='pt-0'>
           <CardDescription className='text-xs text-gray-600 dark:text-gray-400 line-clamp-2'>
-            {description || '暂无描述'}
+            {description || 'No description available'}
           </CardDescription>
           
           {/* 分类标签 */}
@@ -124,9 +124,9 @@ export function SiteCard({
               variant='outline'
               className='h-7 text-xs'
               onClick={(e) => e.stopPropagation()}
-              aria-label={`访问 ${title}`}
+              aria-label={`Visit ${title}`}
             >
-              访问
+              Visit
             </Button>
           </div>
         </CardContent>

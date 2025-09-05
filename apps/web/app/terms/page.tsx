@@ -5,9 +5,9 @@ import { siteConfig } from '@/config/site'
 import { FileText, Scale, AlertTriangle, CheckCircle, XCircle, Info } from 'lucide-react'
 
 export const metadata: Metadata = {
-  title: '使用条款 - AI 工具导航',
-  description: 'AI 工具导航的使用条款，说明使用我们服务的条件和规则',
-  keywords: ['使用条款', '服务条款', '用户协议', 'AI工具导航'],
+  title: 'Terms of Service - AI Tools Directory',
+  description: 'Terms of service for AI Tools Directory, explaining the conditions and rules for using our services',
+  keywords: ['terms of service', 'service terms', 'user agreement', 'AI tools directory'],
 }
 
 export default function TermsPage() {
@@ -26,13 +26,13 @@ export default function TermsPage() {
                   </div>
                 </div>
                 <h1 className='mb-4 text-4xl font-bold text-gray-900 dark:text-white'>
-                  使用条款
+                  Terms of Service
                 </h1>
                 <p className='text-lg text-gray-600 dark:text-gray-300'>
-                  使用我们的服务前，请仔细阅读以下条款和条件
+                  Please read the following terms and conditions carefully before using our services
                 </p>
                 <p className='mt-2 text-sm text-gray-500 dark:text-gray-400'>
-                  最后更新：2024年1月1日
+                  Last updated: January 1, 2024
                 </p>
               </div>
             </div>

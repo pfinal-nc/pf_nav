@@ -114,8 +114,8 @@ export const getPageData = async (): Promise<PageData> => {
   const lines = csvContent.split(/\r?\n/).filter(Boolean);
   if (lines.length < 2) {
     return {
-      title: 'PFinalClub 导航',
-      description: '精选前端、设计、AI、工具等高质量资源导航',
+      title: 'AI Tools Directory',
+      description: 'Curated collection of high-quality resources including frontend, design, AI, and tools',
       items: {},
     };
   }
@@ -151,8 +151,8 @@ export const getPageData = async (): Promise<PageData> => {
   }
 
   return {
-    title: 'AI 工具导航',
-    description: '精选全球优质人工智能工具，涵盖对话、绘画、编程、办公等各类应用',
+    title: 'AI Tools Directory',
+    description: 'Curated collection of premium artificial intelligence tools worldwide, covering conversation, painting, programming, office and other applications',
     items: itemsByType,
   };
 };

@@ -18,7 +18,7 @@ interface SearchProps {
   placeholder?: string
 }
 
-export function Search({ onSearch, placeholder = "搜索网站..." }: SearchProps) {
+export function Search({ onSearch, placeholder = "Search websites..." }: SearchProps) {
   const [query, setQuery] = useState('')
 
   const handleSearch = (e: React.FormEvent) => {
@@ -42,7 +42,7 @@ export function Search({ onSearch, placeholder = "搜索网站..." }: SearchProp
           size="sm"
           className="absolute right-1 top-1/2 transform -translate-y-1/2 h-7 px-3"
         >
-          搜索
+          Search
         </Button>
       </div>
     </form>

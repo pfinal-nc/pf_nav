@@ -5,9 +5,9 @@ import { siteConfig } from '@/config/site'
 import { Shield, Eye, Lock, Database, Globe, Mail } from 'lucide-react'
 
 export const metadata: Metadata = {
-  title: '隐私政策 - AI 工具导航',
-  description: 'AI 工具导航的隐私政策，说明我们如何收集、使用和保护您的个人信息',
-  keywords: ['隐私政策', '个人信息保护', '数据安全', 'AI工具导航'],
+  title: 'Privacy Policy - AI Tools Directory',
+  description: 'Privacy policy for AI Tools Directory, explaining how we collect, use and protect your personal information',
+  keywords: ['privacy policy', 'personal information protection', 'data security', 'AI tools directory'],
 }
 
 export default function PrivacyPage() {
@@ -26,13 +26,13 @@ export default function PrivacyPage() {
                   </div>
                 </div>
                 <h1 className='mb-4 text-4xl font-bold text-gray-900 dark:text-white'>
-                  隐私政策
+                  Privacy Policy
                 </h1>
                 <p className='text-lg text-gray-600 dark:text-gray-300'>
-                  我们重视您的隐私，致力于保护您的个人信息安全
+                  We value your privacy and are committed to protecting your personal information
                 </p>
                 <p className='mt-2 text-sm text-gray-500 dark:text-gray-400'>
-                  最后更新：2024年1月1日
+                  Last updated: January 1, 2024
                 </p>
               </div>
             </div>
@@ -47,15 +47,15 @@ export default function PrivacyPage() {
                   <div className='flex h-10 w-10 items-center justify-center rounded-lg bg-blue-100 dark:bg-blue-900/30'>
                     <Eye className='h-5 w-5 text-blue-600 dark:text-blue-400' />
                   </div>
-                  <h2 className='text-2xl font-bold text-gray-900 dark:text-white'>概述</h2>
+                  <h2 className='text-2xl font-bold text-gray-900 dark:text-white'>Overview</h2>
                 </div>
                 <div className='space-y-4 text-gray-600 dark:text-gray-300'>
                   <p>
-                    AI 工具导航（以下简称"我们"）致力于保护您的隐私。本隐私政策说明了我们如何收集、使用、存储和保护您的个人信息。
-                    使用我们的服务即表示您同意本隐私政策中描述的数据处理方式。
+                    AI Tools Directory (hereinafter "we") is committed to protecting your privacy. This privacy policy explains how we collect, use, store and protect your personal information.
+                    By using our services, you agree to the data processing methods described in this privacy policy.
                   </p>
                   <p>
-                    我们承诺遵守相关法律法规，包括但不限于《中华人民共和国个人信息保护法》、《中华人民共和国网络安全法》等。
+                    We are committed to complying with relevant laws and regulations, including but not limited to the Personal Information Protection Law of the People's Republic of China, the Cybersecurity Law of the People's Republic of China, etc.
                   </p>
                 </div>
               </div>
@@ -66,21 +66,21 @@ export default function PrivacyPage() {
                   <div className='flex h-10 w-10 items-center justify-center rounded-lg bg-green-100 dark:bg-green-900/30'>
                     <Database className='h-5 w-5 text-green-600 dark:text-green-400' />
                   </div>
-                  <h2 className='text-2xl font-bold text-gray-900 dark:text-white'>我们收集的信息</h2>
+                  <h2 className='text-2xl font-bold text-gray-900 dark:text-white'>Information We Collect</h2>
                 </div>
                 <div className='space-y-4 text-gray-600 dark:text-gray-300'>
-                  <h3 className='text-lg font-semibold text-gray-900 dark:text-white'>1. 自动收集的信息</h3>
+                  <h3 className='text-lg font-semibold text-gray-900 dark:text-white'>1. Automatically Collected Information</h3>
                   <ul className='ml-6 space-y-2 list-disc'>
-                    <li><strong>访问日志：</strong>包括IP地址、浏览器类型、操作系统、访问时间等</li>
-                    <li><strong>设备信息：</strong>设备类型、屏幕分辨率、语言设置等</li>
-                    <li><strong>使用数据：</strong>页面访问、点击行为、停留时间等</li>
-                    <li><strong>Cookie数据：</strong>用于改善用户体验和网站功能</li>
+                    <li><strong>Access logs:</strong> Including IP address, browser type, operating system, access time, etc.</li>
+                    <li><strong>Device information:</strong> Device type, screen resolution, language settings, etc.</li>
+                    <li><strong>Usage data:</strong> Page visits, click behavior, dwell time, etc.</li>
+                    <li><strong>Cookie data:</strong> Used to improve user experience and website functionality</li>
                   </ul>
                   
-                  <h3 className='text-lg font-semibold text-gray-900 dark:text-white'>2. 您主动提供的信息</h3>
+                  <h3 className='text-lg font-semibold text-gray-900 dark:text-white'>2. Information You Actively Provide</h3>
                   <ul className='ml-6 space-y-2 list-disc'>
-                    <li><strong>搜索查询：</strong>您在搜索框中输入的内容</li>
-                    <li><strong>反馈信息：</strong>您通过联系我们提供的反馈和建议</li>
+                    <li><strong>Search queries:</strong> Content you enter in the search box</li>
+                    <li><strong>Feedback information:</strong> Feedback and suggestions you provide through contact</li>
                   </ul>
                 </div>
               </div>
@@ -91,17 +91,17 @@ export default function PrivacyPage() {
                   <div className='flex h-10 w-10 items-center justify-center rounded-lg bg-purple-100 dark:bg-purple-900/30'>
                     <Globe className='h-5 w-5 text-purple-600 dark:text-purple-400' />
                   </div>
-                  <h2 className='text-2xl font-bold text-gray-900 dark:text-white'>信息使用方式</h2>
+                  <h2 className='text-2xl font-bold text-gray-900 dark:text-white'>How We Use Information</h2>
                 </div>
                 <div className='space-y-4 text-gray-600 dark:text-gray-300'>
-                  <p>我们使用收集的信息用于以下目的：</p>
+                  <p>We use the collected information for the following purposes:</p>
                   <ul className='ml-6 space-y-2 list-disc'>
-                    <li>提供和改进我们的服务</li>
-                    <li>分析网站使用情况，优化用户体验</li>
-                    <li>个性化搜索结果和推荐内容</li>
-                    <li>检测和防止欺诈、滥用行为</li>
-                    <li>遵守法律法规要求</li>
-                    <li>与您沟通，回应您的反馈</li>
+                    <li>Provide and improve our services</li>
+                    <li>Analyze website usage to optimize user experience</li>
+                    <li>Personalize search results and recommended content</li>
+                    <li>Detect and prevent fraud and abuse</li>
+                    <li>Comply with legal and regulatory requirements</li>
+                    <li>Communicate with you and respond to your feedback</li>
                   </ul>
                 </div>
               </div>
@@ -112,15 +112,15 @@ export default function PrivacyPage() {
                   <div className='flex h-10 w-10 items-center justify-center rounded-lg bg-orange-100 dark:bg-orange-900/30'>
                     <Lock className='h-5 w-5 text-orange-600 dark:text-orange-400' />
                   </div>
-                  <h2 className='text-2xl font-bold text-gray-900 dark:text-white'>信息共享</h2>
+                  <h2 className='text-2xl font-bold text-gray-900 dark:text-white'>Information Sharing</h2>
                 </div>
                 <div className='space-y-4 text-gray-600 dark:text-gray-300'>
-                  <p>我们不会出售、出租或交易您的个人信息。仅在以下情况下，我们可能会共享您的信息：</p>
+                  <p>We do not sell, rent or trade your personal information. We may only share your information in the following circumstances:</p>
                   <ul className='ml-6 space-y-2 list-disc'>
-                    <li><strong>服务提供商：</strong>与帮助我们运营网站的可信第三方服务商</li>
-                    <li><strong>法律要求：</strong>根据法律法规或政府要求</li>
-                    <li><strong>安全保护：</strong>保护我们的权利、财产或安全</li>
-                    <li><strong>业务转让：</strong>在业务合并、收购或资产转让时</li>
+                    <li><strong>Service providers:</strong> Trusted third-party service providers who help us operate the website</li>
+                    <li><strong>Legal requirements:</strong> According to laws, regulations or government requirements</li>
+                    <li><strong>Security protection:</strong> To protect our rights, property or security</li>
+                    <li><strong>Business transfer:</strong> In case of business merger, acquisition or asset transfer</li>
                   </ul>
                 </div>
               </div>
@@ -131,10 +131,10 @@ export default function PrivacyPage() {
                   <div className='flex h-10 w-10 items-center justify-center rounded-lg bg-red-100 dark:bg-red-900/30'>
                     <Shield className='h-5 w-5 text-red-600 dark:text-red-400' />
                   </div>
-                  <h2 className='text-2xl font-bold text-gray-900 dark:text-white'>数据安全</h2>
+                  <h2 className='text-2xl font-bold text-gray-900 dark:text-white'>Data Security</h2>
                 </div>
                 <div className='space-y-4 text-gray-600 dark:text-gray-300'>
-                  <p>我们采取适当的技术和组织措施来保护您的个人信息：</p>
+                  <p>We take appropriate technical and organizational measures to protect your personal information:</p>
                   <ul className='ml-6 space-y-2 list-disc'>
                     <li>使用加密技术保护数据传输和存储</li>
                     <li>定期更新安全措施和系统</li>

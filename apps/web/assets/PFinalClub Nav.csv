@@ -1,182 +1,182 @@
 link,title,desc,type
-https://chat.deepseek.com/,DeepSeek（深度求索）大模型,低成本高效的中国大模型,AI
-https://claude.ai,Claude,Anthropic 推出的先进对话式 AI 助手,AI
-https://www.doubao.com/chat/,豆包,字节跳动推出的免费中文 AI 聊天助手,AI
-https://gemini.google.com/,Gemini,Google 推出的多模态 AI 助手,AI
-https://copilot.microsoft.com/,Copilot,微软 AI 助手，集成于 Edge/Office,AI
-https://poe.com/,Poe,多模型聚合 AI 聊天平台,AI
-https://www.tiangong.cn/,天工,智谱 AI 推出的中文大模型,AI
-https://www.kimi.moonshot.cn/,Kimi,月之暗面推出的中文大模型,AI
-https://www.coze.com/,Coze,字节跳动推出的 AI 聊天和应用构建平台,AI
-https://yiyan.baidu.com/,文心一言,百度推出的中文大模型,AI
-https://tongyi.aliyun.com/,通义千问,阿里云推出的中文大模型,AI
-https://www.midjourney.com/,Midjourney,AI 艺术与图片生成平台,AI绘画
-https://www.bing.com/images/create,Bing Image Creator,微软 AI 图片生成工具,AI绘画
-https://www.canva.com/ai,Canva AI,Canva 内置 AI 设计与文案工具,AI绘画
-https://leonardo.ai/,Leonardo.Ai,AI 图像生成平台,AI绘画
-https://www.jasper.ai/,Jasper,AI 文案与内容生成平台,AI写作
-https://www.copy.ai/,Copy.ai,AI 文案与营销内容生成工具,AI写作
-https://www.writesonic.com/,Writesonic,AI 内容与文案生成平台,AI写作
-https://www.deepl.com/translator,DeepL,AI 驱动的高质量翻译工具,AI翻译
-https://www.suno.ai/,Suno,AI 音乐生成平台,AI音乐
-https://www.loudly.com/ai-music-generator,Loudly AI Music,AI 音乐生成器,AI音乐
-https://www.runwayml.com/,Runway,AI 视频与多媒体创作平台,AI视频
-https://www.heygen.com/,HeyGen,AI 视频生成平台,AI视频
-https://www.tabnine.com/,Tabnine,AI 代码自动补全工具,AI编程
-https://www.phind.com/,Phind,AI 编程搜索与问答,AI编程
-https://cursor.sh/,Cursor,AI 驱动的代码编辑器,AI编程
-https://www.huggingface.co/,Hugging Face,AI 开源模型与社区平台,AI平台
-https://www.bilibili.com/ai,B站AI,哔哩哔哩 AI 创作工具,AI平台
-https://www.notion.so/product/ai,Notion AI,Notion 内置 AI 助手,AI办公
-https://www.yuque.com/ai,Yuque AI,语雀文档 AI 助手,AI办公
-https://www.feishu.cn/product/ai,飞书 AI,飞书内置 AI 助手,AI办公
-https://photogrid.org/,PHOTOGRID,图像编辑工具,AI绘画
-https://heyimg.com/,HEYIMG,图像编辑工具,AI绘画
-https://aisonggenerator.com/,AISONGGENERATOR,音乐创作工具,AI音乐
-https://quillbot.com/,QUILLBOT,AI 写作与研究助理,AI写作
-https://runway-aleph.com/,RUNWAY ALEPH,视频编辑工具,AI视频
-https://story.com/,STORY,视频生成工具,AI视频
-https://powerdrill.com/,POWERDRILL,数据分析工具,AI数据分析
-https://supadash.com/,SUPADASH,数据可视化工具,AI数据分析
-https://codeium.com/,CODEIUM,代码补全工具,AI编程
-https://openinterpreter.com/,OPEN INTERPRETER,本地代码执行工具,AI编程
-https://you.com/,YOU.COM,企业级 AI 平台,AI平台
+https://chat.deepseek.com/,DeepSeek,Cost-effective and efficient Chinese large language model,AI
+https://claude.ai,Claude,Advanced conversational AI assistant by Anthropic,AI
+https://www.doubao.com/chat/,Doubao,Free Chinese AI chat assistant by ByteDance,AI
+https://gemini.google.com/,Gemini,Multimodal AI assistant by Google,AI
+https://copilot.microsoft.com/,Copilot,Microsoft AI assistant integrated with Edge/Office,AI
+https://poe.com/,Poe,Multi-model aggregated AI chat platform,AI
+https://www.tiangong.cn/,Tiangong,Chinese large language model by Zhipu AI,AI
+https://www.kimi.moonshot.cn/,Kimi,Chinese large language model by Moonshot AI,AI
+https://www.coze.com/,Coze,AI chat and application building platform by ByteDance,AI
+https://yiyan.baidu.com/,Wenxin Yiyan,Chinese large language model by Baidu,AI
+https://tongyi.aliyun.com/,Tongyi Qianwen,Chinese large language model by Alibaba Cloud,AI
+https://www.midjourney.com/,Midjourney,AI art and image generation platform,AI Painting
+https://www.bing.com/images/create,Bing Image Creator,Microsoft AI image generation tool,AI Painting
+https://www.canva.com/ai,Canva AI,Canva built-in AI design and copywriting tool,AI Painting
+https://leonardo.ai/,Leonardo.Ai,AI image generation platform,AI Painting
+https://www.jasper.ai/,Jasper,AI copywriting and content generation platform,AI Writing
+https://www.copy.ai/,Copy.ai,AI copywriting and marketing content generation tool,AI Writing
+https://www.writesonic.com/,Writesonic,AI content and copywriting generation platform,AI Writing
+https://www.deepl.com/translator,DeepL,AI-powered high-quality translation tool,AI Translation
+https://www.suno.ai/,Suno,AI music generation platform,AI Music
+https://www.loudly.com/ai-music-generator,Loudly AI Music,AI music generator,AI Music
+https://www.runwayml.com/,Runway,AI video and multimedia creation platform,AI Video
+https://www.heygen.com/,HeyGen,AI video generation platform,AI Video
+https://www.tabnine.com/,Tabnine,AI code auto-completion tool,AI Programming
+https://www.phind.com/,Phind,AI programming search and Q&A,AI Programming
+https://cursor.sh/,Cursor,AI-powered code editor,AI Programming
+https://www.huggingface.co/,Hugging Face,AI open source models and community platform,AI Platform
+https://www.bilibili.com/ai,B站AI,Bilibili AI creation tools,AI Platform
+https://www.notion.so/product/ai,Notion AI,Notion built-in AI assistant,AI Office
+https://www.yuque.com/ai,Yuque AI,Yuque document AI assistant,AI Office
+https://www.feishu.cn/product/ai,飞书 AI,飞书内置 AI 助手,AI Office
+https://photogrid.org/,PHOTOGRID,图像编辑工具,AI Painting
+https://heyimg.com/,HEYIMG,图像编辑工具,AI Painting
+https://aisonggenerator.com/,AISONGGENERATOR,音乐创作工具,AI Music
+https://quillbot.com/,QUILLBOT,AI 写作与研究助理,AI Writing
+https://runway-aleph.com/,RUNWAY ALEPH,视频编辑工具,AI Video
+https://story.com/,STORY,视频生成工具,AI Video
+https://powerdrill.com/,POWERDRILL,数据分析工具,AI Analytics
+https://supadash.com/,SUPADASH,数据可视化工具,AI Analytics
+https://codeium.com/,CODEIUM,代码补全工具,AI Programming
+https://openinterpreter.com/,OPEN INTERPRETER,本地代码执行工具,AI Programming
+https://you.com/,YOU.COM,企业级 AI 平台,AI Platform
 https://rev.ai/,REV AI,语音转文本 API,AI
-https://neoprompt.com/,NEOPROMPT,AI 应用构建平台,AI平台
-https://relume.io/,RELUME,AI 网站设计工具,设计工具
-https://basedash.com/,BASEDASH,商业智能平台,AI数据分析
-https://nextjs.org,Next.js,流行的 React Web 框架,React
-https://zh-hans.reactjs.org,React,构建用户界面的 JavaScript 库,React
-https://ui.shadcn.com/,shadcn,高质量 React 组件库,React
-https://ant.design,Ant Design,企业级 React 组件库,React
-https://shadcnstudio.com/,shadcn/studio,Shadcn 主题编辑器,React
-https://ui.aceternity.com/,Aceternity UI,热门 React 组件集合,React
-https://originui.com/,originui,基于 Tailwind CSS 的 React 组件,React
-https://github.com/magicuidesign/magicui,magicui,丰富的 React 动画组件,React
-https://www.reactbits.dev/,reactbits,创意动画组件集合,React
-https://www.framer.com/motion/,Framer Motion,React 动画库,React
-https://recoiljs.org/zh-hans/,Recoil,React 状态管理库,React
-https://docs.pmnd.rs/zustand/getting-started/introduction,Zustand,小巧高效的 React 状态管理库,React
-https://ahooks.js.org/zh-CN,ahooks,高质量 React Hooks 库,React
-https://reactrouter.com,React Router,React 路由解决方案,React
-https://swr.vercel.app/,SWR,用于数据请求的 React Hooks 库,React
-https://tanstack.com/query/,TanStack Query,强大的异步状态管理库,React
-https://cn.vuejs.org,Vue 3,渐进式 JavaScript 框架,Vue
-https://vant-ui.github.io/vant,Vant,轻量、可定制的移动端 Vue 组件库,Vue
-https://pinia.vuejs.org/zh,Pinia,符合直觉的 Vue.js 状态管理库,Vue
-https://vueuse.org,VueUse,Vue Composition API 的常用工具集,Vue
+https://neoprompt.com/,NEOPROMPT,AI 应用构建平台,AI Platform
+https://relume.io/,RELUME,AI 网站设计工具,Design Tools
+https://basedash.com/,BASEDASH,商业智能平台,AI Analytics
+https://nextjs.org,Next.js,Popular React web framework,React
+https://zh-hans.reactjs.org,React,JavaScript library for building user interfaces,React
+https://ui.shadcn.com/,shadcn,High-quality React component library,React
+https://ant.design,Ant Design,Enterprise-grade React component library,React
+https://shadcnstudio.com/,shadcn/studio,Shadcn theme editor,React
+https://ui.aceternity.com/,Aceternity UI,Popular React component collection,React
+https://originui.com/,originui,React components based on Tailwind CSS,React
+https://github.com/magicuidesign/magicui,magicui,Rich React animation components,React
+https://www.reactbits.dev/,reactbits,Creative animation component collection,React
+https://www.framer.com/motion/,Framer Motion,React animation library,React
+https://recoiljs.org/zh-hans/,Recoil,React state management library,React
+https://docs.pmnd.rs/zustand/getting-started/introduction,Zustand,Lightweight and efficient React state management library,React
+https://ahooks.js.org/zh-CN,ahooks,High-quality React Hooks library,React
+https://reactrouter.com,React Router,React routing solution,React
+https://swr.vercel.app/,SWR,React Hooks library for data requests,React
+https://tanstack.com/query/,TanStack Query,Powerful asynchronous state management library,React
+https://cn.vuejs.org,Vue 3,Progressive JavaScript framework,Vue
+https://vant-ui.github.io/vant,Vant,"Lightweight, customizable mobile Vue component library",Vue
+https://pinia.vuejs.org/zh,Pinia,Intuitive Vue.js state management library,Vue
+https://vueuse.org,VueUse,Common toolset for Vue Composition API,Vue
 https://nuxt.com/,Nuxt.js,Vue.js 通用应用框架,Vue
-https://spring.io/,Spring,Java 企业级应用开发框架,后端开发
-https://www.djangoproject.com/,Django,Python Web 开发框架,后端开发
-https://laravel.com/,Laravel,优雅的 PHP Web 框架,后端开发
-https://nestjs.com/,NestJS,Node.js 渐进式开发框架,后端开发
-https://gin-gonic.com/,Gin,Go 语言 Web 框架,后端开发
-https://fastapi.tiangolo.com/,FastAPI,现代高性能 Python Web 框架,后端开发
-https://expressjs.com/,Express,Node.js Web 框架,后端开发
-https://swoole.com/,Swoole,PHP 异步框架,后端开发
-https://graphql.org/,GraphQL,API 查询语言,后端开发
-https://grpc.io/,gRPC,高性能 RPC 框架,后端开发
-https://trpc.io/,tRPC,端到端类型安全的 API 框架,后端开发
-https://www.prisma.io/,Prisma,现代数据库 ORM 工具,后端开发
-https://hibernate.org/,Hibernate,Java ORM 框架,后端开发
-https://mybatis.org/,MyBatis,Java 持久层框架,后端开发
-https://www.elastic.co/,Elasticsearch,分布式搜索引擎,后端开发
-https://kafka.apache.org/,Kafka,分布式流处理平台,后端开发
-https://rabbitmq.com/,RabbitMQ,开源消息队列,后端开发
-https://nacos.io/,Nacos,动态服务发现和配置管理,后端开发
-https://www.consul.io/,Consul,服务网格解决方案,后端开发
-https://etcd.io/,etcd,分布式键值存储,后端开发
-https://www.mongodb.com/,MongoDB,流行的 NoSQL 数据库,数据库
-https://www.mysql.com/,MySQL,最流行的开源关系型数据库,数据库
-https://redis.io/,Redis,高性能键值数据库,数据库
-https://www.postgresql.org/,PostgreSQL,强大的开源关系型数据库,数据库
-https://www.sqlite.org/,SQLite,轻量级嵌入式数据库,数据库
-https://www.nginx.com/,Nginx,高性能 Web 服务器,服务器
-https://www.docker.com/,Docker,容器化与微服务部署平台,DevOps
-https://kubernetes.io/,Kubernetes,容器编排与管理平台,DevOps
-https://prometheus.io/,Prometheus,开源监控系统,DevOps
-https://grafana.com/,Grafana,数据可视化平台,DevOps
-https://www.jenkins.io/,Jenkins,开源自动化服务器,DevOps
-https://www.ansible.com/,Ansible,自动化运维工具,DevOps
-https://maven.apache.org/,Maven,Java 项目管理工具,DevOps
-https://gradle.org/,Gradle,强大的构建工具,DevOps
-https://figma.com,Figma,协作式界面设计工具,设计工具
-https://canva.com,Canva,在线平面设计平台,设计工具
-https://excalidraw.com/,Excalidraw,手绘风格的在线绘图工具,设计工具
-https://www.processon.com/,ProcessOn,在线流程图与思维导图工具,设计工具
-https://www.draw.io/,draw.io,开源流程图与图表工具,设计工具
-https://www.lottiefiles.com/,LottieFiles,动画资源与预览工具,设计工具
-https://lucide.dev/,Lucide,社区驱动的图标库,Icon
-https://fontawesome.com/,Fontawesome,知名图标库,Icon
-https://iconify.design/,iconify,整合多套流行图标的框架,Icon
-https://www.mingcute.com/,Mingcute Icon,精致开源图标库,Icon
-https://iconbuddy.com/,iconbuddy,开源图标搜索与编辑工具,Icon
-https://www.iconfont.cn/,iconfont,阿里巴巴矢量图标库,Icon
-https://www.thiings.co/things,things,拟物风格图标,Icon
-https://motion.dev/,Motion,现代 JavaScript、Vue 和 React 动画库,UI
-https://animejs.com/,animejs,一个快速且通用的 JavaScript 动画库,UI
-https://tailwindcss.com/,Tailwind CSS,实用优先的 CSS 框架,CSS框架
-https://daisyui.com/,daisyUI,基于 Tailwind 的组件库,CSS框架
-https://unocss.dev/,UnoCSS,即时原子化 CSS 引擎,CSS框架
-https://code.visualstudio.com/,VS Code,最流行的免费代码编辑器,开发工具
-https://www.jetbrains.com/webstorm/,WebStorm,专业的前端开发 IDE,开发工具
-https://www.jetbrains.com/idea/,IntelliJ IDEA,强大的 Java/全栈开发 IDE,开发工具
-https://raycast.com/,Raycast,效率启动器工具,效率工具
-https://warp.dev/,Warp,现代化终端工具,开发工具
-https://arc.net/,Arc Browser,创新的浏览器,效率工具
-https://www.typora.io/,Typora,所见即所得 Markdown 编辑器,效率工具
-https://notion.so,Notion,集笔记、知识库、项目管理于一体的效率工具,效率工具
-https://www.git-scm.com/,Git,分布式版本控制系统,开发工具
-https://github.com,GitHub,全球最大开源代码托管平台,开发工具
-https://gitlab.com,GitLab,企业级代码托管与 DevOps 平台,开发工具
-https://gitee.com,Gitee,国内知名代码托管平台,开发工具
-https://vercel.com,Vercel,前端部署与托管平台,开发工具
-https://netlify.com,Netlify,前端自动化部署平台,开发工具
-https://www.aliyun.com/,阿里云,国内主流云服务平台,云服务
-https://cloud.tencent.com/,腾讯云,国内主流云服务平台,云服务
-https://console.cloud.google.com/,Google Cloud,全球云服务平台,云服务
-https://aws.amazon.com/,AWS,亚马逊云服务平台,云服务
-https://www.cloudflare.com/,Cloudflare,全球 CDN 与安全加速平台,云服务
-https://www.npmjs.com/,NPM,Node.js 包管理平台,包管理
-https://pnpm.io/,pnpm,高效的 Node.js 包管理器,包管理
-https://yarnpkg.com/,Yarn,Node.js 包管理器,包管理
-https://vitejs.dev/,Vite,极速前端构建工具,构建工具
-https://webpack.js.org/,Webpack,前端模块打包工具,构建工具
-https://eslint.org/,ESLint,JavaScript 代码质量与风格检查工具,代码质量
-https://prettier.io/,Prettier,代码自动格式化工具,代码质量
-https://jestjs.io/,Jest,流行的 JavaScript 测试框架,测试工具
-https://mochajs.org/,Mocha,灵活的 JavaScript 测试框架,测试工具
-https://www.cypress.io/,Cypress,前端自动化测试工具,测试工具
-https://playwright.dev/,Playwright,现代端到端自动化测试工具,测试工具
-https://postman.com,Postman,API 接口调试与文档工具,API工具
-https://insomnia.rest/,Insomnia,强大的 API 测试与调试工具,API工具
-https://swagger.io/,Swagger,API 文档与测试工具,API工具
-https://apidocjs.com/,apidoc,自动生成 API 文档工具,API工具
-https://ngrok.com/,ngrok,本地服务内网穿透工具,开发工具
-https://www.linux.org/,Linux,主流开源操作系统,操作系统
-https://ubuntu.com/,Ubuntu,流行的 Linux 发行版,操作系统
-https://www.debian.org/,Debian,稳定的 Linux 发行版,操作系统
-https://www.zsh.org/,Zsh,强大的 shell 终端,终端工具
-https://ohmyz.sh/,Oh My Zsh,Zsh 插件与主题管理工具,终端工具
-https://tmux.github.io/,tmux,终端多路复用工具,终端工具
-https://www.vim.org/,Vim,经典文本编辑器,编辑器
-https://neovim.io/,Neovim,现代化 Vim 编辑器,编辑器
-https://www.markdownlint.com/,Markdownlint,Markdown 语法检查工具,工具
-https://regex101.com/,Regex101,正则表达式测试与学习工具,工具
-https://carbon.now.sh/,Carbon,代码片段美化分享工具,工具
-https://www.jsonformatter.io/,JSON Formatter,JSON 格式化与校验工具,工具
-https://www.base64decode.org/,Base64 Decode,Base64 编码解码工具,工具
-https://convertio.co/,Convertio,文件格式转换工具,工具
-https://www.remove.bg/,Remove.bg,图片背景移除工具,工具
-https://squoosh.app/,Squoosh,Google 开源的图片压缩工具,工具
-https://tinypng.com,TinyPNG,图片压缩工具,工具
-https://deepwiki.com/,deepwiki,AI 驱动的代码与文档问答平台,工具
-https://www.boce.com/,boce,网站速度与网络检测工具,工具
-https://repobeats.axiom.co/,Repobeats,为你的 README 添加数据可视化,工具
-https://sms-activate.org/,SMS-activate,验证码接收平台,工具
-https://www.json.cn,Json 中文网,JSON 在线解析与格式化,工具
-https://tool.lu,在线工具,开发人员的工具箱,工具
-https://caniuse.com,Can I use,前端 API 兼容性查询,工具
-https://friday-go.icu/,PFinalClub,个人网站,Projects
-https://status.busyhe.com/,Status Server Page,服务状态监控站点,Projects
-http://game.friday-go.icu/,PFinalClub Games,游戏摸鱼,Projects
+https://spring.io/,Spring,Java enterprise application development framework,Backend
+https://www.djangoproject.com/,Django,Python web development framework,Backend
+https://laravel.com/,Laravel,Elegant PHP web framework,Backend
+https://nestjs.com/,NestJS,Node.js progressive development framework,Backend
+https://gin-gonic.com/,Gin,Go language web framework,Backend
+https://fastapi.tiangolo.com/,FastAPI,Modern high-performance Python web framework,Backend
+https://expressjs.com/,Express,Node.js web framework,Backend
+https://swoole.com/,Swoole,PHP asynchronous framework,Backend
+https://graphql.org/,GraphQL,API query language,Backend
+https://grpc.io/,gRPC,High-performance RPC framework,Backend
+https://trpc.io/,tRPC,End-to-end type-safe API framework,Backend
+https://www.prisma.io/,Prisma,Modern database ORM tool,Backend
+https://hibernate.org/,Hibernate,Java ORM framework,Backend
+https://mybatis.org/,MyBatis,Java persistence layer framework,Backend
+https://www.elastic.co/,Elasticsearch,Distributed search engine,Backend
+https://kafka.apache.org/,Kafka,Distributed stream processing platform,Backend
+https://rabbitmq.com/,RabbitMQ,Open source message queue,Backend
+https://nacos.io/,Nacos,Dynamic service discovery and configuration management,Backend
+https://www.consul.io/,Consul,Service mesh solution,Backend
+https://etcd.io/,etcd,Distributed key-value storage,Backend
+https://www.mongodb.com/,MongoDB,Popular NoSQL database,Database
+https://www.mysql.com/,MySQL,Most popular open source relational database,Database
+https://redis.io/,Redis,High-performance key-value database,Database
+https://www.postgresql.org/,PostgreSQL,Powerful open source relational database,Database
+https://www.sqlite.org/,SQLite,Lightweight embedded database,Database
+https://www.nginx.com/,Nginx,High-performance web server,Server
+https://www.docker.com/,Docker,Containerization and microservices deployment platform,DevOps
+https://kubernetes.io/,Kubernetes,Container orchestration and management platform,DevOps
+https://prometheus.io/,Prometheus,Open source monitoring system,DevOps
+https://grafana.com/,Grafana,Data visualization platform,DevOps
+https://www.jenkins.io/,Jenkins,Open source automation server,DevOps
+https://www.ansible.com/,Ansible,Automation operations tool,DevOps
+https://maven.apache.org/,Maven,Java project management tool,DevOps
+https://gradle.org/,Gradle,Powerful build tool,DevOps
+https://figma.com,Figma,Collaborative interface design tool,Design Tools
+https://canva.com,Canva,Online graphic design platform,Design Tools
+https://excalidraw.com/,Excalidraw,Hand-drawn style online drawing tool,Design Tools
+https://www.processon.com/,ProcessOn,Online flowchart and mind mapping tool,Design Tools
+https://www.draw.io/,draw.io,Open source flowchart and chart tool,Design Tools
+https://www.lottiefiles.com/,LottieFiles,Animation resources and preview tool,Design Tools
+https://lucide.dev/,Lucide,Community-driven icon library,Icon
+https://fontawesome.com/,Fontawesome,Well-known icon library,Icon
+https://iconify.design/,iconify,Framework integrating multiple popular icon sets,Icon
+https://www.mingcute.com/,Mingcute Icon,Exquisite open source icon library,Icon
+https://iconbuddy.com/,iconbuddy,Open source icon search and editing tool,Icon
+https://www.iconfont.cn/,iconfont,Alibaba vector icon library,Icon
+https://www.thiings.co/things,things,Skeuomorphic style icons,Icon
+https://motion.dev/,Motion,"Modern JavaScript, Vue and React animation library",UI
+https://animejs.com/,animejs,A fast and versatile JavaScript animation library,UI
+https://tailwindcss.com/,Tailwind CSS,Utility-first CSS framework,CSS Framework
+https://daisyui.com/,daisyUI,Component library based on Tailwind,CSS Framework
+https://unocss.dev/,UnoCSS,Instant atomic CSS engine,CSS Framework
+https://code.visualstudio.com/,VS Code,Most popular free code editor,Dev Tools
+https://www.jetbrains.com/webstorm/,WebStorm,Professional frontend development IDE,Dev Tools
+https://www.jetbrains.com/idea/,IntelliJ IDEA,Powerful Java/full-stack development IDE,Dev Tools
+https://raycast.com/,Raycast,Efficiency launcher tool,Productivity
+https://warp.dev/,Warp,Modern terminal tool,Dev Tools
+https://arc.net/,Arc Browser,Innovative browser,Productivity
+https://www.typora.io/,Typora,WYSIWYG Markdown editor,Productivity
+https://notion.so,Notion,"Efficiency tool integrating notes, knowledge base and project management",Productivity
+https://www.git-scm.com/,Git,Distributed version control system,Dev Tools
+https://github.com,GitHub,World's largest open source code hosting platform,Dev Tools
+https://gitlab.com,GitLab,Enterprise code hosting and DevOps platform,Dev Tools
+https://gitee.com,Gitee,Well-known domestic code hosting platform,Dev Tools
+https://vercel.com,Vercel,Frontend deployment and hosting platform,Dev Tools
+https://netlify.com,Netlify,Frontend automated deployment platform,Dev Tools
+https://www.aliyun.com/,阿里云,Mainstream domestic cloud service platform,Cloud Services
+https://cloud.tencent.com/,腾讯云,Mainstream domestic cloud service platform,Cloud Services
+https://console.cloud.google.com/,Google Cloud,Global cloud service platform,Cloud Services
+https://aws.amazon.com/,AWS,Amazon cloud service platform,Cloud Services
+https://www.cloudflare.com/,Cloudflare,Global CDN and security acceleration platform,Cloud Services
+https://www.npmjs.com/,NPM,Node.js package management platform,Package Manager
+https://pnpm.io/,pnpm,Efficient Node.js package manager,Package Manager
+https://yarnpkg.com/,Yarn,Node.js package manager,Package Manager
+https://vitejs.dev/,Vite,Ultra-fast frontend build tool,Build Tools
+https://webpack.js.org/,Webpack,Frontend module bundler,Build Tools
+https://eslint.org/,ESLint,JavaScript code quality and style checking tool,Code Quality
+https://prettier.io/,Prettier,Code auto-formatting tool,Code Quality
+https://jestjs.io/,Jest,Popular JavaScript testing framework,Testing
+https://mochajs.org/,Mocha,Flexible JavaScript testing framework,Testing
+https://www.cypress.io/,Cypress,Frontend automated testing tool,Testing
+https://playwright.dev/,Playwright,Modern end-to-end automated testing tool,Testing
+https://postman.com,Postman,API interface debugging and documentation tool,API Tools
+https://insomnia.rest/,Insomnia,Powerful API testing and debugging tool,API Tools
+https://swagger.io/,Swagger,API documentation and testing tool,API Tools
+https://apidocjs.com/,apidoc,Automatic API documentation generation tool,API Tools
+https://ngrok.com/,ngrok,Local service intranet penetration tool,Dev Tools
+https://www.linux.org/,Linux,Mainstream open source operating system,Operating System
+https://ubuntu.com/,Ubuntu,Popular Linux distribution,Operating System
+https://www.debian.org/,Debian,Stable Linux distribution,Operating System
+https://www.zsh.org/,Zsh,Powerful shell terminal,Terminal
+https://ohmyz.sh/,Oh My Zsh,Zsh plugin and theme management tool,Terminal
+https://tmux.github.io/,tmux,Terminal multiplexer tool,Terminal
+https://www.vim.org/,Vim,Classic text editor,Editor
+https://neovim.io/,Neovim,Modern Vim editor,Editor
+https://www.markdownlint.com/,Markdownlint,Markdown syntax checking tool,Tools
+https://regex101.com/,Regex101,Regular expression testing and learning tool,Tools
+https://carbon.now.sh/,Carbon,Code snippet beautification and sharing tool,Tools
+https://www.jsonformatter.io/,JSON Formatter,JSON formatting and validation tool,Tools
+https://www.base64decode.org/,Base64 Decode,Base64 encoding and decoding tool,Tools
+https://convertio.co/,Convertio,File format conversion tool,Tools
+https://www.remove.bg/,Remove.bg,Image background removal tool,Tools
+https://squoosh.app/,Squoosh,Google open source image compression tool,Tools
+https://tinypng.com,TinyPNG,Image compression tool,Tools
+https://deepwiki.com/,deepwiki,AI-powered code and documentation Q&A platform,Tools
+https://www.boce.com/,boce,Website speed and network detection tool,Tools
+https://repobeats.axiom.co/,Repobeats,Add data visualization to your README,Tools
+https://sms-activate.org/,SMS-activate,Verification code receiving platform,Tools
+https://www.json.cn,Json 中文网,Online JSON parsing and formatting,Tools
+https://tool.lu,在线工具,Developer's toolbox,Tools
+https://caniuse.com,Can I use,Frontend API compatibility query,Tools
+https://friday-go.icu/,PFinalClub,Personal website,Projects
+https://status.busyhe.com/,Status Server Page,Service status monitoring site,Projects
+http://game.friday-go.icu/,PFinalClub Games,Game leisure,Projects
