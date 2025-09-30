@@ -4,7 +4,7 @@ export const siteConfig = {
   ogImage: 'https://nav.friday-go.icu/og-image.jpg',
   description: 'Discover the best AI tools worldwide, including ChatGPT, Claude, Midjourney, Stable Diffusion, GitHub Copilot and more. Free AI tools directory with AI painting, AI programming, AI office tools, AI translation and other categories. Latest AI tools recommendations to boost productivity and creativity.',
    keywords: [
-    'AI tools', 'artificial intelligence', 'AI directory', 'ChatGPT', 'Claude', 'Midjourney', 'Stable Diffusion', 
+    'AI tools', 'artificial intelligence', 'AI directory', 'ChatGPT', 'Claude', 'Midjourney', 'Stable Diffusion',
     'AI painting', 'AI programming', 'AI office', 'PFinalClub', 'AI tools directory', 'free AI tools', 'AI assistant',
     'machine learning', 'deep learning', 'natural language processing', 'computer vision', 'AI chatbot', 'code generation',
     'image generation', 'text generation', 'speech recognition', 'AI translation', 'AI writing', 'data analysis', 'PFinalClub Nav',
@@ -21,7 +21,11 @@ export const siteConfig = {
     'AI marketing tools', 'AI marketing software', 'AI ad generation',
     '2025 AI tools', 'latest AI tools', 'popular AI tools', 'practical AI tools',
     'AI tools collection', 'AI tools website', 'AI tools platform',
-    'free AI tools website', 'AI tools recommendation website', 'AI tools ranking'
+    'free AI tools website', 'AI tools recommendation website', 'AI tools ranking',
+    // SEO Keywords
+    'sat nav', 'nav online', 'what is nav', 'nav dasa', 'nav bar', 'nav online számla', 'nav canada', 'nav meaning', 'nav login', 'nav no', 'test nav', 'nav durga', 'nav html', 'nav pro', 'nav ügyfélkapu', 'lic nav', 'ügyfélkapu', 'ledige stillinger nav', 'nav tárhely', 'nav in mutual fund', 'nav bharat', 'air nav', 'hindu nav varsh', 'hdfc balanced advantage fund nav', 'nav finance',
+    // More long-tail keywords
+    'best free AI tools for content creation', 'how to use AI for graphic design', 'AI-powered code completion tools for Python', 'top AI translation services for businesses', 'AI writing assistants for academic papers', 'compare ChatGPT and Claude for writing', 'Midjourney vs Stable Diffusion for photorealistic images', 'free AI tools for students', 'AI tools for marketing automation', 'how to find the best AI tools for your needs', 'AI tools for video editing and generation', 'AI tools for data analysis and visualization', 'AI tools for productivity in 2025', 'what are the best AI tools for developers', 'AI tools for small business owners'
   ],
   author: 'PFinalClub',
   language: 'en-US',
