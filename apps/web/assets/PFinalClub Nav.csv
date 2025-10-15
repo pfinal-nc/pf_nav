@@ -1,182 +1,107 @@
 link,title,desc,type
-https://chat.deepseek.com/,DeepSeek,Cost-effective and efficient Chinese large language model,AI
+https://chat.openai.com/,ChatGPT,Advanced conversational AI by OpenAI,AI
 https://claude.ai,Claude,Advanced conversational AI assistant by Anthropic,AI
-https://www.doubao.com/chat/,Doubao,Free Chinese AI chat assistant by ByteDance,AI
 https://gemini.google.com/,Gemini,Multimodal AI assistant by Google,AI
 https://copilot.microsoft.com/,Copilot,Microsoft AI assistant integrated with Edge/Office,AI
 https://poe.com/,Poe,Multi-model aggregated AI chat platform,AI
-https://www.tiangong.cn/,Tiangong,Chinese large language model by Zhipu AI,AI
-https://www.kimi.moonshot.cn/,Kimi,Chinese large language model by Moonshot AI,AI
-https://www.coze.com/,Coze,AI chat and application building platform by ByteDance,AI
-https://yiyan.baidu.com/,Wenxin Yiyan,Chinese large language model by Baidu,AI
-https://tongyi.aliyun.com/,Tongyi Qianwen,Chinese large language model by Alibaba Cloud,AI
+https://www.perplexity.ai/,Perplexity,Conversational search engine powered by AI,AI
+https://www.anthropic.com/claude,Anthropic Claude,Advanced AI assistant for complex tasks,AI
+https://www.mistral.ai/,Mistral AI,French company developing advanced AI models,AI
+https://cohere.com/,Cohere,Enterprise-ready language AI platform,AI
+https://www.together.ai/,Together AI,Platform for fine-tuning and deploying AI models,AI
+https://huggingface.co/chat,Hugging Face Chat,Open source AI chat models,AI
+https://www.deepmind.com/,DeepMind,Google's AI research division,AI
+https://www.stability.ai/,Stability AI,Creator of Stable Diffusion,AI
 https://www.midjourney.com/,Midjourney,AI art and image generation platform,AI Painting
+https://stability.ai/,Stability AI,Creator of Stable Diffusion,AI Painting
 https://www.bing.com/images/create,Bing Image Creator,Microsoft AI image generation tool,AI Painting
 https://www.canva.com/ai,Canva AI,Canva built-in AI design and copywriting tool,AI Painting
 https://leonardo.ai/,Leonardo.Ai,AI image generation platform,AI Painting
+https://www.runwayml.com/,Runway,AI video and multimedia creation platform,AI Video
+https://www.heygen.com/,HeyGen,AI video generation platform,AI Video
+https://www.synthesia.io/,Synthesia,AI video generation with virtual avatars,AI Video
+https://www.heyday.xyz/,Heyday,AI-powered personal memory assistant,AI
 https://www.jasper.ai/,Jasper,AI copywriting and content generation platform,AI Writing
 https://www.copy.ai/,Copy.ai,AI copywriting and marketing content generation tool,AI Writing
 https://www.writesonic.com/,Writesonic,AI content and copywriting generation platform,AI Writing
+https://www.quillbot.com/,Quillbot,AI writing and research assistant,AI Writing
+https://www.grammarly.com/,Grammarly,AI writing assistant for grammar and style,AI Writing
 https://www.deepl.com/translator,DeepL,AI-powered high-quality translation tool,AI Translation
 https://www.suno.ai/,Suno,AI music generation platform,AI Music
 https://www.loudly.com/ai-music-generator,Loudly AI Music,AI music generator,AI Music
-https://www.runwayml.com/,Runway,AI video and multimedia creation platform,AI Video
-https://www.heygen.com/,HeyGen,AI video generation platform,AI Video
-https://www.tabnine.com/,Tabnine,AI code auto-completion tool,AI Programming
-https://www.phind.com/,Phind,AI programming search and Q&A,AI Programming
-https://cursor.sh/,Cursor,AI-powered code editor,AI Programming
+https://www.aiva.ai/,AIVA,AI composer for emotional soundtracks,AI Music
+https://www.kaiber.ai/,Kaiber,AI art and music video generator,AI Music
 https://www.huggingface.co/,Hugging Face,AI open source models and community platform,AI Platform
-https://www.bilibili.com/ai,B站AI,Bilibili AI creation tools,AI Platform
+https://www.replicate.com/,Replicate,Run open source AI models in the cloud,AI Platform
+https://colab.research.google.com/,Google Colab,Free Jupyter notebook environment,AI Platform
 https://www.notion.so/product/ai,Notion AI,Notion built-in AI assistant,AI Office
 https://www.yuque.com/ai,Yuque AI,Yuque document AI assistant,AI Office
 https://www.feishu.cn/product/ai,飞书 AI,飞书内置 AI 助手,AI Office
-https://photogrid.org/,PHOTOGRID,图像编辑工具,AI Painting
-https://heyimg.com/,HEYIMG,图像编辑工具,AI Painting
-https://aisonggenerator.com/,AISONGGENERATOR,音乐创作工具,AI Music
-https://quillbot.com/,QUILLBOT,AI 写作与研究助理,AI Writing
-https://runway-aleph.com/,RUNWAY ALEPH,视频编辑工具,AI Video
-https://story.com/,STORY,视频生成工具,AI Video
-https://powerdrill.com/,POWERDRILL,数据分析工具,AI Analytics
-https://supadash.com/,SUPADASH,数据可视化工具,AI Analytics
-https://codeium.com/,CODEIUM,代码补全工具,AI Programming
-https://openinterpreter.com/,OPEN INTERPRETER,本地代码执行工具,AI Programming
-https://you.com/,YOU.COM,企业级 AI 平台,AI Platform
-https://rev.ai/,REV AI,语音转文本 API,AI
-https://neoprompt.com/,NEOPROMPT,AI 应用构建平台,AI Platform
-https://relume.io/,RELUME,AI 网站设计工具,Design Tools
-https://basedash.com/,BASEDASH,商业智能平台,AI Analytics
-https://nextjs.org,Next.js,Popular React web framework,React
-https://zh-hans.reactjs.org,React,JavaScript library for building user interfaces,React
-https://ui.shadcn.com/,shadcn,High-quality React component library,React
-https://ant.design,Ant Design,Enterprise-grade React component library,React
-https://shadcnstudio.com/,shadcn/studio,Shadcn theme editor,React
-https://ui.aceternity.com/,Aceternity UI,Popular React component collection,React
-https://originui.com/,originui,React components based on Tailwind CSS,React
-https://github.com/magicuidesign/magicui,magicui,Rich React animation components,React
-https://www.reactbits.dev/,reactbits,Creative animation component collection,React
-https://www.framer.com/motion/,Framer Motion,React animation library,React
-https://recoiljs.org/zh-hans/,Recoil,React state management library,React
-https://docs.pmnd.rs/zustand/getting-started/introduction,Zustand,Lightweight and efficient React state management library,React
-https://ahooks.js.org/zh-CN,ahooks,High-quality React Hooks library,React
-https://reactrouter.com,React Router,React routing solution,React
-https://swr.vercel.app/,SWR,React Hooks library for data requests,React
-https://tanstack.com/query/,TanStack Query,Powerful asynchronous state management library,React
-https://cn.vuejs.org,Vue 3,Progressive JavaScript framework,Vue
-https://vant-ui.github.io/vant,Vant,"Lightweight, customizable mobile Vue component library",Vue
-https://pinia.vuejs.org/zh,Pinia,Intuitive Vue.js state management library,Vue
-https://vueuse.org,VueUse,Common toolset for Vue Composition API,Vue
-https://nuxt.com/,Nuxt.js,Vue.js 通用应用框架,Vue
-https://spring.io/,Spring,Java enterprise application development framework,Backend
-https://www.djangoproject.com/,Django,Python web development framework,Backend
-https://laravel.com/,Laravel,Elegant PHP web framework,Backend
-https://nestjs.com/,NestJS,Node.js progressive development framework,Backend
-https://gin-gonic.com/,Gin,Go language web framework,Backend
-https://fastapi.tiangolo.com/,FastAPI,Modern high-performance Python web framework,Backend
-https://expressjs.com/,Express,Node.js web framework,Backend
-https://swoole.com/,Swoole,PHP asynchronous framework,Backend
-https://graphql.org/,GraphQL,API query language,Backend
-https://grpc.io/,gRPC,High-performance RPC framework,Backend
-https://trpc.io/,tRPC,End-to-end type-safe API framework,Backend
-https://www.prisma.io/,Prisma,Modern database ORM tool,Backend
-https://hibernate.org/,Hibernate,Java ORM framework,Backend
-https://mybatis.org/,MyBatis,Java persistence layer framework,Backend
-https://www.elastic.co/,Elasticsearch,Distributed search engine,Backend
-https://kafka.apache.org/,Kafka,Distributed stream processing platform,Backend
-https://rabbitmq.com/,RabbitMQ,Open source message queue,Backend
-https://nacos.io/,Nacos,Dynamic service discovery and configuration management,Backend
-https://www.consul.io/,Consul,Service mesh solution,Backend
-https://etcd.io/,etcd,Distributed key-value storage,Backend
-https://www.mongodb.com/,MongoDB,Popular NoSQL database,Database
-https://www.mysql.com/,MySQL,Most popular open source relational database,Database
-https://redis.io/,Redis,High-performance key-value database,Database
-https://www.postgresql.org/,PostgreSQL,Powerful open source relational database,Database
-https://www.sqlite.org/,SQLite,Lightweight embedded database,Database
-https://www.nginx.com/,Nginx,High-performance web server,Server
-https://www.docker.com/,Docker,Containerization and microservices deployment platform,DevOps
-https://kubernetes.io/,Kubernetes,Container orchestration and management platform,DevOps
-https://prometheus.io/,Prometheus,Open source monitoring system,DevOps
-https://grafana.com/,Grafana,Data visualization platform,DevOps
-https://www.jenkins.io/,Jenkins,Open source automation server,DevOps
-https://www.ansible.com/,Ansible,Automation operations tool,DevOps
-https://maven.apache.org/,Maven,Java project management tool,DevOps
-https://gradle.org/,Gradle,Powerful build tool,DevOps
-https://figma.com,Figma,Collaborative interface design tool,Design Tools
-https://canva.com,Canva,Online graphic design platform,Design Tools
-https://excalidraw.com/,Excalidraw,Hand-drawn style online drawing tool,Design Tools
-https://www.processon.com/,ProcessOn,Online flowchart and mind mapping tool,Design Tools
-https://www.draw.io/,draw.io,Open source flowchart and chart tool,Design Tools
-https://www.lottiefiles.com/,LottieFiles,Animation resources and preview tool,Design Tools
-https://lucide.dev/,Lucide,Community-driven icon library,Icon
-https://fontawesome.com/,Fontawesome,Well-known icon library,Icon
-https://iconify.design/,iconify,Framework integrating multiple popular icon sets,Icon
-https://www.mingcute.com/,Mingcute Icon,Exquisite open source icon library,Icon
-https://iconbuddy.com/,iconbuddy,Open source icon search and editing tool,Icon
-https://www.iconfont.cn/,iconfont,Alibaba vector icon library,Icon
-https://www.thiings.co/things,things,Skeuomorphic style icons,Icon
-https://motion.dev/,Motion,"Modern JavaScript, Vue and React animation library",UI
-https://animejs.com/,animejs,A fast and versatile JavaScript animation library,UI
-https://tailwindcss.com/,Tailwind CSS,Utility-first CSS framework,CSS Framework
-https://daisyui.com/,daisyUI,Component library based on Tailwind,CSS Framework
-https://unocss.dev/,UnoCSS,Instant atomic CSS engine,CSS Framework
-https://code.visualstudio.com/,VS Code,Most popular free code editor,Dev Tools
-https://www.jetbrains.com/webstorm/,WebStorm,Professional frontend development IDE,Dev Tools
-https://www.jetbrains.com/idea/,IntelliJ IDEA,Powerful Java/full-stack development IDE,Dev Tools
-https://raycast.com/,Raycast,Efficiency launcher tool,Productivity
-https://warp.dev/,Warp,Modern terminal tool,Dev Tools
-https://arc.net/,Arc Browser,Innovative browser,Productivity
-https://www.typora.io/,Typora,WYSIWYG Markdown editor,Productivity
-https://notion.so,Notion,"Efficiency tool integrating notes, knowledge base and project management",Productivity
-https://www.git-scm.com/,Git,Distributed version control system,Dev Tools
-https://github.com,GitHub,World's largest open source code hosting platform,Dev Tools
-https://gitlab.com,GitLab,Enterprise code hosting and DevOps platform,Dev Tools
-https://gitee.com,Gitee,Well-known domestic code hosting platform,Dev Tools
-https://vercel.com,Vercel,Frontend deployment and hosting platform,Dev Tools
-https://netlify.com,Netlify,Frontend automated deployment platform,Dev Tools
-https://www.aliyun.com/,阿里云,Mainstream domestic cloud service platform,Cloud Services
-https://cloud.tencent.com/,腾讯云,Mainstream domestic cloud service platform,Cloud Services
-https://console.cloud.google.com/,Google Cloud,Global cloud service platform,Cloud Services
-https://aws.amazon.com/,AWS,Amazon cloud service platform,Cloud Services
-https://www.cloudflare.com/,Cloudflare,Global CDN and security acceleration platform,Cloud Services
-https://www.npmjs.com/,NPM,Node.js package management platform,Package Manager
-https://pnpm.io/,pnpm,Efficient Node.js package manager,Package Manager
-https://yarnpkg.com/,Yarn,Node.js package manager,Package Manager
-https://vitejs.dev/,Vite,Ultra-fast frontend build tool,Build Tools
-https://webpack.js.org/,Webpack,Frontend module bundler,Build Tools
-https://eslint.org/,ESLint,JavaScript code quality and style checking tool,Code Quality
-https://prettier.io/,Prettier,Code auto-formatting tool,Code Quality
-https://jestjs.io/,Jest,Popular JavaScript testing framework,Testing
-https://mochajs.org/,Mocha,Flexible JavaScript testing framework,Testing
-https://www.cypress.io/,Cypress,Frontend automated testing tool,Testing
-https://playwright.dev/,Playwright,Modern end-to-end automated testing tool,Testing
-https://postman.com,Postman,API interface debugging and documentation tool,API Tools
-https://insomnia.rest/,Insomnia,Powerful API testing and debugging tool,API Tools
-https://swagger.io/,Swagger,API documentation and testing tool,API Tools
-https://apidocjs.com/,apidoc,Automatic API documentation generation tool,API Tools
-https://ngrok.com/,ngrok,Local service intranet penetration tool,Dev Tools
-https://www.linux.org/,Linux,Mainstream open source operating system,Operating System
-https://ubuntu.com/,Ubuntu,Popular Linux distribution,Operating System
-https://www.debian.org/,Debian,Stable Linux distribution,Operating System
-https://www.zsh.org/,Zsh,Powerful shell terminal,Terminal
-https://ohmyz.sh/,Oh My Zsh,Zsh plugin and theme management tool,Terminal
-https://tmux.github.io/,tmux,Terminal multiplexer tool,Terminal
-https://www.vim.org/,Vim,Classic text editor,Editor
-https://neovim.io/,Neovim,Modern Vim editor,Editor
-https://www.markdownlint.com/,Markdownlint,Markdown syntax checking tool,Tools
-https://regex101.com/,Regex101,Regular expression testing and learning tool,Tools
-https://carbon.now.sh/,Carbon,Code snippet beautification and sharing tool,Tools
-https://www.jsonformatter.io/,JSON Formatter,JSON formatting and validation tool,Tools
-https://www.base64decode.org/,Base64 Decode,Base64 encoding and decoding tool,Tools
-https://convertio.co/,Convertio,File format conversion tool,Tools
-https://www.remove.bg/,Remove.bg,Image background removal tool,Tools
-https://squoosh.app/,Squoosh,Google open source image compression tool,Tools
-https://tinypng.com,TinyPNG,Image compression tool,Tools
-https://deepwiki.com/,deepwiki,AI-powered code and documentation Q&A platform,Tools
-https://www.boce.com/,boce,Website speed and network detection tool,Tools
-https://repobeats.axiom.co/,Repobeats,Add data visualization to your README,Tools
-https://sms-activate.org/,SMS-activate,Verification code receiving platform,Tools
-https://www.json.cn,Json 中文网,Online JSON parsing and formatting,Tools
-https://tool.lu,在线工具,Developer's toolbox,Tools
-https://caniuse.com,Can I use,Frontend API compatibility query,Tools
-https://friday-go.icu/,PFinalClub,Personal website,Projects
-https://status.busyhe.com/,Status Server Page,Service status monitoring site,Projects
-http://game.friday-go.icu/,PFinalClub Games,Game leisure,Projects
+https://www.chatpdf.com/,ChatPDF,AI chat with PDF documents,AI Office
+https://www.fireflies.ai/,Fireflies,AI assistant for meeting notes and recordings,AI Office
+https://www.tome.app/,Tome,AI-powered presentation creation,AI Office
+https://www.decktopus.com/,Decktopus,AI presentation maker,AI Office
+https://replit.com/,Replit,Online IDE with AI features,AI Programming
+https://www.tabnine.com/,Tabnine,AI code auto-completion tool,AI Programming
+https://cursor.sh/,Cursor,AI-powered code editor,AI Programming
+https://www.codeium.com/,Codeium,Fast AI-powered code acceleration,AI Programming
+https://www.phind.com/,Phind,AI programming search and Q&A,AI Programming
+https://sourcegraph.com/,Sourcegraph,AI code assistant for enterprise,AI Programming
+https://www.databricks.com/,Databricks,Unified analytics platform with AI capabilities,AI Analytics
+https://www.powerbi.com/,Power BI,Microsoft business analytics tool,AI Analytics
+https://www.tableau.com/,Tableau,Data visualization and analytics platform,AI Analytics
+https://www.looker.com/,Looker,Google data platform for business intelligence,AI Analytics
+https://www.alteryx.com/,Alteryx,AI-driven data analytics platform,AI Analytics
+https://www.trifacta.com/,Trifacta,Intelligent data preparation platform,AI Analytics
+https://stability.ai/news/stable-diffusion-public-release,Stable Diffusion,Open source text-to-image model,AI Painting
+https://www.kuaishou.com/en,快手AI,Kuaishou's AI tools,AI Platform
+https://www.palxiao.com/,PalAI,Chinese AI assistant platform,AI Platform
+https://www.tianyi.global/,Tianyi AI,Chinese large language model,AI
+https://www.chatglm.cn/,ChatGLM,Open source Chinese language model,AI
+https://www.yiyan.baidu.com/,Wenxin Yiyan,Chinese large language model by Baidu,AI
+https://tongyi.aliyun.com/,Tongyi Qianwen,Chinese large language model by Alibaba Cloud,AI
+https://www.doubao.com/chat/,Doubao,Free Chinese AI chat assistant by ByteDance,AI
+https://www.kimi.moonshot.cn/,Kimi,Chinese large language model by Moonshot AI,AI
+https://www.tiangong.cn/,Tiangong,Chinese large language model by Zhipu AI,AI
+https://www.coze.com/,Coze,AI chat and application building platform by ByteDance,AI
+https://www.moonshot.cn/,Moonshot AI,Chinese AI research lab,AI
+https://www.zhipuai.cn/,Zhipu AI,Chinese AI research and development company,AI
+https://www.baichuan-ai.com/,Baichuan AI,Chinese open source large models,AI
+https://www.minimaxi.com/,Minimax,Chinese AI company developing large models,AI
+https://www.hunyuan.cn/,Hunyuan,Chinese large language model by Tencent,AI
+https://www.360.com/,360 AI,Chinese AI tool suite,AI
+https://www.xiaohongshu.com/,Xiaohongshu AI,Redbook's AI features,AI
+https://www.writingo.net/,Writingo,Xiaomi's AI writing assistant,AI Writing
+https://www.youdao.com/,Youdao Translate,NetEase AI translation tool,AI Translation
+https://www.bing.com/chat,Bing Chat,Microsoft's AI chat powered by GPT,AI
+https://deepseek.com/,DeepSeek,Cost-effective and efficient Chinese large language model,AI
+https://www.novita.ai/,Novita AI,AI model deployment and API platform,AI Platform
+https://www.perplexity.ai/pro,Perplexity Pro,Advanced research features with AI,AI
+https://www.anthropic.com/index/introducing-claude-3,Anthropic Claude 3,Advanced AI model for complex tasks,AI
+https://www.mistral.ai/products/mistral-large,Mistral Large,Enterprise-grade AI model,AI
+https://cohere.com/command-r,Command R+,Enterprise-focused AI model,AI
+https://www.together.ai/product,Together Inference,Cloud platform for running AI models,AI Platform
+https://huggingface.co/spaces,Hugging Face Spaces,Host machine learning models in the cloud,AI Platform
+https://www.deepmind.com/alphacode,DeepMind AlphaCode,Code generation AI system,AI Programming
+https://openai.com/index/dall-e-3/,DALL·E 3,Advanced text-to-image generation by OpenAI,AI Painting
+https://www.stability.ai/news/stable-video-diffusion,Stable Video Diffusion,Text and image-to-video generation,AI Video
+https://www.heygen.com/ai-avatars,Heygen AI Avatars,Create AI avatars and voices,AI Video
+https://www.synthesia.io/ai-video,Synthesia AI Video,AI video generation platform,AI Video
+https://www.heyday.xyz/enterprise,Heyday Enterprise,Personal AI assistant for work,AI Office
+https://www.jasper.ai/business, Jasper AI for Business,Professional copywriting platform,AI Writing
+https://www.grammarly.com/business,Grammarly Business,AI writing assistant for teams,AI Writing
+https://www.runwayml.com/green-screen,Runway Green Screen,Advanced video editing with AI,AI Video
+https://www.kaiber.ai/artists,Kaiber Artists,AI art and music style transfer,AI Music
+https://www.replicate.com/stability-ai/sdxl,Stable Diffusion XL,Improved image generation model,AI Painting
+https://sourcegraph.com/cody,Sourcegraph Cody,AI coding assistant,AI Programming
+https://www.databricks.com/product/mlops-platform,Databricks MLOps,Machine learning operations platform,AI Analytics
+https://www.tableau.com/solutions/ai,Tableau with AI,Data visualization enhanced with AI,AI Analytics
+https://www.predictiveanalyticstoday.com/,Predictive Analytics Tools,Resource for predictive analytics,AI Analytics
+https://www.chatpdf.com/pdf-chat,AI Chat with PDFs,Chat with PDF documents using AI,AI Office
+https://www.fireflies.ai/features,Fireflies Features,Meeting assistant with AI,AI Office
+https://www.codeium.com/enterprise,Codeium Enterprise,Business AI code completion,AI Programming
+https://www.cognition-labs.com/agents,AI Agents by Cognition,Agents that handle programming tasks,AI Programming
+https://www.minimaxi.com/en/product,Minimax AI Models,Advanced Chinese AI models,AI
+https://www.zhipuai.cn/products,Zhipu AI Products,GLM series of large models,AI
+https://www.namomo.cn/,Namomo,Chinese AI model platform,AI
+https://www.youdao.com/ai,Youdao AI,NetEase AI products,AI
