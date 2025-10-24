@@ -1,0 +1,14 @@
+{
+  "permissions": {
+    "ask": [
+      "Read(!/Users/pfinal/Documents/m-nav/**)",
+      "Edit(!/Users/pfinal/Documents/m-nav/**)"
+    ],
+    "allow": [
+      "Read(/Users/pfinal/Documents/m-nav/**)",
+      "Edit(/Users/pfinal/Documents/m-nav/**)"
+    ]
+  },
+  "memoryImport": {},
+  "monitoring": {}
+}

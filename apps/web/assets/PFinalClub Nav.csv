@@ -11,14 +11,14 @@ https://cohere.com/,Cohere,Enterprise-ready language AI platform,AI
 https://www.together.ai/,Together AI,Platform for fine-tuning and deploying AI models,AI
 https://huggingface.co/chat,Hugging Face Chat,Open source AI chat models,AI
 https://www.deepmind.com/,DeepMind,Google's AI research division,AI
-https://www.stability.ai/,Stability AI,Creator of Stable Diffusion,AI
-https://www.midjourney.com/,Midjourney,AI art and image generation platform,AI Painting
+https://stability.ai/,Stability AI,Creator of Stable Diffusion,AI
+https://www.midjourney.com/home,Midjourney,AI art and image generation platform,AI Painting
 https://stability.ai/,Stability AI,Creator of Stable Diffusion,AI Painting
 https://www.bing.com/images/create,Bing Image Creator,Microsoft AI image generation tool,AI Painting
-https://www.canva.com/ai,Canva AI,Canva built-in AI design and copywriting tool,AI Painting
+https://www.canva.com/ai-assistant/,Canva AI,Canva built-in AI design and copywriting tool,AI Painting
 https://leonardo.ai/,Leonardo.Ai,AI image generation platform,AI Painting
 https://www.runwayml.com/,Runway,AI video and multimedia creation platform,AI Video
-https://www.heygen.com/,HeyGen,AI video generation platform,AI Video
+https://app.heygen.com/,HeyGen,AI video generation platform,AI Video
 https://www.synthesia.io/,Synthesia,AI video generation with virtual avatars,AI Video
 https://www.heyday.xyz/,Heyday,AI-powered personal memory assistant,AI
 https://www.jasper.ai/,Jasper,AI copywriting and content generation platform,AI Writing
@@ -45,15 +45,15 @@ https://replit.com/,Replit,Online IDE with AI features,AI Programming
 https://www.tabnine.com/,Tabnine,AI code auto-completion tool,AI Programming
 https://cursor.sh/,Cursor,AI-powered code editor,AI Programming
 https://www.codeium.com/,Codeium,Fast AI-powered code acceleration,AI Programming
-https://www.phind.com/,Phind,AI programming search and Q&A,AI Programming
+https://www.phind.com/search,Phind,AI programming search and Q&A,AI Programming
 https://sourcegraph.com/,Sourcegraph,AI code assistant for enterprise,AI Programming
 https://www.databricks.com/,Databricks,Unified analytics platform with AI capabilities,AI Analytics
 https://www.powerbi.com/,Power BI,Microsoft business analytics tool,AI Analytics
-https://www.tableau.com/,Tableau,Data visualization and analytics platform,AI Analytics
+https://www.tableau.com/products/desktop,Tableau,Data visualization and analytics platform,AI Analytics
 https://www.looker.com/,Looker,Google data platform for business intelligence,AI Analytics
-https://www.alteryx.com/,Alteryx,AI-driven data analytics platform,AI Analytics
-https://www.trifacta.com/,Trifacta,Intelligent data preparation platform,AI Analytics
-https://stability.ai/news/stable-diffusion-public-release,Stable Diffusion,Open source text-to-image model,AI Painting
+https://www.alteryx.com/products/analytics-cloud-platform,Alteryx,AI-driven data analytics platform,AI Analytics
+https://www.trifacta.com/products,Trifacta,Intelligent data preparation platform,AI Analytics
+https://stability.ai/stable-image,Stable Diffusion,Open source text-to-image model,AI Painting
 https://www.kuaishou.com/en,快手AI,Kuaishou's AI tools,AI Platform
 https://www.palxiao.com/,PalAI,Chinese AI assistant platform,AI Platform
 https://www.tianyi.global/,Tianyi AI,Chinese large language model,AI
@@ -61,7 +61,7 @@ https://www.chatglm.cn/,ChatGLM,Open source Chinese language model,AI
 https://www.yiyan.baidu.com/,Wenxin Yiyan,Chinese large language model by Baidu,AI
 https://tongyi.aliyun.com/,Tongyi Qianwen,Chinese large language model by Alibaba Cloud,AI
 https://www.doubao.com/chat/,Doubao,Free Chinese AI chat assistant by ByteDance,AI
-https://www.kimi.moonshot.cn/,Kimi,Chinese large language model by Moonshot AI,AI
+https://kimi.moonshot.cn/,Kimi,Chinese large language model by Moonshot AI,AI
 https://www.tiangong.cn/,Tiangong,Chinese large language model by Zhipu AI,AI
 https://www.coze.com/,Coze,AI chat and application building platform by ByteDance,AI
 https://www.moonshot.cn/,Moonshot AI,Chinese AI research lab,AI
@@ -84,8 +84,8 @@ https://www.together.ai/product,Together Inference,Cloud platform for running AI
 https://huggingface.co/spaces,Hugging Face Spaces,Host machine learning models in the cloud,AI Platform
 https://www.deepmind.com/alphacode,DeepMind AlphaCode,Code generation AI system,AI Programming
 https://openai.com/index/dall-e-3/,DALL·E 3,Advanced text-to-image generation by OpenAI,AI Painting
-https://www.stability.ai/news/stable-video-diffusion,Stable Video Diffusion,Text and image-to-video generation,AI Video
-https://www.heygen.com/ai-avatars,Heygen AI Avatars,Create AI avatars and voices,AI Video
+https://stability.ai/stable-video,Stable Video Diffusion,Text and image-to-video generation,AI Video
+https://app.heygen.com/avatars,Heygen AI Avatars,Create AI avatars and voices,AI Video
 https://www.synthesia.io/ai-video,Synthesia AI Video,AI video generation platform,AI Video
 https://www.heyday.xyz/enterprise,Heyday Enterprise,Personal AI assistant for work,AI Office
 https://www.jasper.ai/business, Jasper AI for Business,Professional copywriting platform,AI Writing
