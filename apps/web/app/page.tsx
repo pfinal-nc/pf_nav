@@ -13,7 +13,6 @@ import { Sparkles, Zap, Brain, Palette, ArrowDown } from 'lucide-react';
 export const metadata: Metadata = {
   title: siteConfig.seo.defaultTitle,
   description: siteConfig.description,
-  keywords: siteConfig.keywords,
   authors: [
     {
       name: siteConfig.author,
