@@ -12,7 +12,6 @@ export const metadata: Metadata = {
   },
   metadataBase: new URL(siteConfig.url),
   description: siteConfig.description,
-  keywords: siteConfig.keywords,
   authors: [
     {
       name: siteConfig.author,
@@ -29,7 +28,6 @@ export const metadata: Metadata = {
   openGraph: {
     type: 'website',
     locale: siteConfig.language,
-    url: siteConfig.url,
     title: siteConfig.name,
     description: siteConfig.description,
     siteName: siteConfig.name,
@@ -82,10 +80,10 @@ export const metadata: Metadata = {
     yahoo: process.env.YAHOO_SITE_VERIFICATION,
   },
   alternates: {
-    canonical: siteConfig.url,
+    canonical: './',
     languages: {
-      'zh-CN': siteConfig.url,
-      'en-US': `${siteConfig.url}/en`,
+      'zh-CN': './',
+      'en-US': './en',
     },
   },
 }
