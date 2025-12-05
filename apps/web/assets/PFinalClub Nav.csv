@@ -4,26 +4,18 @@ https://claude.ai,Claude,Advanced conversational AI assistant by Anthropic,AI
 https://gemini.google.com/,Gemini,Multimodal AI assistant by Google,AI
 https://copilot.microsoft.com/,Copilot,Microsoft AI assistant integrated with Edge/Office,AI
 https://poe.com/,Poe,Multi-model aggregated AI chat platform,AI
-https://www.perplexity.ai/,Perplexity,Conversational search engine powered by AI,AI
 https://www.anthropic.com/claude,Anthropic Claude,Advanced AI assistant for complex tasks,AI
 https://www.mistral.ai/,Mistral AI,French company developing advanced AI models,AI
 https://cohere.com/,Cohere,Enterprise-ready language AI platform,AI
 https://www.together.ai/,Together AI,Platform for fine-tuning and deploying AI models,AI
 https://huggingface.co/chat,Hugging Face Chat,Open source AI chat models,AI
 https://www.deepmind.com/,DeepMind,Google's AI research division,AI
-https://stability.ai/,Stability AI,Creator of Stable Diffusion,AI
-https://www.midjourney.com/home,Midjourney,AI art and image generation platform,AI Painting
-https://stability.ai/,Stability AI,Creator of Stable Diffusion,AI Painting
 https://www.bing.com/images/create,Bing Image Creator,Microsoft AI image generation tool,AI Painting
-https://www.canva.com/ai-assistant/,Canva AI,Canva built-in AI design and copywriting tool,AI Painting
-https://leonardo.ai/,Leonardo.Ai,AI image generation platform,AI Painting
 https://www.runwayml.com/,Runway,AI video and multimedia creation platform,AI Video
-https://app.heygen.com/,HeyGen,AI video generation platform,AI Video
 https://www.synthesia.io/,Synthesia,AI video generation with virtual avatars,AI Video
 https://www.heyday.xyz/,Heyday,AI-powered personal memory assistant,AI
 https://www.jasper.ai/,Jasper,AI copywriting and content generation platform,AI Writing
 https://www.copy.ai/,Copy.ai,AI copywriting and marketing content generation tool,AI Writing
-https://www.writesonic.com/,Writesonic,AI content and copywriting generation platform,AI Writing
 https://www.quillbot.com/,Quillbot,AI writing and research assistant,AI Writing
 https://www.grammarly.com/,Grammarly,AI writing assistant for grammar and style,AI Writing
 https://www.deepl.com/translator,DeepL,AI-powered high-quality translation tool,AI Translation
@@ -37,28 +29,17 @@ https://colab.research.google.com/,Google Colab,Free Jupyter notebook environmen
 https://www.notion.so/product/ai,Notion AI,Notion built-in AI assistant,AI Office
 https://www.yuque.com/ai,Yuque AI,Yuque document AI assistant,AI Office
 https://www.feishu.cn/product/ai,飞书 AI,飞书内置 AI 助手,AI Office
-https://www.chatpdf.com/,ChatPDF,AI chat with PDF documents,AI Office
-https://www.fireflies.ai/,Fireflies,AI assistant for meeting notes and recordings,AI Office
-https://www.tome.app/,Tome,AI-powered presentation creation,AI Office
 https://www.decktopus.com/,Decktopus,AI presentation maker,AI Office
 https://replit.com/,Replit,Online IDE with AI features,AI Programming
 https://www.tabnine.com/,Tabnine,AI code auto-completion tool,AI Programming
 https://cursor.sh/,Cursor,AI-powered code editor,AI Programming
 https://www.codeium.com/,Codeium,Fast AI-powered code acceleration,AI Programming
-https://www.phind.com/search,Phind,AI programming search and Q&A,AI Programming
 https://sourcegraph.com/,Sourcegraph,AI code assistant for enterprise,AI Programming
 https://www.databricks.com/,Databricks,Unified analytics platform with AI capabilities,AI Analytics
 https://www.powerbi.com/,Power BI,Microsoft business analytics tool,AI Analytics
-https://www.tableau.com/products/desktop,Tableau,Data visualization and analytics platform,AI Analytics
 https://www.looker.com/,Looker,Google data platform for business intelligence,AI Analytics
-https://www.alteryx.com/products/analytics-cloud-platform,Alteryx,AI-driven data analytics platform,AI Analytics
-https://www.trifacta.com/products,Trifacta,Intelligent data preparation platform,AI Analytics
-https://stability.ai/stable-image,Stable Diffusion,Open source text-to-image model,AI Painting
 https://www.kuaishou.com/en,快手AI,Kuaishou's AI tools,AI Platform
-https://www.palxiao.com/,PalAI,Chinese AI assistant platform,AI Platform
-https://www.tianyi.global/,Tianyi AI,Chinese large language model,AI
 https://www.chatglm.cn/,ChatGLM,Open source Chinese language model,AI
-https://www.yiyan.baidu.com/,Wenxin Yiyan,Chinese large language model by Baidu,AI
 https://tongyi.aliyun.com/,Tongyi Qianwen,Chinese large language model by Alibaba Cloud,AI
 https://www.doubao.com/chat/,Doubao,Free Chinese AI chat assistant by ByteDance,AI
 https://kimi.moonshot.cn/,Kimi,Chinese large language model by Moonshot AI,AI
@@ -68,40 +49,44 @@ https://www.moonshot.cn/,Moonshot AI,Chinese AI research lab,AI
 https://www.zhipuai.cn/,Zhipu AI,Chinese AI research and development company,AI
 https://www.baichuan-ai.com/,Baichuan AI,Chinese open source large models,AI
 https://www.minimaxi.com/,Minimax,Chinese AI company developing large models,AI
-https://www.hunyuan.cn/,Hunyuan,Chinese large language model by Tencent,AI
 https://www.360.com/,360 AI,Chinese AI tool suite,AI
 https://www.xiaohongshu.com/,Xiaohongshu AI,Redbook's AI features,AI
-https://www.writingo.net/,Writingo,Xiaomi's AI writing assistant,AI Writing
 https://www.youdao.com/,Youdao Translate,NetEase AI translation tool,AI Translation
 https://www.bing.com/chat,Bing Chat,Microsoft's AI chat powered by GPT,AI
 https://deepseek.com/,DeepSeek,Cost-effective and efficient Chinese large language model,AI
-https://www.novita.ai/,Novita AI,AI model deployment and API platform,AI Platform
-https://www.perplexity.ai/pro,Perplexity Pro,Advanced research features with AI,AI
 https://www.anthropic.com/index/introducing-claude-3,Anthropic Claude 3,Advanced AI model for complex tasks,AI
 https://www.mistral.ai/products/mistral-large,Mistral Large,Enterprise-grade AI model,AI
-https://cohere.com/command-r,Command R+,Enterprise-focused AI model,AI
-https://www.together.ai/product,Together Inference,Cloud platform for running AI models,AI Platform
 https://huggingface.co/spaces,Hugging Face Spaces,Host machine learning models in the cloud,AI Platform
 https://www.deepmind.com/alphacode,DeepMind AlphaCode,Code generation AI system,AI Programming
-https://openai.com/index/dall-e-3/,DALL·E 3,Advanced text-to-image generation by OpenAI,AI Painting
-https://stability.ai/stable-video,Stable Video Diffusion,Text and image-to-video generation,AI Video
-https://app.heygen.com/avatars,Heygen AI Avatars,Create AI avatars and voices,AI Video
-https://www.synthesia.io/ai-video,Synthesia AI Video,AI video generation platform,AI Video
 https://www.heyday.xyz/enterprise,Heyday Enterprise,Personal AI assistant for work,AI Office
 https://www.jasper.ai/business, Jasper AI for Business,Professional copywriting platform,AI Writing
 https://www.grammarly.com/business,Grammarly Business,AI writing assistant for teams,AI Writing
 https://www.runwayml.com/green-screen,Runway Green Screen,Advanced video editing with AI,AI Video
-https://www.kaiber.ai/artists,Kaiber Artists,AI art and music style transfer,AI Music
 https://www.replicate.com/stability-ai/sdxl,Stable Diffusion XL,Improved image generation model,AI Painting
 https://sourcegraph.com/cody,Sourcegraph Cody,AI coding assistant,AI Programming
-https://www.databricks.com/product/mlops-platform,Databricks MLOps,Machine learning operations platform,AI Analytics
-https://www.tableau.com/solutions/ai,Tableau with AI,Data visualization enhanced with AI,AI Analytics
-https://www.predictiveanalyticstoday.com/,Predictive Analytics Tools,Resource for predictive analytics,AI Analytics
-https://www.chatpdf.com/pdf-chat,AI Chat with PDFs,Chat with PDF documents using AI,AI Office
-https://www.fireflies.ai/features,Fireflies Features,Meeting assistant with AI,AI Office
 https://www.codeium.com/enterprise,Codeium Enterprise,Business AI code completion,AI Programming
 https://www.cognition-labs.com/agents,AI Agents by Cognition,Agents that handle programming tasks,AI Programming
 https://www.minimaxi.com/en/product,Minimax AI Models,Advanced Chinese AI models,AI
 https://www.zhipuai.cn/products,Zhipu AI Products,GLM series of large models,AI
-https://www.namomo.cn/,Namomo,Chinese AI model platform,AI
 https://www.youdao.com/ai,Youdao AI,NetEase AI products,AI
+https://friday-go.icu/zh/,PFinalClub 技术博客,PFinalClub 技术博客：专注 Golang PHP AI 工具与后端工程实践,工具
+https://pwd.friday-go.icu,Password Generator,Free online password generator to create secure random passwords. Completely local generation with no data collection.,工具
+https://ai.meta.com/llama/,Meta Llama,Meta's series of open-source large language models,AI
+https://www.midjourney.com/,Midjourney,A top-tier AI program that creates images from textual descriptions,AI Painting
+https://openai.com/dall-e-3,DALL-E 3,OpenAI's flagship AI model for creating images from natural language,AI Painting
+https://ideogram.ai/,Ideogram,An AI image generator that excels at rendering text within images,AI Painting
+https://pika.art/,Pika,An idea-to-video platform that brings creativity to motion with AI,AI Video
+https://openai.com/sora,Sora,An AI model by OpenAI that can create realistic scenes from text instructions,AI Video
+https://www.udio.com/,Udio,An AI music generation tool for creating amazing songs in your favorite styles,AI Music
+https://wawawriter.com/app/,蛙蛙写作,AI小说和内容创作工具,AI Writing
+https://turbodesk.xfyun.cn/,讯飞绘文,免费AI写作工具 5分钟生成一篇原创稿！,AI Writing
+https://ibiling.cn/novel-workbench/,笔灵AI小说,笔灵推出的AI小说生成和创作工具,AI Writing
+https://www.editage.cn/paperpal,Paperpal,英文论文写作助手,AI Writing
+https://dis.csqixiang.cn/unpo/jimeng_1.html,即梦,抖音旗下免费AI图片创作工具,AI Painting
+https://www.gaoding.com/ai,稿定AI,一站式AI创作和设计平台,AI Design
+https://modao.cc/feature/ai,墨刀AI,AI秒生原型稿,AI Design
+https://www.logosc.cn/,标小智,AI Logo设计平台 一键生成企业Logo,AI Design
+https://chatexcel.com,酷表ChatExcel,通过聊天来操作Excel表格的AI工具,AI Office
+https://www.processon.com,ProcessOn,AI一站式绘图平台 轻松创建思维导图流程图,AI Office
+https://tingwu.aliyun.com/home,通义听悟,聚焦于音视频内容的工作学习AI助手,AI Office
+https://www.feishu.cn/product/minutes,飞书妙记,飞书智能会议纪要和快捷语音识别转文字,AI Office

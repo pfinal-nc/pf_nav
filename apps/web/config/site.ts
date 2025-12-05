@@ -5,7 +5,7 @@ export const siteConfig = {
   description: 'Discover the best AI tools worldwide, including ChatGPT, Claude, Midjourney, Stable Diffusion, GitHub Copilot and more. Free AI tools directory with AI painting, AI programming, AI office tools, AI translation and other categories. Latest AI tools recommendations to boost productivity and creativity.',
    keywords: [],
   author: 'PFinalClub',
-  language: 'en-US',
+  language: 'zh-CN',
   links: {
     homepage: 'https://friday-go.icu/',
     twitter: 'https://twitter.com/pfinal_nc',
