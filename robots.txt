@@ -1,0 +1,5 @@
+User-Agent: *
+Allow: /
+
+Host: https://nav.friday-go.icu
+Sitemap: https://nav.friday-go.icu/sitemap.xml
