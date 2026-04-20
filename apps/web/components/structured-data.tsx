@@ -33,11 +33,11 @@ export async function StructuredData() {
       "@type": "SearchAction",
       "target": {
         "@type": "EntryPoint",
-        "urlTemplate": `${siteConfig.url}/search?q={search_term_string}`
+        "urlTemplate": `${siteConfig.url}/?q={search_term_string}`
       },
       "query-input": "required name=search_term_string"
     },
-    "inLanguage": "en-US"
+    "inLanguage": "zh-CN"
   }
 
   const organizationData = {
@@ -77,7 +77,7 @@ export async function StructuredData() {
         "@type": "ListItem",
         "position": 2,
         "name": "AI Tools Directory",
-        "item": `${siteConfig.url}#ai-tools`
+        "item": `${siteConfig.url}#category-ai`
       }
     ]
   }
@@ -102,7 +102,38 @@ export async function StructuredData() {
           "text": "Yes, AI Tools Directory is completely free to use. We are committed to providing users with a high-quality AI tool discovery experience."
         }
       },
-      // ... (other questions remain the same)
+      {
+        "@type": "Question",
+        "name": "What categories of AI tools are covered?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Our directory covers AI chat assistants (ChatGPT, Claude, Gemini, DeepSeek), AI image generators (Midjourney, DALL-E, Stable Diffusion), AI video tools (Sora, Runway, Pika), AI music generators (Suno, Udio, AIVA), AI writing tools, AI programming assistants (Cursor, GitHub Copilot), AI office tools, and more."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "How often is the tool list updated?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "We regularly update our tool list to include the latest AI tools and remove outdated entries. We monitor the AI industry trends and add new tools as they gain popularity."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "How can I submit an AI tool to the directory?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "You can contact us through our GitHub repository or submit feedback. We review all submissions and add quality tools that meet our criteria."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "What are the best free AI tools?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Some of the best free AI tools include ChatGPT, Claude, DeepSeek, Google Gemini, GitHub Copilot (free tier), Poe, Hugging Face, and more. Our directory includes both free and paid tools with their pricing information."
+        }
+      }
     ]
   }
 
@@ -110,7 +141,7 @@ export async function StructuredData() {
     "@context": "https://schema.org",
     "@type": "ItemList",
     "name": `${siteConfig.name} - Website List`,
-    "description": "Curated AI tools directory list",
+    "description": "Curated AI tools directory list with categories including AI chat, image generation, video, music, programming and more",
     "numberOfItems": allItems.length,
     "itemListElement": allItems.map((item: any, index: number) => ({
       "@type": "ListItem",
@@ -127,7 +158,7 @@ export async function StructuredData() {
   }
 
   const softwareApplications = allItems
-    .slice(0, 10) // Limit for performance
+    .slice(0, 10)
     .map((item: any) => ({
       "@context": "https://schema.org",
       "@type": "SoftwareApplication",
@@ -141,7 +172,7 @@ export async function StructuredData() {
         "price": "0",
         "priceCurrency": "USD"
       }
-    }));
+    }))
 
   const fullGraph = {
     "@context": "https://schema.org",

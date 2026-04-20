@@ -37,7 +37,7 @@ export const metadata: Metadata = {
         width: 1200,
         height: 630,
         alt: siteConfig.name,
-        type: 'image/jpeg',
+        type: 'image/svg+xml',
       }
     ],
   },
@@ -116,6 +116,13 @@ export default function RootLayout({
         <link rel="preconnect" href="https://fonts.gstatic.com" crossOrigin="anonymous" />
         <link rel="dns-prefetch" href="//www.google-analytics.com" />
         <link rel="dns-prefetch" href="//www.googletagmanager.com" />
+        {/* OpenSearch - enables browser search integration */}
+        <link rel="search" type="application/opensearchdescription+xml" title="AI Tools Directory" href="/opensearch.xml" />
+        {/* Canonical and alternate links */}
+        <link rel="canonical" href={siteConfig.url} />
+        <link rel="alternate" hrefLang="zh-CN" href={siteConfig.url} />
+        <link rel="alternate" hrefLang="en-US" href={`${siteConfig.url}/en`} />
+        <link rel="alternate" hrefLang="x-default" href={siteConfig.url} />
         <script src="https://couphaithuph.net/act/files/tag.min.js?z=9521820" data-cfasync="false" async></script>
       </head>
       <body className={`${fontSans.variable} ${fontMono.variable} font-sans antialiased`}>

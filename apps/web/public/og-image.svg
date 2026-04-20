@@ -1,0 +1,111 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 630" width="1200" height="630">
+  <defs>
+    <linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#4f46e5"/>
+      <stop offset="50%" style="stop-color:#7c3aed"/>
+      <stop offset="100%" style="stop-color:#db2777"/>
+    </linearGradient>
+    <linearGradient id="textGrad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" style="stop-color:#ffffff"/>
+      <stop offset="100%" style="stop-color:#e0e7ff"/>
+    </linearGradient>
+    <filter id="glow">
+      <feGaussianBlur stdDeviation="4" result="coloredBlur"/>
+      <feMerge>
+        <feMergeNode in="coloredBlur"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+  </defs>
+
+  <!-- Background -->
+  <rect width="1200" height="630" fill="url(#bg)"/>
+
+  <!-- Grid pattern -->
+  <g opacity="0.08">
+    <pattern id="grid" width="40" height="40" patternUnits="userSpaceOnUse">
+      <path d="M 40 0 L 0 0 0 40" fill="none" stroke="#ffffff" stroke-width="1"/>
+    </pattern>
+    <rect width="1200" height="630" fill="url(#grid)"/>
+  </g>
+
+  <!-- Floating circles decoration -->
+  <circle cx="100" cy="100" r="80" fill="#ffffff" opacity="0.05"/>
+  <circle cx="1100" cy="530" r="120" fill="#ffffff" opacity="0.05"/>
+  <circle cx="950" cy="80" r="40" fill="#ffffff" opacity="0.08"/>
+
+  <!-- Sparkle icons -->
+  <g fill="#ffffff" opacity="0.6">
+    <path d="M200,150 L205,165 L220,170 L205,175 L200,190 L195,175 L180,170 L195,165 Z"/>
+    <path d="M900,120 L903,130 L913,133 L903,136 L900,146 L897,136 L887,133 L897,130 Z"/>
+    <path d="M350,480 L353,488 L361,490 L353,492 L350,500 L347,492 L339,490 L347,488 Z"/>
+  </g>
+
+  <!-- Main Title -->
+  <text x="600" y="240" text-anchor="middle" font-family="system-ui, -apple-system, sans-serif" font-size="72" font-weight="800" fill="#ffffff" filter="url(#glow)">
+    AI Tools Directory
+  </text>
+
+  <!-- Subtitle -->
+  <text x="600" y="310" text-anchor="middle" font-family="system-ui, -apple-system, sans-serif" font-size="32" font-weight="500" fill="url(#textGrad)">
+    67 Curated AI Tools for 2024
+  </text>
+
+  <!-- Divider -->
+  <line x1="400" y1="350" x2="800" y2="350" stroke="#ffffff" stroke-width="2" stroke-opacity="0.3"/>
+
+  <!-- Category icons row -->
+  <g transform="translate(600, 430)" fill="#ffffff">
+    <!-- Chat/AI icon -->
+    <g transform="translate(-180, 0)">
+      <circle cx="0" cy="0" r="24" fill="#ffffff" fill-opacity="0.15"/>
+      <path d="M-12,-8 L12,-8 L12,12 L-12,12 Z" rx="4" fill="none" stroke="currentColor" stroke-width="2"/>
+      <circle cx="-5" cy="2" r="2"/>
+      <circle cx="5" cy="2" r="2"/>
+    </g>
+    <!-- Image icon -->
+    <g transform="translate(-100, 0)">
+      <circle cx="0" cy="0" r="24" fill="#ffffff" fill-opacity="0.15"/>
+      <rect x="-12" y="-8" width="24" height="18" rx="2" fill="none" stroke="currentColor" stroke-width="2"/>
+      <circle cx="-5" cy="-1" r="3"/>
+      <path d="M-12,12 L-4,4 L4,10 L8,6 L12,10" fill="none" stroke="currentColor" stroke-width="1.5"/>
+    </g>
+    <!-- Video icon -->
+    <g transform="translate(-20, 0)">
+      <circle cx="0" cy="0" r="24" fill="#ffffff" fill-opacity="0.15"/>
+      <rect x="-12" y="-9" width="20" height="14" rx="2" fill="none" stroke="currentColor" stroke-width="2"/>
+      <polygon points="4,-3 10,0 4,3" fill="currentColor"/>
+    </g>
+    <!-- Music icon -->
+    <g transform="translate(60, 0)">
+      <circle cx="0" cy="0" r="24" fill="#ffffff" fill-opacity="0.15"/>
+      <path d="M-6,5 L-6,-8 L12,1 L12,8" fill="none" stroke="currentColor" stroke-width="2"/>
+      <circle cx="-6" cy="8" r="4" fill="none" stroke="currentColor" stroke-width="2"/>
+      <circle cx="12" cy="11" r="4" fill="none" stroke="currentColor" stroke-width="2"/>
+    </g>
+    <!-- Code icon -->
+    <g transform="translate(140, 0)">
+      <circle cx="0" cy="0" r="24" fill="#ffffff" fill-opacity="0.15"/>
+      <path d="M-8,-4 L-12,0 L-8,4 M8,-4 L12,0 L8,4 M-4,-8 L4,8" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+    </g>
+    <!-- Office icon -->
+    <g transform="translate(220, 0)">
+      <circle cx="0" cy="0" r="24" fill="#ffffff" fill-opacity="0.15"/>
+      <rect x="-10" y="-12" width="20" height="16" rx="2" fill="none" stroke="currentColor" stroke-width="2"/>
+      <line x1="-6" y1="-6" x2="6" y2="-6" stroke="currentColor" stroke-width="2" stroke-linecap="round"/>
+      <line x1="-6" y1="-1" x2="6" y2="-1" stroke="currentColor" stroke-width="2" stroke-linecap="round"/>
+      <line x1="-6" y1="4" x2="2" y2="4" stroke="currentColor" stroke-width="2" stroke-linecap="round"/>
+    </g>
+  </g>
+
+  <!-- Domain -->
+  <text x="600" y="560" text-anchor="middle" font-family="system-ui, -apple-system, sans-serif" font-size="24" font-weight="400" fill="#ffffff" fill-opacity="0.8">
+    nav.friday-go.icu
+  </text>
+
+  <!-- PWA logo mark -->
+  <g transform="translate(600, 80)">
+    <circle cx="0" cy="0" r="30" fill="#ffffff" fill-opacity="0.15"/>
+    <text x="0" y="8" text-anchor="middle" font-family="system-ui, sans-serif" font-size="24" font-weight="700" fill="#ffffff">AI</text>
+  </g>
+</svg>

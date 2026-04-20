@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<OpenSearchDescription xmlns="http://a9.com/-/spec/opensearch/1.1/">
+  <ShortName>AI Tools Directory</ShortName>
+  <LongName>Search AI Tools Directory - Discover the best AI tools worldwide</LongName>
+  <Description>Search through curated AI tools including ChatGPT, Claude, Midjourney, DeepSeek, and more. Find AI chat, image generation, video, music, programming tools and more.</Description>
+  <InputEncoding>UTF-8</InputEncoding>
+  <OutputEncoding>UTF-8</OutputEncoding>
+  <Image width="16" height="16" type="image/svg+xml">/favicon.svg</Image>
+  <Image width="64" height="64" type="image/svg+xml">/og-image.svg</Image>
+  <Url type="text/html" method="get" template="/?q={searchTerms}">
+    <Param name="q" value="{searchTerms}"/>
+  </Url>
+  <moz:SearchForm xmlns:moz="http://www.mozilla.org/2006/browser/search/">https://nav.friday-go.icu</moz:SearchForm>
+  <ApplicationName>AI Tools Directory</ApplicationName>
+  <Developer>PFinalClub</Developer>
+  <Attribution>Search data copyright 2024 PFinalClub</Attribution>
+  <SyndicationRight>open</SyndicationRight>
+  <AdultContent>false</AdultContent>
+  <Language>zh-cn</Language>
+  <Language>en-us</Language>
+</OpenSearchDescription>

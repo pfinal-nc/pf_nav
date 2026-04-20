@@ -32,7 +32,7 @@ export const metadata: Metadata = {
         width: 1200,
         height: 630,
         alt: siteConfig.name,
-        type: 'image/jpeg',
+        type: 'image/svg+xml',
       }
     ],
     locale: siteConfig.language,
