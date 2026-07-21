@@ -32,7 +32,7 @@ export default function TermsPage() {
                   Please read the following terms and conditions carefully before using our services
                 </p>
                 <p className='mt-2 text-sm text-gray-500 dark:text-gray-400'>
-                  Last updated: January 1, 2024
+                  Last updated: July 21, 2026
                 </p>
               </div>
             </div>

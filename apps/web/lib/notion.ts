@@ -152,7 +152,7 @@ export const getPageData = async (): Promise<PageData> => {
 
   return {
     title: 'AI Tools Directory',
-    description: 'Curated collection of premium artificial intelligence tools worldwide, covering conversation, painting, programming, office and other applications',
+    description: 'Curated collection of premium AI tools worldwide, covering chat, painting, video, programming, office and more — updated for 2026',
     items: itemsByType,
   };
 };

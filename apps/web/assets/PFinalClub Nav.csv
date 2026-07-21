@@ -1,40 +1,51 @@
 link,title,desc,type
-https://chat.openai.com/,ChatGPT,Advanced conversational AI by OpenAI,AI
-https://claude.ai,Claude,Advanced conversational AI assistant by Anthropic,AI
+https://chatgpt.com/,ChatGPT,OpenAI conversational AI with GPT-4o and advanced reasoning,AI
+https://claude.ai/,Claude,Advanced conversational AI assistant by Anthropic,AI
 https://gemini.google.com/,Gemini,Multimodal AI assistant by Google,AI
+https://aistudio.google.com/,Google AI Studio,Build and prototype with Gemini models in the browser,AI
 https://copilot.microsoft.com/,Copilot,Microsoft AI assistant integrated with Edge and Office,AI
 https://poe.com/,Poe,Multi-model aggregated AI chat platform,AI
 https://www.mistral.ai/,Mistral AI,French company developing advanced open-weight AI models,AI
+https://chat.mistral.ai/,Le Chat,Mistral conversational AI with web search and code,AI
 https://cohere.com/,Cohere,Enterprise-ready language AI platform,AI
 https://www.together.ai/,Together AI,Platform for fine-tuning and deploying open source AI models,AI
 https://huggingface.co/chat,Hugging Face Chat,Open source AI chat powered by community models,AI
-https://deepseek.com/,DeepSeek,Cost-effective and high-performance Chinese large language model,AI
+https://chat.deepseek.com/,DeepSeek,Cost-effective and high-performance Chinese large language model,AI
 https://www.doubao.com/chat/,Doubao,Free Chinese AI chat assistant by ByteDance,AI
 https://kimi.moonshot.cn/,Kimi,Chinese large context window model by Moonshot AI,AI
 https://tongyi.aliyun.com/,Tongyi Qianwen,Chinese large language model by Alibaba Cloud,AI
+https://chat.qwen.ai/,Qwen Chat,Alibaba Qwen conversational AI with multimodal support,AI
 https://www.chatglm.cn/,ChatGLM,Open source Chinese language model by Zhipu AI,AI
-https://www.coze.com/,Coze,AI chat and application building platform by ByteDance,AI
+https://www.coze.com/,Coze,AI agent and application building platform by ByteDance,AI
 https://grok.com/,Grok,Real-time AI assistant by xAI with live web access,AI
-https://perplexity.ai/,Perplexity,AI-powered search engine with cited real-time answers,AI
+https://www.perplexity.ai/,Perplexity,AI-powered search engine with cited real-time answers,AI
 https://www.meta.ai/,Meta AI,Meta's AI assistant powered by Llama,AI
-https://ai.meta.com/llama/,Meta Llama,Meta's series of open-source large language models,AI
 https://www.minimaxi.com/,Minimax,Chinese AI company developing large models and applications,AI
 https://www.zhipuai.cn/,Zhipu AI,Chinese AI research and development company behind GLM series,AI
 https://www.baichuan-ai.com/,Baichuan AI,Chinese open source large language models,AI
 https://www.moonshot.cn/,Moonshot AI,Chinese AI research lab focused on long context models,AI
+https://openrouter.ai/,OpenRouter,Unified API gateway for hundreds of AI models,AI
+https://groq.com/,Groq,Ultra-fast LLM inference platform powered by LPU chips,AI
 https://www.bing.com/images/create,Bing Image Creator,Microsoft AI image generation powered by DALL-E,AI Painting
 https://www.midjourney.com/,Midjourney,Top-tier AI image generation from textual descriptions,AI Painting
-https://openai.com/dall-e-3,DALL-E 3,OpenAI flagship AI model for creating images from natural language,AI Painting
+https://openai.com/index/dall-e-3/,DALL-E 3,OpenAI flagship AI model for creating images from natural language,AI Painting
 https://ideogram.ai/,Ideogram,AI image generator excelling at rendering text within images,AI Painting
-https://dis.csqixiang.cn/unpo/jimeng_1.html,即梦,抖音旗下免费AI图片和视频创作工具,AI Painting
+https://jimeng.jianying.com/,即梦,字节跳动旗下免费 AI 图片和视频创作工具,AI Painting
+https://leonardo.ai/,Leonardo AI,AI image generation platform for creative production,AI Painting
+https://bfl.ai/,Flux,State-of-the-art open AI image generation models by Black Forest Labs,AI Painting
 https://www.runwayml.com/,Runway,AI video and multimedia creation platform,AI Video
 https://www.synthesia.io/,Synthesia,AI video generation with virtual avatars,AI Video
 https://pika.art/,Pika,Idea-to-video platform that brings creativity to motion with AI,AI Video
 https://openai.com/sora,Sora,AI model by OpenAI that creates realistic scenes from text,AI Video
+https://klingai.com/,Kling AI,Kuaishou AI video generation with cinematic quality,AI Video
+https://hailuoai.com/,Hailuo AI,MiniMax AI video generation from text and images,AI Video
+https://lumalabs.ai/,Luma Dream Machine,AI video generation from text and images by Luma AI,AI Video
+https://www.vidu.cn/,Vidu,Chinese AI video generation platform by Shengshu Technology,AI Video
 https://www.jasper.ai/,Jasper,AI copywriting and content generation platform,AI Writing
 https://www.copy.ai/,Copy.ai,AI copywriting and marketing content generation tool,AI Writing
 https://www.quillbot.com/,Quillbot,AI writing and research assistant for paraphrasing and editing,AI Writing
 https://www.grammarly.com/,Grammarly,AI writing assistant for grammar style and clarity,AI Writing
+https://gamma.app/,Gamma,AI presentation and webpage generation from prompts,AI Writing
 https://wawawriter.com/app/,蛙蛙写作,AI小说和内容创作工具,AI Writing
 https://turbodesk.xfyun.cn/,讯飞绘文,免费AI写作工具 5分钟生成一篇原创稿,AI Writing
 https://ibiling.cn/novel-workbench/,笔灵AI小说,笔灵推出的AI小说生成和创作工具,AI Writing
@@ -44,25 +55,34 @@ https://www.youdao.com/,Youdao Translate,NetEase AI translation and dictionary t
 https://www.suno.ai/,Suno,AI music generation platform for creating original songs,AI Music
 https://www.aiva.ai/,AIVA,AI composer for creating emotional soundtracks,AI Music
 https://www.udio.com/,Udio,AI music generation tool for creating songs in your favorite styles,AI Music
-https://www.huggingface.co/,Hugging Face,AI open source models datasets and community platform,AI Platform
+https://huggingface.co/,Hugging Face,AI open source models datasets and community platform,AI Platform
 https://www.replicate.com/,Replicate,Run open source AI models in the cloud via API,AI Platform
 https://colab.research.google.com/,Google Colab,Free cloud-based Jupyter notebook environment with GPU,AI Platform
+https://notebooklm.google.com/,NotebookLM,Google AI research assistant grounded in your documents,AI Platform
 https://www.notion.so/product/ai,Notion AI,Notion built-in AI writing and summarization assistant,AI Office
 https://www.feishu.cn/product/ai,飞书 AI,飞书内置 AI 助手,AI Office
-https://chatexcel.com,酷表ChatExcel,通过聊天来操作Excel表格的AI工具,AI Office
-https://www.processon.com,ProcessOn,AI一站式绘图平台 轻松创建思维导图流程图,AI Office
+https://chatexcel.com/,酷表ChatExcel,通过聊天来操作Excel表格的AI工具,AI Office
+https://www.processon.com/,ProcessOn,AI一站式绘图平台 轻松创建思维导图流程图,AI Office
 https://tingwu.aliyun.com/home,通义听悟,聚焦于音视频内容的工作学习AI助手,AI Office
 https://www.feishu.cn/product/minutes,飞书妙记,飞书智能会议纪要和快捷语音识别转文字,AI Office
-https://replit.com/,Replit,Online IDE with AI pair programming features,AI Programming
-https://www.tabnine.com/,Tabnine,AI code auto-completion tool for all major IDEs,AI Programming
+https://github.com/features/copilot,GitHub Copilot,AI pair programmer for code completion and chat in your IDE,AI Programming
 https://cursor.com/,Cursor,AI-powered code editor built for pair programming with AI,AI Programming
-https://www.codeium.com/,Codeium,Fast free AI-powered code acceleration for developers,AI Programming
-https://sourcegraph.com/,Sourcegraph,AI code intelligence and search for enterprise teams,AI Programming
+https://code.visualstudio.com/docs/copilot/overview,VS Code Copilot,GitHub Copilot integration built into Visual Studio Code,AI Programming
+https://windsurf.com/,Windsurf,AI coding IDE formerly Codeium Cascade for agentic development,AI Programming
+https://www.trae.ai/,Trae,ByteDance AI-native IDE for collaborative coding,AI Programming
+https://v0.app/,v0,Vercel AI UI generator that creates React components from prompts,AI Programming
+https://lovable.dev/,Lovable,AI full-stack app builder from natural language,AI Programming
+https://bolt.new/,Bolt.new,StackBlitz AI web app builder that runs entirely in the browser,AI Programming
+https://replit.com/,Replit,Online IDE with AI pair programming and Agent features,AI Programming
+https://www.tabnine.com/,Tabnine,AI code auto-completion tool for all major IDEs,AI Programming
+https://sourcegraph.com/cody,Cody,Sourcegraph AI coding assistant with codebase awareness,AI Programming
+https://continue.dev/,Continue,Open-source AI coding assistant for VS Code and JetBrains,AI Programming
 https://www.databricks.com/,Databricks,Unified analytics and AI platform with lakehouse architecture,AI Analytics
-https://www.powerbi.com/,Power BI,Microsoft business intelligence and analytics tool,AI Analytics
-https://www.looker.com/,Looker,Google cloud data platform for business intelligence,AI Analytics
+https://www.microsoft.com/power-bi,Power BI,Microsoft business intelligence and analytics tool,AI Analytics
+https://cloud.google.com/looker,Looker,Google cloud data platform for business intelligence,AI Analytics
 https://www.gaoding.com/ai,稿定AI,一站式AI创作和设计平台,AI Design
 https://modao.cc/feature/ai,墨刀AI,AI秒生原型稿,AI Design
 https://www.logosc.cn/,标小智,AI Logo设计平台 一键生成企业Logo,AI Design
-https://friday-go.icu/zh/,PFinalClub 技术博客,PFinalClub 技术博客：专注 Golang PHP AI 工具与后端工程实践,工具
-https://pwd.friday-go.icu,Password Generator,Free online password generator to create secure random passwords. Completely local generation with no data collection.,工具
+https://www.figma.com/ai,Figma AI,Figma AI features for design generation and assistance,AI Design
+https://friday-go.icu/zh/,PFinalClub 技术博客,PFinalClub 技术博客：专注 Golang PHP AI 工具与后端工程实践,Tools
+https://pwd.friday-go.icu/,Password Generator,Free online password generator to create secure random passwords. Completely local generation with no data collection.,Tools

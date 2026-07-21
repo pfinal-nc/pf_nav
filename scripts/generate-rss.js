@@ -1,31 +1,41 @@
 const fs = require('fs');
 const path = require('path');
 
+const now = new Date().toUTCString();
+
 const rss = `<?xml version="1.0" encoding="UTF-8" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
 <channel>
-  <title>PFinalClub导航</title>
-  <description>优质导航站点，精选技术、设计、工具等内容</description>
-  <link>https://nav.pfinal.club</link>
-  <atom:link href="https://nav.pfinal.club/rss.xml" rel="self" type="application/rss+xml" />
+  <title>AI Tools Directory - PFinalClub</title>
+  <description>Curated AI tools directory covering chat, painting, video, programming, office and more</description>
+  <link>https://nav.friday-go.icu</link>
+  <atom:link href="https://nav.friday-go.icu/rss.xml" rel="self" type="application/rss+xml" />
   <language>zh-CN</language>
-  <lastBuildDate>2024-01-01T00:00:00Z</lastBuildDate>
-  <pubDate>2024-01-01T00:00:00Z</pubDate>
+  <lastBuildDate>${now}</lastBuildDate>
+  <pubDate>${now}</pubDate>
   <item>
-    <title><![CDATA[前端导航]]></title>
-    <description><![CDATA[收录优质前端开发资源]]></description>
-    <link>https://nav.pfinal.club/site/frontend</link>
-    <guid>https://nav.pfinal.club/site/frontend</guid>
-    <category>技术</category>
-    <pubDate>2024-01-01T00:00:00Z</pubDate>
+    <title><![CDATA[AI Chat Tools]]></title>
+    <description><![CDATA[ChatGPT, Claude, Gemini, DeepSeek, Grok and more AI assistants]]></description>
+    <link>https://nav.friday-go.icu/#category-ai</link>
+    <guid>https://nav.friday-go.icu/#category-ai</guid>
+    <category>AI</category>
+    <pubDate>${now}</pubDate>
   </item>
   <item>
-    <title><![CDATA[设计工具导航]]></title>
-    <description><![CDATA[精选设计类工具与资源]]></description>
-    <link>https://nav.pfinal.club/site/design</link>
-    <guid>https://nav.pfinal.club/site/design</guid>
-    <category>设计</category>
-    <pubDate>2024-01-01T00:00:00Z</pubDate>
+    <title><![CDATA[AI Programming Tools]]></title>
+    <description><![CDATA[Cursor, Windsurf, v0, GitHub Copilot, Lovable, Bolt and more]]></description>
+    <link>https://nav.friday-go.icu/#category-ai-programming</link>
+    <guid>https://nav.friday-go.icu/#category-ai-programming</guid>
+    <category>AI Programming</category>
+    <pubDate>${now}</pubDate>
+  </item>
+  <item>
+    <title><![CDATA[AI Video Tools]]></title>
+    <description><![CDATA[Sora, Runway, Kling, Hailuo, Luma, Vidu and more]]></description>
+    <link>https://nav.friday-go.icu/#category-ai-video</link>
+    <guid>https://nav.friday-go.icu/#category-ai-video</guid>
+    <category>AI Video</category>
+    <pubDate>${now}</pubDate>
   </item>
 </channel>
 </rss>`;
@@ -33,4 +43,4 @@ const rss = `<?xml version="1.0" encoding="UTF-8" ?>
 const outputPath = path.join(__dirname, '../apps/web/public/rss.xml');
 fs.mkdirSync(path.dirname(outputPath), { recursive: true });
 fs.writeFileSync(outputPath, rss, 'utf8');
-console.log('RSS 生成成功:', outputPath); 
+console.log('RSS 生成成功:', outputPath);

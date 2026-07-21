@@ -81,11 +81,15 @@ export const metadata: Metadata = {
   },
   alternates: {
     canonical: './',
-    languages: {
-      'zh-CN': './',
-      'en-US': './en',
+    types: {
+      'application/rss+xml': '/rss.xml',
+      'text/plain': [
+        { url: '/llms.txt', title: 'llms.txt' },
+        { url: '/llms-full.txt', title: 'llms-full.txt' },
+      ],
     },
   },
+  keywords: siteConfig.keywords,
 }
 
 export const viewport: Viewport = {
@@ -118,11 +122,17 @@ export default function RootLayout({
         <link rel="dns-prefetch" href="//www.googletagmanager.com" />
         {/* OpenSearch - enables browser search integration */}
         <link rel="search" type="application/opensearchdescription+xml" title="AI Tools Directory" href="/opensearch.xml" />
-        {/* Canonical and alternate links */}
+        {/* Canonical — single language site, avoid fake /en hreflang */}
         <link rel="canonical" href={siteConfig.url} />
         <link rel="alternate" hrefLang="zh-CN" href={siteConfig.url} />
-        <link rel="alternate" hrefLang="en-US" href={`${siteConfig.url}/en`} />
         <link rel="alternate" hrefLang="x-default" href={siteConfig.url} />
+        {/* GEO: LLM catalogs */}
+        <link rel="alternate" type="text/plain" href="/llms.txt" title="llms.txt" />
+        <link rel="alternate" type="text/plain" href="/llms-full.txt" title="llms-full.txt" />
+        <meta name="ai-content-declaration" content="human-curated" />
+        <meta name="citation_title" content="AI Tools Directory" />
+        <meta name="citation_author" content="PFinalClub" />
+        <meta name="citation_publication_date" content="2026" />
         <script src="https://couphaithuph.net/act/files/tag.min.js?z=9521820" data-cfasync="false" async></script>
       </head>
       <body className={`${fontSans.variable} ${fontMono.variable} font-sans antialiased`}>

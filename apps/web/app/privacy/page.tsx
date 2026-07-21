@@ -32,7 +32,7 @@ export default function PrivacyPage() {
                   We value your privacy and are committed to protecting your personal information
                 </p>
                 <p className='mt-2 text-sm text-gray-500 dark:text-gray-400'>
-                  Last updated: January 1, 2024
+                  Last updated: July 21, 2026
                 </p>
               </div>
             </div>

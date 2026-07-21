@@ -36,17 +36,22 @@ export function SiteFooter() {
               </li>
               <li>
                 <Link href='#category-ai' className='text-gray-600 hover:text-gray-900 dark:text-gray-400 dark:hover:text-white transition-colors'>
-                  AI Tools
+                  AI Chat
                 </Link>
               </li>
               <li>
-                <Link href='#category-react' className='text-gray-600 hover:text-gray-900 dark:text-gray-400 dark:hover:text-white transition-colors'>
-                  Development
+                <Link href='#category-ai-programming' className='text-gray-600 hover:text-gray-900 dark:text-gray-400 dark:hover:text-white transition-colors'>
+                  AI Programming
                 </Link>
               </li>
               <li>
-                <Link href='#category-design-tools' className='text-gray-600 hover:text-gray-900 dark:text-gray-400 dark:hover:text-white transition-colors'>
-                  Design
+                <Link href='#category-ai-video' className='text-gray-600 hover:text-gray-900 dark:text-gray-400 dark:hover:text-white transition-colors'>
+                  AI Video
+                </Link>
+              </li>
+              <li>
+                <Link href='/llms.txt' className='text-gray-600 hover:text-gray-900 dark:text-gray-400 dark:hover:text-white transition-colors'>
+                  llms.txt (GEO)
                 </Link>
               </li>
               <li>
@@ -62,25 +67,25 @@ export function SiteFooter() {
             <h3 className='font-semibold text-gray-900 dark:text-white'>Tool Categories</h3>
             <ul className='space-y-2 text-sm'>
               <li>
-                <span className='text-gray-600 dark:text-gray-400'>🤖 AI Chat</span>
+                <Link href='#category-ai' className='text-gray-600 hover:text-gray-900 dark:text-gray-400 dark:hover:text-white transition-colors'>AI Chat</Link>
               </li>
               <li>
-                <span className='text-gray-600 dark:text-gray-400'>🎨 AI Painting</span>
+                <Link href='#category-ai-painting' className='text-gray-600 hover:text-gray-900 dark:text-gray-400 dark:hover:text-white transition-colors'>AI Painting</Link>
               </li>
               <li>
-                <span className='text-gray-600 dark:text-gray-400'>💻 AI Programming</span>
+                <Link href='#category-ai-video' className='text-gray-600 hover:text-gray-900 dark:text-gray-400 dark:hover:text-white transition-colors'>AI Video</Link>
               </li>
               <li>
-                <span className='text-gray-600 dark:text-gray-400'>⚛️ React Ecosystem</span>
+                <Link href='#category-ai-programming' className='text-gray-600 hover:text-gray-900 dark:text-gray-400 dark:hover:text-white transition-colors'>AI Programming</Link>
               </li>
               <li>
-                <span className='text-gray-600 dark:text-gray-400'>🟢 Vue Ecosystem</span>
+                <Link href='#category-ai-writing' className='text-gray-600 hover:text-gray-900 dark:text-gray-400 dark:hover:text-white transition-colors'>AI Writing</Link>
               </li>
               <li>
-                <span className='text-gray-600 dark:text-gray-400'>🛠️ Dev Tools</span>
+                <Link href='#category-ai-design' className='text-gray-600 hover:text-gray-900 dark:text-gray-400 dark:hover:text-white transition-colors'>AI Design</Link>
               </li>
               <li>
-                <span className='text-gray-600 dark:text-gray-400'>🎨 Design Tools</span>
+                <Link href='#category-tools' className='text-gray-600 hover:text-gray-900 dark:text-gray-400 dark:hover:text-white transition-colors'>Tools</Link>
               </li>
             </ul>
           </div>
@@ -119,7 +124,7 @@ export function SiteFooter() {
         <div className='border-t border-gray-200 dark:border-gray-800 py-6'>
           <div className='flex flex-col items-center justify-between gap-4 md:flex-row'>
             <p className='text-sm text-gray-600 dark:text-gray-400'>
-              © 2024 {siteConfig.name}. All rights reserved.
+              © 2026 {siteConfig.name}. All rights reserved.
             </p>
             <div className='flex items-center gap-4 text-sm text-gray-600 dark:text-gray-400'>
               <Link href='/privacy' className='hover:text-gray-900 dark:hover:text-white transition-colors'>

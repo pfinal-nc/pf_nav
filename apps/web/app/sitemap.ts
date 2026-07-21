@@ -16,7 +16,7 @@ const CATEGORIES = [
   { id: 'ai-programming', name: 'AI Programming', priority: 0.85 },
   { id: 'ai-analytics', name: 'AI Analytics', priority: 0.75 },
   { id: 'ai-design', name: 'AI Design', priority: 0.75 },
-  { id: 'gong-ju', name: 'Tools', priority: 0.7 },
+  { id: 'tools', name: 'Tools', priority: 0.7 },
 ]
 
 export default function sitemap(): MetadataRoute.Sitemap {
@@ -62,9 +62,20 @@ export default function sitemap(): MetadataRoute.Sitemap {
       alternates: {
         languages: {
           'zh-CN': `${baseUrl}#category-ai`,
-          'en-US': `${baseUrl}#category-ai`,
         },
       },
+    },
+    {
+      url: `${baseUrl}/llms.txt`,
+      lastModified: now,
+      changeFrequency: 'daily',
+      priority: 0.6,
+    },
+    {
+      url: `${baseUrl}/llms-full.txt`,
+      lastModified: now,
+      changeFrequency: 'daily',
+      priority: 0.5,
     },
   ]
 

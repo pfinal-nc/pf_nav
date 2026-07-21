@@ -35,19 +35,19 @@ export function MainNav({ title }: { title?: string }) {
           href='#category-ai'
           className='flex items-center text-lg font-medium transition-colors hover:text-foreground/80 text-foreground/60'
         >
-          AI Tools
+          AI Chat
         </Link>
         <Link
-          href='#category-react'
+          href='#category-ai-programming'
           className='flex items-center text-lg font-medium transition-colors hover:text-foreground/80 text-foreground/60'
         >
-          Development
+          Programming
         </Link>
         <Link
-          href='#category-design-tools'
+          href='#category-ai-painting'
           className='flex items-center text-lg font-medium transition-colors hover:text-foreground/80 text-foreground/60'
         >
-          Design
+          Painting
         </Link>
         <Link
           href='#about'

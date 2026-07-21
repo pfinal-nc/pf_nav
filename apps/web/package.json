@@ -10,7 +10,7 @@
     "lint": "next lint",
     "lint:fix": "next lint --fix",
     "typecheck": "tsc --noEmit",
-    "prebuild": "node ../../scripts/generate-rss.js"
+    "prebuild": "node ../../scripts/generate-rss.js && node ../../scripts/generate-llms.js"
   },
   "dependencies": {
     "@m-nav/ui": "workspace:*",

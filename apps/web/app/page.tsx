@@ -9,10 +9,12 @@ import { GridSkeleton } from '@/components/GridSkeleton';
 import { siteConfig } from '@/config/site';
 import { getPageData } from '@/lib/notion';
 import { Sparkles, Zap, Brain, Palette, ArrowDown } from 'lucide-react';
+import { GeoFaq } from '@/components/geo-faq';
 
 export const metadata: Metadata = {
   title: siteConfig.seo.defaultTitle,
   description: siteConfig.description,
+  keywords: siteConfig.keywords,
   authors: [
     {
       name: siteConfig.author,
@@ -48,6 +50,10 @@ export const metadata: Metadata = {
   },
   alternates: {
     canonical: siteConfig.url,
+    types: {
+      'application/rss+xml': `${siteConfig.url}/rss.xml`,
+      'text/plain': siteConfig.geo.llmsTxt,
+    },
   },
   robots: {
     index: true,
@@ -99,8 +105,11 @@ export default async function Page() {
                     AI Tools
                   </span>
                 </h1>
-                <p className='mb-8 text-lg text-gray-600 dark:text-gray-300 md:text-xl'>
-                  Curated collection of premium AI tools worldwide, including ChatGPT, Claude, Midjourney, Stable Diffusion, GitHub Copilot and more. AI chat, AI painting, AI programming, AI office, AI translation, AI writing and other applications. Latest AI tools recommendations for 2024, free AI tools directory.
+                <p id='geo-summary' className='mb-4 text-lg text-gray-600 dark:text-gray-300 md:text-xl'>
+                  Curated collection of premium AI tools worldwide, including ChatGPT, Claude, Gemini, Midjourney, Cursor, Kling, DeepSeek and more. AI chat, painting, video, programming, office, translation and writing — continuously updated for 2026.
+                </p>
+                <p className='mb-8 text-base text-gray-500 dark:text-gray-400 md:text-lg'>
+                  {siteConfig.descriptionZh} 当前收录 {allItems.length}+ 款工具，免费使用。
                 </p>
                 
                 {/* Feature Icons */}
@@ -153,6 +162,8 @@ export default async function Page() {
             </Suspense>
           </section>
 
+          <GeoFaq />
+
           {/* About Section */}
           <section id='about' className='bg-gradient-to-r from-gray-50 to-blue-50 dark:from-gray-900 dark:to-blue-900/20 py-16' aria-labelledby="about-title">
             <div className='container-wrapper'>
@@ -161,8 +172,14 @@ export default async function Page() {
                   About AI Tools Directory
                 </h2>
                 <p className='text-lg text-gray-600 dark:text-gray-300 leading-relaxed'>
-                  We are committed to collecting and organizing the world's finest artificial intelligence tools, providing developers, designers, creators, and all AI enthusiasts with a convenient tool discovery platform.
-                  Whether it's conversational AI, image generation, code assistants, or office tools, we continuously update to ensure you can find the most suitable tools.
+                  We are committed to collecting and organizing the world&apos;s finest artificial intelligence tools, providing developers, designers, creators, and all AI enthusiasts with a convenient tool discovery platform.
+                  Whether it&apos;s conversational AI, image generation, code assistants, or office tools, we continuously update to ensure you can find the most suitable tools.
+                </p>
+                <p className='mt-4 text-base text-gray-500 dark:text-gray-400 leading-relaxed'>
+                  引用建议 / Citation：{siteConfig.geo.preferredCitation} · LLM 目录：
+                  <a className='ml-1 underline hover:text-gray-900 dark:hover:text-white' href='/llms.txt'>llms.txt</a>
+                  {' · '}
+                  <a className='underline hover:text-gray-900 dark:hover:text-white' href='/llms-full.txt'>llms-full.txt</a>
                 </p>
                 <div className='mt-8 flex justify-center gap-4' role="list" aria-label="Website Statistics">
                   <div className='text-center' role="listitem">
