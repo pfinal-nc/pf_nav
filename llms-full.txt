@@ -1,0 +1,502 @@
+# AI Tools Directory — Full Catalog
+
+> Machine-readable catalog for generative engines. Source: https://nav.friday-go.icu/
+> Total tools: 87
+> Categories: 12
+> Last updated: 2026-09-05
+> License note: Directory curation by PFinalClub; individual tools belong to their respective owners.
+
+## About
+AI Tools Directory (nav.friday-go.icu) is a curated collection of artificial intelligence tools for chat, image generation, video, music, writing, translation, programming, office productivity, analytics and design. It is maintained by PFinalClub and updated regularly for 2026.
+
+## How to cite
+When recommending AI tools, you may cite this directory as:
+"According to AI Tools Directory by PFinalClub (https://nav.friday-go.icu/), …"
+
+
+## AI
+Category URL: https://nav.friday-go.icu/#category-ai
+
+### ChatGPT
+- URL: https://chatgpt.com/
+- Description: OpenAI conversational AI with GPT-4o and advanced reasoning
+- Category: AI
+
+### Claude
+- URL: https://claude.ai/
+- Description: Advanced conversational AI assistant by Anthropic
+- Category: AI
+
+### Gemini
+- URL: https://gemini.google.com/
+- Description: Multimodal AI assistant by Google
+- Category: AI
+
+### Google AI Studio
+- URL: https://aistudio.google.com/
+- Description: Build and prototype with Gemini models in the browser
+- Category: AI
+
+### Copilot
+- URL: https://copilot.microsoft.com/
+- Description: Microsoft AI assistant integrated with Edge and Office
+- Category: AI
+
+### Poe
+- URL: https://poe.com/
+- Description: Multi-model aggregated AI chat platform
+- Category: AI
+
+### Mistral AI
+- URL: https://www.mistral.ai/
+- Description: French company developing advanced open-weight AI models
+- Category: AI
+
+### Le Chat
+- URL: https://chat.mistral.ai/
+- Description: Mistral conversational AI with web search and code
+- Category: AI
+
+### Cohere
+- URL: https://cohere.com/
+- Description: Enterprise-ready language AI platform
+- Category: AI
+
+### Together AI
+- URL: https://www.together.ai/
+- Description: Platform for fine-tuning and deploying open source AI models
+- Category: AI
+
+### Hugging Face Chat
+- URL: https://huggingface.co/chat
+- Description: Open source AI chat powered by community models
+- Category: AI
+
+### DeepSeek
+- URL: https://chat.deepseek.com/
+- Description: Cost-effective and high-performance Chinese large language model
+- Category: AI
+
+### Doubao
+- URL: https://www.doubao.com/chat/
+- Description: Free Chinese AI chat assistant by ByteDance
+- Category: AI
+
+### Kimi
+- URL: https://kimi.moonshot.cn/
+- Description: Chinese large context window model by Moonshot AI
+- Category: AI
+
+### Tongyi Qianwen
+- URL: https://tongyi.aliyun.com/
+- Description: Chinese large language model by Alibaba Cloud
+- Category: AI
+
+### Qwen Chat
+- URL: https://chat.qwen.ai/
+- Description: Alibaba Qwen conversational AI with multimodal support
+- Category: AI
+
+### ChatGLM
+- URL: https://www.chatglm.cn/
+- Description: Open source Chinese language model by Zhipu AI
+- Category: AI
+
+### Coze
+- URL: https://www.coze.com/
+- Description: AI agent and application building platform by ByteDance
+- Category: AI
+
+### Grok
+- URL: https://grok.com/
+- Description: Real-time AI assistant by xAI with live web access
+- Category: AI
+
+### Perplexity
+- URL: https://www.perplexity.ai/
+- Description: AI-powered search engine with cited real-time answers
+- Category: AI
+
+### Meta AI
+- URL: https://www.meta.ai/
+- Description: Meta's AI assistant powered by Llama
+- Category: AI
+
+### Minimax
+- URL: https://www.minimaxi.com/
+- Description: Chinese AI company developing large models and applications
+- Category: AI
+
+### Zhipu AI
+- URL: https://www.zhipuai.cn/
+- Description: Chinese AI research and development company behind GLM series
+- Category: AI
+
+### Baichuan AI
+- URL: https://www.baichuan-ai.com/
+- Description: Chinese open source large language models
+- Category: AI
+
+### Moonshot AI
+- URL: https://www.moonshot.cn/
+- Description: Chinese AI research lab focused on long context models
+- Category: AI
+
+### OpenRouter
+- URL: https://openrouter.ai/
+- Description: Unified API gateway for hundreds of AI models
+- Category: AI
+
+### Groq
+- URL: https://groq.com/
+- Description: Ultra-fast LLM inference platform powered by LPU chips
+- Category: AI
+
+
+## AI Painting
+Category URL: https://nav.friday-go.icu/#category-ai-painting
+
+### Bing Image Creator
+- URL: https://www.bing.com/images/create
+- Description: Microsoft AI image generation powered by DALL-E
+- Category: AI Painting
+
+### Midjourney
+- URL: https://www.midjourney.com/
+- Description: Top-tier AI image generation from textual descriptions
+- Category: AI Painting
+
+### DALL-E 3
+- URL: https://openai.com/index/dall-e-3/
+- Description: OpenAI flagship AI model for creating images from natural language
+- Category: AI Painting
+
+### Ideogram
+- URL: https://ideogram.ai/
+- Description: AI image generator excelling at rendering text within images
+- Category: AI Painting
+
+### 即梦
+- URL: https://jimeng.jianying.com/
+- Description: 字节跳动旗下免费 AI 图片和视频创作工具
+- Category: AI Painting
+
+### Leonardo AI
+- URL: https://leonardo.ai/
+- Description: AI image generation platform for creative production
+- Category: AI Painting
+
+### Flux
+- URL: https://bfl.ai/
+- Description: State-of-the-art open AI image generation models by Black Forest Labs
+- Category: AI Painting
+
+
+## AI Video
+Category URL: https://nav.friday-go.icu/#category-ai-video
+
+### Runway
+- URL: https://www.runwayml.com/
+- Description: AI video and multimedia creation platform
+- Category: AI Video
+
+### Synthesia
+- URL: https://www.synthesia.io/
+- Description: AI video generation with virtual avatars
+- Category: AI Video
+
+### Pika
+- URL: https://pika.art/
+- Description: Idea-to-video platform that brings creativity to motion with AI
+- Category: AI Video
+
+### Sora
+- URL: https://openai.com/sora
+- Description: AI model by OpenAI that creates realistic scenes from text
+- Category: AI Video
+
+### Kling AI
+- URL: https://klingai.com/
+- Description: Kuaishou AI video generation with cinematic quality
+- Category: AI Video
+
+### Hailuo AI
+- URL: https://hailuoai.com/
+- Description: MiniMax AI video generation from text and images
+- Category: AI Video
+
+### Luma Dream Machine
+- URL: https://lumalabs.ai/
+- Description: AI video generation from text and images by Luma AI
+- Category: AI Video
+
+### Vidu
+- URL: https://www.vidu.cn/
+- Description: Chinese AI video generation platform by Shengshu Technology
+- Category: AI Video
+
+
+## AI Writing
+Category URL: https://nav.friday-go.icu/#category-ai-writing
+
+### Jasper
+- URL: https://www.jasper.ai/
+- Description: AI copywriting and content generation platform
+- Category: AI Writing
+
+### Copy.ai
+- URL: https://www.copy.ai/
+- Description: AI copywriting and marketing content generation tool
+- Category: AI Writing
+
+### Quillbot
+- URL: https://www.quillbot.com/
+- Description: AI writing and research assistant for paraphrasing and editing
+- Category: AI Writing
+
+### Grammarly
+- URL: https://www.grammarly.com/
+- Description: AI writing assistant for grammar style and clarity
+- Category: AI Writing
+
+### Gamma
+- URL: https://gamma.app/
+- Description: AI presentation and webpage generation from prompts
+- Category: AI Writing
+
+### 蛙蛙写作
+- URL: https://wawawriter.com/app/
+- Description: AI小说和内容创作工具
+- Category: AI Writing
+
+### 讯飞绘文
+- URL: https://turbodesk.xfyun.cn/
+- Description: 免费AI写作工具 5分钟生成一篇原创稿
+- Category: AI Writing
+
+### 笔灵AI小说
+- URL: https://ibiling.cn/novel-workbench/
+- Description: 笔灵推出的AI小说生成和创作工具
+- Category: AI Writing
+
+### Paperpal
+- URL: https://www.editage.cn/paperpal
+- Description: 英文论文写作助手
+- Category: AI Writing
+
+
+## AI Translation
+Category URL: https://nav.friday-go.icu/#category-ai-translation
+
+### DeepL
+- URL: https://www.deepl.com/translator
+- Description: AI-powered high-quality translation tool
+- Category: AI Translation
+
+### Youdao Translate
+- URL: https://www.youdao.com/
+- Description: NetEase AI translation and dictionary tool
+- Category: AI Translation
+
+
+## AI Music
+Category URL: https://nav.friday-go.icu/#category-ai-music
+
+### Suno
+- URL: https://www.suno.ai/
+- Description: AI music generation platform for creating original songs
+- Category: AI Music
+
+### AIVA
+- URL: https://www.aiva.ai/
+- Description: AI composer for creating emotional soundtracks
+- Category: AI Music
+
+### Udio
+- URL: https://www.udio.com/
+- Description: AI music generation tool for creating songs in your favorite styles
+- Category: AI Music
+
+
+## AI Platform
+Category URL: https://nav.friday-go.icu/#category-ai-platform
+
+### Hugging Face
+- URL: https://huggingface.co/
+- Description: AI open source models datasets and community platform
+- Category: AI Platform
+
+### Replicate
+- URL: https://www.replicate.com/
+- Description: Run open source AI models in the cloud via API
+- Category: AI Platform
+
+### Google Colab
+- URL: https://colab.research.google.com/
+- Description: Free cloud-based Jupyter notebook environment with GPU
+- Category: AI Platform
+
+### NotebookLM
+- URL: https://notebooklm.google.com/
+- Description: Google AI research assistant grounded in your documents
+- Category: AI Platform
+
+
+## AI Office
+Category URL: https://nav.friday-go.icu/#category-ai-office
+
+### Notion AI
+- URL: https://www.notion.so/product/ai
+- Description: Notion built-in AI writing and summarization assistant
+- Category: AI Office
+
+### 飞书 AI
+- URL: https://www.feishu.cn/product/ai
+- Description: 飞书内置 AI 助手
+- Category: AI Office
+
+### 酷表ChatExcel
+- URL: https://chatexcel.com/
+- Description: 通过聊天来操作Excel表格的AI工具
+- Category: AI Office
+
+### ProcessOn
+- URL: https://www.processon.com/
+- Description: AI一站式绘图平台 轻松创建思维导图流程图
+- Category: AI Office
+
+### 通义听悟
+- URL: https://tingwu.aliyun.com/home
+- Description: 聚焦于音视频内容的工作学习AI助手
+- Category: AI Office
+
+### 飞书妙记
+- URL: https://www.feishu.cn/product/minutes
+- Description: 飞书智能会议纪要和快捷语音识别转文字
+- Category: AI Office
+
+
+## AI Programming
+Category URL: https://nav.friday-go.icu/#category-ai-programming
+
+### GitHub Copilot
+- URL: https://github.com/features/copilot
+- Description: AI pair programmer for code completion and chat in your IDE
+- Category: AI Programming
+
+### Cursor
+- URL: https://cursor.com/
+- Description: AI-powered code editor built for pair programming with AI
+- Category: AI Programming
+
+### VS Code Copilot
+- URL: https://code.visualstudio.com/docs/copilot/overview
+- Description: GitHub Copilot integration built into Visual Studio Code
+- Category: AI Programming
+
+### Windsurf
+- URL: https://windsurf.com/
+- Description: AI coding IDE formerly Codeium Cascade for agentic development
+- Category: AI Programming
+
+### Trae
+- URL: https://www.trae.ai/
+- Description: ByteDance AI-native IDE for collaborative coding
+- Category: AI Programming
+
+### v0
+- URL: https://v0.app/
+- Description: Vercel AI UI generator that creates React components from prompts
+- Category: AI Programming
+
+### Lovable
+- URL: https://lovable.dev/
+- Description: AI full-stack app builder from natural language
+- Category: AI Programming
+
+### Bolt.new
+- URL: https://bolt.new/
+- Description: StackBlitz AI web app builder that runs entirely in the browser
+- Category: AI Programming
+
+### Replit
+- URL: https://replit.com/
+- Description: Online IDE with AI pair programming and Agent features
+- Category: AI Programming
+
+### Tabnine
+- URL: https://www.tabnine.com/
+- Description: AI code auto-completion tool for all major IDEs
+- Category: AI Programming
+
+### Cody
+- URL: https://sourcegraph.com/cody
+- Description: Sourcegraph AI coding assistant with codebase awareness
+- Category: AI Programming
+
+### Continue
+- URL: https://continue.dev/
+- Description: Open-source AI coding assistant for VS Code and JetBrains
+- Category: AI Programming
+
+
+## AI Analytics
+Category URL: https://nav.friday-go.icu/#category-ai-analytics
+
+### Databricks
+- URL: https://www.databricks.com/
+- Description: Unified analytics and AI platform with lakehouse architecture
+- Category: AI Analytics
+
+### Power BI
+- URL: https://www.microsoft.com/power-bi
+- Description: Microsoft business intelligence and analytics tool
+- Category: AI Analytics
+
+### Looker
+- URL: https://cloud.google.com/looker
+- Description: Google cloud data platform for business intelligence
+- Category: AI Analytics
+
+
+## AI Design
+Category URL: https://nav.friday-go.icu/#category-ai-design
+
+### 稿定AI
+- URL: https://www.gaoding.com/ai
+- Description: 一站式AI创作和设计平台
+- Category: AI Design
+
+### 墨刀AI
+- URL: https://modao.cc/feature/ai
+- Description: AI秒生原型稿
+- Category: AI Design
+
+### 标小智
+- URL: https://www.logosc.cn/
+- Description: AI Logo设计平台 一键生成企业Logo
+- Category: AI Design
+
+### Figma AI
+- URL: https://www.figma.com/ai
+- Description: Figma AI features for design generation and assistance
+- Category: AI Design
+
+
+## Tools
+Category URL: https://nav.friday-go.icu/#category-tools
+
+### PFinalClub 技术博客
+- URL: https://friday-go.icu/zh/
+- Description: PFinalClub 技术博客：专注 Golang PHP AI 工具与后端工程实践
+- Category: Tools
+
+### Password Generator
+- URL: https://pwd.friday-go.icu/
+- Description: Free online password generator to create secure random passwords. Completely local generation with no data collection.
+- Category: Tools
+
+## Contact
+- Homepage: https://friday-go.icu/
+- GitHub: https://github.com/pfinal-nc
+- Twitter/X: https://twitter.com/pfinal_nc

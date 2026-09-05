@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+<channel>
+  <title>AI Tools Directory - PFinalClub</title>
+  <description>Curated AI tools directory covering chat, painting, video, programming, office and more</description>
+  <link>https://nav.friday-go.icu</link>
+  <atom:link href="https://nav.friday-go.icu/rss.xml" rel="self" type="application/rss+xml" />
+  <language>zh-CN</language>
+  <lastBuildDate>Sat, 05 Sep 2026 16:21:13 GMT</lastBuildDate>
+  <pubDate>Sat, 05 Sep 2026 16:21:13 GMT</pubDate>
+  <item>
+    <title><![CDATA[AI Chat Tools]]></title>
+    <description><![CDATA[ChatGPT, Claude, Gemini, DeepSeek, Grok and more AI assistants]]></description>
+    <link>https://nav.friday-go.icu/#category-ai</link>
+    <guid>https://nav.friday-go.icu/#category-ai</guid>
+    <category>AI</category>
+    <pubDate>Sat, 05 Sep 2026 16:21:13 GMT</pubDate>
+  </item>
+  <item>
+    <title><![CDATA[AI Programming Tools]]></title>
+    <description><![CDATA[Cursor, Windsurf, v0, GitHub Copilot, Lovable, Bolt and more]]></description>
+    <link>https://nav.friday-go.icu/#category-ai-programming</link>
+    <guid>https://nav.friday-go.icu/#category-ai-programming</guid>
+    <category>AI Programming</category>
+    <pubDate>Sat, 05 Sep 2026 16:21:13 GMT</pubDate>
+  </item>
+  <item>
+    <title><![CDATA[AI Video Tools]]></title>
+    <description><![CDATA[Sora, Runway, Kling, Hailuo, Luma, Vidu and more]]></description>
+    <link>https://nav.friday-go.icu/#category-ai-video</link>
+    <guid>https://nav.friday-go.icu/#category-ai-video</guid>
+    <category>AI Video</category>
+    <pubDate>Sat, 05 Sep 2026 16:21:13 GMT</pubDate>
+  </item>
+</channel>
+</rss>
