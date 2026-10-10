@@ -1,0 +1,56 @@
+User-Agent: *
+Allow: /
+
+User-Agent: GPTBot
+Allow: /
+
+User-Agent: ChatGPT-User
+Allow: /
+
+User-Agent: OAI-SearchBot
+Allow: /
+
+User-Agent: ClaudeBot
+Allow: /
+
+User-Agent: anthropic-ai
+Allow: /
+
+User-Agent: PerplexityBot
+Allow: /
+
+User-Agent: Google-Extended
+Allow: /
+
+User-Agent: GoogleOther
+Allow: /
+
+User-Agent: Applebot-Extended
+Allow: /
+
+User-Agent: Bytespider
+Allow: /
+
+User-Agent: CCBot
+Allow: /
+
+User-Agent: Diffbot
+Allow: /
+
+User-Agent: FacebookBot
+Allow: /
+
+User-Agent: meta-externalagent
+Allow: /
+
+User-Agent: Amazonbot
+Allow: /
+
+User-Agent: YouBot
+Allow: /
+
+User-Agent: cohere-ai
+Allow: /
+
+Host: https://nav.friday-go.icu
+Sitemap: https://nav.friday-go.icu/sitemap.xml
